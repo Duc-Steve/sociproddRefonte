@@ -1,0 +1,262 @@
+.contenue {
+    max-width: 1789px;
+    margin: 0 auto;
+    padding: 0 2.938em;
+}
+
+.couleur-bar-regression {
+    background-color: #050A2E;
+}
+
+.bg-sociprodd-blanc {
+    background-color: #fff;
+}
+
+.bg-sociprodd-bleueclaire {
+    background-color: #226CE0;
+}
+
+.bg-sociprodd-vert {
+    background-color: rgba(0, 128, 0, 1);
+}
+
+.bg-sociprodd-rouge {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+
+.bg-sociprodd-bleuefoncee {
+    background-color: #050A2E;
+}
+
+.bg-sociprodd-jaune {
+    background-color: #DACA0C;
+}
+
+.br-sociprodd-1 {
+    border-radius: 5px;
+}
+
+.br-sociprodd-2 {
+    border-radius: 10px;
+}
+
+    
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    display: none;
+}
+
+.text-sociprodd-blanc {
+    color: #fff;
+}
+
+.text-sociprodd-bleueclaire {
+    color: #226CE0;
+}
+
+.text-sociprodd-noir {
+    color: #000;
+}
+
+.text-sociprodd-bleuefoncee {
+    color: #050A2E;
+}
+
+.text-sociprodd-jaune {
+    color: #DACA0C;
+}
+
+.bdr-sociprodd-all-jaune {
+    border: 1px solid #DACA0C;
+}
+
+.bdr-sociprodd-all-bleueclaire {
+    border: 1px solid #226CE0;
+}
+
+.bdr-sociprodd-all-bleuefoncee {
+    border: 1px solid #050A2E;
+}
+
+.bdr-sociprodd-all-blanc {
+    border: 1px solid #fff;
+}
+
+
+.bx-shadow-sociprodd-bleueclaire {
+    box-shadow: 0 0 5px #226CE0;
+}
+
+
+.bx-shadow-sociprodd-bleuefoncee {
+    box-shadow: 0 0 5px #050A2E;
+}
+
+
+.mt-10 {
+    margin-top: 6em;
+}
+
+.mb-3 {
+    margin-bottom: 1em;
+}
+
+.mb-10 {
+    margin-bottom: 6em;
+}
+
+.mb-15 {
+    margin-bottom: 10em;
+}
+
+.gap-3 {
+    gap: 1em;
+}
+
+.gap-5 {
+    gap: 3em;
+}
+
+.i-god i {
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-barrer {
+    text-decoration: line-through;
+}
+
+
+.bdr-bleueclaire-groupe {
+    border-left: 6px solid #226CE0;
+    border-right: 6px solid #226CE0;
+}
+
+.bdr-sociprodd-bleueclaire-t-l-r {
+    border-top: 1px solid #226CE0;
+    border-left: 1px solid #226CE0;
+    border-right: 1px solid #226CE0;
+}
+
+.bdr-sociprodd-bleueclaire-b-l-r {
+    border-bottom: 1px solid #226CE0;
+    border-left: 1px solid #226CE0;
+    border-right: 1px solid #226CE0;
+}
+
+.bdr-sociprodd-bleueclaire-b {
+    border-bottom: 1px solid #226CE0;
+}
+
+
+.bdr-sociprodd-bleuefoncee-b {
+    border-bottom: 1px solid #050A2E;
+}
+
+.text-souligne-bleuefoncee {
+    text-decoration: underline #050A2E;
+}
+
+.start-0 {
+    left: 0!important;
+}
+
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1; /* Permet aux étapes de prendre un espace égal */
+}
+
+.circle-1 {
+    width: 30px;
+    height: 30px;
+    background-color: #226CE0;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.circle-2 {
+    width: 30px;
+    height: 30px;
+    background-color: #050A2E;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    display: none;
+}
+
+input[type="radio"].form-check-input {
+    height: 30px;
+    width: 30px;
+}
+
+
+/*le bouton fixe en bas*/
+
+.back-to-top {
+    position: fixed;
+    top: auto;
+    bottom: 40px;
+    left: auto;
+    right: 40px;
+    z-index: 99;
+    border: 2px solid #050A2E;
+}
+  
+/*pahge transaction*/
+.transaction .ordinateur a {
+    font-size: 1.3em;
+}
+
+.transaction a.active {
+    color: #226CE0;
+    background-color: #050A2E;
+    border-radius: 5px;
+}
+
+.transaction a:hover {
+    color: #fff;
+    background-color: #226CE0;
+    border-radius: 5px;
+}
+
+.transaction a.active:hover {
+    color: #226CE0;
+    background-color: #050A2E;
+    border-radius: 5px;
+}
+
+
+/*ANIMATION*/
+
+.transPropertie-sociprodd-translate:hover {
+    translate: 2rem;
+}
+
+.transPropertie-sociprodd-scale:hover {
+    translate: 1.2;
+}

@@ -1,0 +1,211 @@
+
+.newsletter_form {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.newsletter_form input {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #000;
+    border: none;
+}
+
+.newsletter_form input::placeholder {
+    font-size: 16px;
+    color: #050A2E;
+}
+
+.newsletter_form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    color: #050A2E;
+    background: #DACA0C;
+    padding: 10px;
+    padding: 0 22px;
+    cursor: pointer;
+}
+
+.newsletter_text {
+    font-size: 16px;
+    color: #050A2E;
+}
+
+
+/* Style des compteurs */
+.counter {
+    font-size: 48px;
+    font-weight: bold;
+    color: #DACA0C; /* Jaune pour attirer l'attention */
+}
+
+.counter span {
+    display: inline-block;
+    animation: fadeIn 1s ease-in-out;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/* Ligne de séparation */
+.seperator {
+    width: 50px;
+    height: 4px;
+    background-color: #DACA0C;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+/* Espacement et alignement */
+.text-light {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Parallax */
+[data-bg-parallax] {
+    background-attachment: fixed;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Adaptation mobile */
+@media (max-width: 768px) {
+    .counter {
+        font-size: 36px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .seperator {
+        width: 30px;
+        height: 3px;
+    }
+}
+
+/* Bouton de menu */
+.menu-toggle .btn-toggle {
+    background-color: #FFD700; /* Jaune SOCIPRODD */
+    color: #FFF;
+    border-radius: 5px;
+    border: 2px solid #FFD700;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.menu-toggle .text-menu {
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+.sticky-top.navbar-light .menu-toggle span {
+    color: #000;
+}
+
+/* Superposition sombre */
+.overlaywindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Activer l'overlay */
+.overlaywindow.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Menu */
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: -450px;
+    width: 400px;
+    height: 100%;
+    background: #FFFFFF;
+    z-index: 1010;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: left 0.3s ease-in-out;
+}
+
+.menu-container.active {
+    left: 0;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #050A2E; /* Bleu foncé SOCIPRODD */
+    color: #FFF;
+}
+
+.menu-logo {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.btn-close-window {
+    background-color: #226CE0; /* Bleu clair SOCIPRODD */
+    color: #FFF;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Corps du menu */
+.menu-body {
+    padding: 20px;
+    color: #050A2E;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.menu-section {
+    margin-top: 20px;
+}
+
+.menu-section ul {
+    margin: 10px 0 0;
+    padding-left: 20px;
+}
+
+.menu-section ul li {
+    color: #050A2E;
+    list-style-type: disc;
+    margin: 5px 0;
+}
