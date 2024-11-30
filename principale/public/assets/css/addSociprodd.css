@@ -149,27 +149,13 @@ p {
     top: 0;
     left: -450px;
     width: 400px;
+    height: 100%;
     background: #FFFFFF;
     z-index: 1010;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     transition: left 0.3s ease-in-out;
-    max-height: 100vh; /* Limite la hauteur du menu à 80% de la hauteur de la fenêtre */
-    overflow-y: auto; /* Ajoute un scroll vertical si le contenu dépasse la hauteur */
-    overflow-x: hidden; /* Masque tout débordement horizontal */
-    scrollbar-width: thin; /* (Optionnel) Réduit la largeur de la barre de défilement (Firefox) */
-    scrollbar-color: #DACA0C transparent; /* (Optionnel) Change la couleur de la barre (Firefox) */
-}
-
-/* Optionnel : styles pour les barres de défilement (Chrome, Edge) */
-.menu-container::-webkit-scrollbar {
-    width: 8px; /* Largeur de la barre de défilement */
-}
-
-.menu-container::-webkit-scrollbar-thumb {
-    background-color: #DACA0C; /* Couleur de la barre */
-    border-radius: 4px; /* Arrondit la barre */
 }
 
 .menu-container.active {
@@ -209,6 +195,21 @@ p {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    max-height: 100vh; /* Limite la hauteur du menu à 100% de la hauteur de la fenêtre */
+    overflow-y: auto; /* Ajoute un scroll vertical si le contenu dépasse la hauteur */
+    overflow-x: hidden; /* Masque tout débordement horizontal */
+    scrollbar-width: thin; /* (Optionnel) Réduit la largeur de la barre de défilement (Firefox) */
+    scrollbar-color: #DACA0C transparent; /* (Optionnel) Change la couleur de la barre (Firefox) */
+}
+
+/* Optionnel : styles pour les barres de défilement (Chrome, Edge) */
+.menu-body::-webkit-scrollbar {
+    width: 8px; /* Largeur de la barre de défilement */
+}
+
+.menu-body::-webkit-scrollbar-thumb {
+    background-color: #DACA0C; /* Couleur de la barre */
+    border-radius: 4px; /* Arrondit la barre */
 }
 
 .menu-section {

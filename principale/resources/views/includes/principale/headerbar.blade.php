@@ -86,15 +86,16 @@
                             <strong>Découvrir SOCIPRODD</strong>
                             <div class="row me-2 mt-3">
                                 <div class="col-6 mb-3">
-                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    <a href="{{ route('decouvrir-sociprodd.organisation') }}" class="text-sociprodd-bleuefoncee d-flex align-items-center">
                                         L'organisation 
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                             <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
                                         </svg>
                                     </a>
+                                    
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    <a href="{{ route('decouvrir-sociprodd.contacts') }}" class="text-sociprodd-bleuefoncee d-flex align-items-center">
                                         Contacts
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                             <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
@@ -102,7 +103,7 @@
                                     </a>
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    <a href="{{ route('decouvrir-sociprodd.localisation') }}" class="text-sociprodd-bleuefoncee d-flex align-items-center">
                                         Localisation 
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                             <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
@@ -110,7 +111,7 @@
                                     </a>
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    <a href="{{ route('decouvrir-sociprodd.bilan') }}" class="text-sociprodd-bleuefoncee d-flex align-items-center">
                                         Bilan 2023 
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                             <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
@@ -169,7 +170,7 @@
                     <div class="navbar-nav ms-auto py-0">
                             
                         <a href="" class="d-none d-lg-block nav-item nav-link">Ce que nous faisons</a>
-                        <a href="" class="d-none d-lg-block nav-item nav-link">Découvrir SOCIPRODD</a>
+                        <a href="{{ route('decouvrir-sociprodd.acceuil') }}" class="d-none d-lg-block nav-item nav-link">Découvrir SOCIPRODD</a>
                         <a href="" class="d-none d-lg-block nav-item nav-link">Agir avec nous</a>
                         
                         <!-- Pour Ordinateur -->

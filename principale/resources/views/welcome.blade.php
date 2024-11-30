@@ -108,13 +108,8 @@
 
 <!-- Libraries Stylesheet -->
 @section('style_css')
-    <link rel="stylesheet" href="/principale/public/assets/lib/animate/animate.min.css"/>
-    <link href="/principale/public/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link href="/principale/public/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="/principale/public/assets/css/mod1/bootstrap.min.css" rel="stylesheet">
+    
+    @include('includes.css-animation')
 
     <!-- Template Stylesheet -->
     <link href="/principale/public/assets/css/mod1/style.css" rel="stylesheet">
@@ -125,13 +120,13 @@
 
 @section('content')
 
-        @include('includes.topbar')
+        @include('includes.principale.topbar')
 
         <!-- Navbar & Hero Start -->
         <div class="position-relative p-0">
 
         
-            @include('includes.headerbar')
+            @include('includes.principale.headerbar')
 
             <!-- Carousel Start -->
             <div class="header-carousel owl-carousel">
@@ -498,18 +493,11 @@
 
 
       
-    <!-- JavaScript Libraries -->
+<!-- JavaScript Libraries -->
 @section('jsScripts')  
 
-
-    <script src="/principale/public/assets/lib/wow/wow.min.js"></script>
-    <script src="/principale/public/assets/lib/easing/easing.min.js"></script>
-    <script src="/principale/public/assets/lib/waypoints/waypoints.min.js"></script>
-    <script src="/principale/public/assets/lib/counterup/counterup.min.js"></script>
-    <script src="/principale/public/assets/lib/lightbox/js/lightbox.min.js"></script>
-    <script src="/principale/public/assets/lib/owlcarousel/owl.carousel.min.js"></script>
-    
-        
+    @include('includes.js-animation')
+            
     <!-- Script pour fermer le modal -->
     <script>
         function closeModal() {
