@@ -35,26 +35,129 @@
                     </div>
 
                     <div class="menu-body">
-                        <strong>Nos réalisations</strong>
-                        <strong>Nos actualités</strong>
-                        <strong>Nos podcasts</strong>
-                        <strong>Nos missions</strong>
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                                <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    Nos réalisations 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                        <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col-6 mb-3">
+                                <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    Nos actualités 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                        <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    Nos podcasts 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                        <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    Nos missions 
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                        <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        
                         <div class="menu-section">
                             <strong>Ce que nous faisons</strong>
                             <ul>
-                                <li>. Projet A</li>
-                                <li>. Projet B</li>
-                                <li>. Projet C</li>
+                                <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir l'éducation juridique <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
+                                <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
+                                <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir les droits des femmes , les droits des minorités et l'égalité de genre<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
+                                <li><a href="" class="text-sociprodd-bleuefoncee">Favoriser l'inclusion et l'autonomisation des couches sociales défavorisées<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
+                                <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir la bonne gouvernance et le développement social<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
                             </ul>
                         </div>
+
                         <div class="menu-section">
                             <strong>Découvrir SOCIPRODD</strong>
-                            <ul>
-                                <li>. L'organisation</li>
-                                <li>. Localisation</li>
-                                <li>. Contactez-nous</li>
-                                <li>. Bilan annuel 2023</li>
-                            </ul>
+                            <div class="row me-2 mt-3">
+                                <div class="col-6 mb-3">
+                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                        L'organisation 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                            <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                        Contacts
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                            <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                        Localisation 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                            <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                        Bilan 2023 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                            <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="menu-section">
+                            <strong>Agir avec nous</strong>
+                            <div class="row me-2 mt-3">
+                                <div class="col-6 mb-3">
+                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                        Newsletter
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                            <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                        Projets 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                            <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                        Membres 
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                            <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="col-6 mb-3">
+                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                        Recrutements
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                            <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
