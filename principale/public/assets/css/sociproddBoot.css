@@ -260,3 +260,7 @@ input[type="radio"].form-check-input {
 .transPropertie-sociprodd-scale:hover {
     translate: 1.2;
 }
+
+.p-clasique {
+    font-size: 18px;
+}

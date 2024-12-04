@@ -5,6 +5,8 @@ use App\Http\Controllers\PrincipaleController\DecouvrirController\PageContactCon
 use App\Http\Controllers\PrincipaleController\DecouvrirController\PageDecouvrirSOCIPRODDController;
 use App\Http\Controllers\PrincipaleController\DecouvrirController\PageLocalisationController;
 use App\Http\Controllers\PrincipaleController\DecouvrirController\PageOrganisationController;
+use App\Http\Controllers\PrincipaleController\DecouvrirController\PageStructureController;
+use App\Http\Controllers\PrincipaleController\DecouvrirController\PageTravaillonsController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -38,6 +40,10 @@ Route::domain('sociprodd.local')->group(function () {
         Route::get('/bilan', [PageBilanController::class, 'index'])->name('bilan');
         //Organisation 
         Route::get('/organisation', [PageOrganisationController::class, 'index'])->name('organisation');
+        //Structure
+        Route::get('/structure', [PageStructureController::class, 'index'])->name('structure');
+        //Travailler
+        Route::get('/travaillons', [PageTravaillonsController::class, 'index'])->name('travaillons');
         //Localisation
         Route::get('/localisation', [PageLocalisationController::class, 'index'])->name('localisation');
     });

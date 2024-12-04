@@ -512,12 +512,17 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/principale/public/assets/images/Logo-SOCIPRODD.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 140px 0 60px 0;
     transition: 0.5s;
+}
+
+.bg-breadcrumb {
+    background-color: #000000;
+    padding: 10px;
 }
 
 @media (min-width: 992px) {
@@ -537,7 +542,7 @@
 }
 
 .bg-breadcrumb .breadcrumb .breadcrumb-item a {
-    color: var(--bs-white);
+    color: #DACA0C;
 }
 /*** Single Page Hero Header End ***/
 
@@ -1001,3 +1006,4 @@
 
 /*Menu */
 /* Bouton de menu */
+

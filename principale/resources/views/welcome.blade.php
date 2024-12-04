@@ -353,7 +353,6 @@
             <div class="modal-dialog">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -508,34 +507,8 @@
         document.addEventListener('DOMContentLoaded', function () {
             const modal = document.querySelector('.modal-overlay');
             modal.style.display = 'flex'; // Affiche le modal au chargement de la page
-        });
-
-        const menu = document.getElementById("menu");
-        const overlay = document.getElementById("overlaywindow");
-        const menuToggle = document.getElementById("menuToggle");
-        const menuClose = document.getElementById("menuClose");
-
-        // Ouvrir le menu
-        menuToggle.addEventListener("click", () => {
-            menu.classList.add("active");
-            overlay.classList.add("active");
-        });
-
-        // Fermer le menu
-        menuClose.addEventListener("click", () => {
-            menu.classList.remove("active");
-            overlay.classList.remove("active");
-        });
-
-        // Fermer le menu en cliquant sur l'overlay
-        overlay.addEventListener("click", () => {
-            menu.classList.remove("active");
-            overlay.classList.remove("active");
-        });
-
-
+        }); 
     </script>
-
     
 
     <!-- Template Javascript -->
