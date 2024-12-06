@@ -5,23 +5,22 @@
 @section('optimisation')
                 
     <!-- Titre de la page -->
-    <title>Travail | SOCIPRODD </title>
+    <title>Notre Mode de Travail | SOCIPRODD</title>
 
     <!-- Description de la page pour les moteurs de recherche -->
-    <meta name="description" content="Page comment nous travaillons ?" />
+    <meta name="description" content="PDécouvrez nos méthodes collaboratives et notre approche innovante pour un impact social durable à travers la SOCIPRODD." />
 
     <!-- Balises Open Graph pour Facebook et autres réseaux sociaux -->
-    <meta property="og:title" content="Travail | SOCIPRODD " />
-    <meta property="og:description" content="Page comment nous travaillons ?" />
+    <meta property="og:title" content="Notre Mode de Travail | SOCIPRODD" />
+    <meta property="og:description" content="PDécouvrez nos méthodes collaboratives et notre approche innovante pour un impact social durable à travers la SOCIPRODD." />
     <meta property="og:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
-    <meta property="og:url" content="https://sociprodd.org" />
+    <meta property="og:url" content="https://sociprodd.org/decouvrir-sociprodd/travaillons" />
 
     <!-- Balises Twitter Card pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Travail | SOCIPRODD " />
-    <meta name="twitter:creator" content="SOCIPRODD" />
-    <meta name="twitter:url" content="https://www.sociprodd.org" />
-    <meta name="twitter:description" content="Page comment nous travaillons ?" />
+    <meta name="twitter:title" content="Notre Mode de Travail | SOCIPRODD" />
+    <meta name="twitter:url" content="https://sociprodd.org/decouvrir-sociprodd/travaillons" />
+    <meta name="twitter:description" content="PDécouvrez nos méthodes collaboratives et notre approche innovante pour un impact social durable à travers la SOCIPRODD." />
     <meta name="twitter:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
     <meta name="twitter:image:height" content="333" />
     <meta name="twitter:image:width" content="500" />
@@ -48,22 +47,17 @@
 
     <!-- Balises supplémentaires pour le SEO -->
     <!-- Lien canonique pour éviter le contenu dupliqué -->
-    <link rel="canonical" href="https://sociprodd.org" />
-    
+    <link rel="canonical" href="https://sociprodd.org/decouvrir-sociprodd/travaillons" />
     <!-- Définir la langue du contenu -->
     <meta http-equiv="content-language" content="fr" />
-    
     <!-- Directives pour les robots des moteurs de recherche -->
     <meta name="robots" content="index, follow" />
-    
     <!-- Lien court pour l'URL de la page -->
-    <link rel="shortlink" href="https://sociprodd.org" />
-
+    <link rel="shortlink" href="https://sociprodd.org/decouvrir-sociprodd/travaillons" />
     <!-- Lien alternatif pour d'autres langues et versions -->
-    <link rel="alternate" hreflang="fr" href="https://sociprodd.org" />
-
+    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/decouvrir-sociprodd/travaillons" />
     <!-- Lien de révision -->
-    <link rel="revision" href="https://sociprodd.org" />
+    <link rel="revision" href="https://sociprodd.org/decouvrir-sociprodd/travaillons" />
 
     <!-- Script JSON-LD pour les données structurées -->
     <script type="application/ld+json">
@@ -72,25 +66,30 @@
             "@graph": [
                 {
                     "@type": "WebPage",
-                    "breadcrumb": []
-                },
-                {
-                    "@type": "WebSite",
-                    "@id": "https://www.sociprodd.org/",
-                    "name": "SOCIPRODD",
-                    "url": "https://www.sociprodd.org/",
+                    "@id": "https://www.sociprodd.org/decouvrir-sociprodd/travaillons",
+                    "name": "Notre Mode de Travail | SOCIPRODD",
+                    "url": "https://www.sociprodd.org/decouvrir-sociprodd/travaillons",
+                    "breadcrumb": {
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Accueil",
+                                "item": "https://sociprodd.org"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Notre Mode de Travail",
+                                "item": "https://www.sociprodd.org/decouvrir-sociprodd/travaillons"
+                            }
+                        ]
+                    },
                     "publisher": {
                         "@type": "Organization",
-                        "@id": "https://www.sociprodd.org/",
                         "name": "SOCIPRODD",
-                        "url": "https://www.sociprodd.org/",
-                        "sameAs": [
-                            "https://www.facebook.com/",
-                            "https://twitter.com/",
-                            "https://www.instagram.com/",
-                            "https://www.youtube.com/",
-                            "https://www.linkedin.com/"
-                        ],
+                        "url": "https://sociprodd.org",
                         "logo": {
                             "@type": "ImageObject",
                             "url": "https://www.sociprodd.org/principale/public/assets/images/Logo-SOCIPRODD.png"

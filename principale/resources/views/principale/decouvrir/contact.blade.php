@@ -5,23 +5,22 @@
 @section('optimisation')
                 
     <!-- Titre de la page -->
-    <title>Contacts | SOCIPRODD </title>
+    <title>Contactez-nous | SOCIPRODD</title>
 
     <!-- Description de la page pour les moteurs de recherche -->
-    <meta name="description" content="Page contacts SOCIPRODD Générale" />
+    <meta name="description" content="Besoin de nous joindre rapidement ? Retrouvez toutes les informations pour nous contacter dès aujourd'hui." />
 
     <!-- Balises Open Graph pour Facebook et autres réseaux sociaux -->
-    <meta property="og:title" content="Contacts | SOCIPRODD " />
-    <meta property="og:description" content="Page contacts SOCIPRODD Générale" />
+    <meta property="og:title" content="Contactez-nous | SOCIPRODD" />
+    <meta property="og:description" content="Besoin de nous joindre rapidement ? Retrouvez toutes les informations pour nous contacter dès aujourd'hui." />
     <meta property="og:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
-    <meta property="og:url" content="https://sociprodd.org" />
+    <meta property="og:url" content="https://sociprodd.org/decouvrir-sociprodd/contacts" />
 
     <!-- Balises Twitter Card pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Contacts | SOCIPRODD " />
-    <meta name="twitter:creator" content="SOCIPRODD" />
-    <meta name="twitter:url" content="https://www.sociprodd.org" />
-    <meta name="twitter:description" content="Page contacts SOCIPRODD Générale" />
+    <meta name="twitter:title" content="Contactez-nous | SOCIPRODD" />
+    <meta name="twitter:url" content="https://sociprodd.org/decouvrir-sociprodd/contacts" />
+    <meta name="twitter:description" content="Besoin de nous joindre rapidement ? Retrouvez toutes les informations pour nous contacter dès aujourd'hui." />
     <meta name="twitter:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
     <meta name="twitter:image:height" content="333" />
     <meta name="twitter:image:width" content="500" />
@@ -48,22 +47,17 @@
 
     <!-- Balises supplémentaires pour le SEO -->
     <!-- Lien canonique pour éviter le contenu dupliqué -->
-    <link rel="canonical" href="https://sociprodd.org" />
-    
+    <link rel="canonical" href="https://sociprodd.org/decouvrir-sociprodd/contacts" />
     <!-- Définir la langue du contenu -->
     <meta http-equiv="content-language" content="fr" />
-    
     <!-- Directives pour les robots des moteurs de recherche -->
     <meta name="robots" content="index, follow" />
-    
     <!-- Lien court pour l'URL de la page -->
-    <link rel="shortlink" href="https://sociprodd.org" />
-
+    <link rel="shortlink" href="https://sociprodd.org/decouvrir-sociprodd/contacts" />
     <!-- Lien alternatif pour d'autres langues et versions -->
-    <link rel="alternate" hreflang="fr" href="https://sociprodd.org" />
-
+    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/decouvrir-sociprodd/contacts" />
     <!-- Lien de révision -->
-    <link rel="revision" href="https://sociprodd.org" />
+    <link rel="revision" href="https://sociprodd.org/decouvrir-sociprodd/contacts" />
 
     <!-- Script JSON-LD pour les données structurées -->
     <script type="application/ld+json">
@@ -72,28 +66,33 @@
             "@graph": [
                 {
                     "@type": "WebPage",
-                    "breadcrumb": []
-                },
-                {
-                    "@type": "WebSite",
-                    "@id": "https://www.sociprodd.org/",
-                    "name": "SOCIPRODD",
-                    "url": "https://www.sociprodd.org/",
+                    "@id": "https://sociprodd.org/decouvrir-sociprodd/contacts/decouvrir-sociprodd/contacts",
+                    "name": "Contactez-nous | SOCIPRODD",
+                    "url": "https://sociprodd.org/decouvrir-sociprodd/contacts/decouvrir-sociprodd/contacts",
+                    "breadcrumb": {
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Accueil",
+                                "item": "https://sociprodd.org"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Contactez-nous",
+                                "item": "https://sociprodd.org/decouvrir-sociprodd/contacts/decouvrir-sociprodd/contacts"
+                            }
+                        ]
+                    },
                     "publisher": {
                         "@type": "Organization",
-                        "@id": "https://www.sociprodd.org/",
                         "name": "SOCIPRODD",
-                        "url": "https://www.sociprodd.org/",
-                        "sameAs": [
-                            "https://www.facebook.com/",
-                            "https://twitter.com/",
-                            "https://www.instagram.com/",
-                            "https://www.youtube.com/",
-                            "https://www.linkedin.com/"
-                        ],
+                        "url": "https://sociprodd.org",
                         "logo": {
                             "@type": "ImageObject",
-                            "url": "https://www.sociprodd.org/principale/public/assets/images/Logo-SOCIPRODD.png"
+                            "url": "https://sociprodd.org/decouvrir-sociprodd/contacts/principale/public/assets/images/Logo-SOCIPRODD.png"
                         }
                     }
                 }
@@ -144,7 +143,7 @@
 
     
     <!-- Contact Start -->
-    <div class="container-fluid contact py-5 mt-5">
+    <div class="contact py-5 mt-5">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-4 mb-3">
@@ -170,64 +169,50 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-5 mt-2">
-                <div class="col-xl-6">
-                    <div class="wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="bg-light bdr-sociprodd-all-bleueclaire p-5 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
-                            <h4 class="text-sociprodd-bleueclaire">Contactez-nous!</h4>
-                            <p class="mb-4 text-sociprodd-bleuefoncee">Vous avez des questions ? Nous contacter !</p>
-                            <form>
-                                <div class="row g-4">
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" id="name" placeholder="Your Name">
-                                            <label for="name">Nom complet</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" id="email" placeholder="Your Email">
-                                            <label for="email">Email </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12"> 
-                                        <div class="d-flex gap-2">
-                                            <select class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" name="indicatif_pays" id="indicatif_pays" required>
-                                                <option value="" selected>+xxx</option>
-                                            </select>
-                                            <input class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" id="phone" placeholder="Téléphone" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <select class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" name="" id="">
-                                            <option value="" selected>Quel est votre option ?</option>
-                                            <option value="">Travailler avec nous</option>
-                                            <option value="">Devenir Membre</option>
-                                            <option value="">Devenir Partenaire</option>
-                                            <option value="">Simple prise de contact</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" placeholder="Leave a message here" id="message" style="height: 160px; resize: none; "></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
+            <div class="wow fadeInUp mt-4" data-wow-delay="0.2s">
+                <div class="bg-light bdr-sociprodd-all-bleueclaire p-3 rounded h-100 wow fadeInUp" data-wow-delay="0.2s">
+                    <h4 class="text-sociprodd-bleueclaire">Contactez-nous!</h4>
+                    <p class="mb-4 text-sociprodd-bleuefoncee">Vous avez des questions ? Nous contacter !</p>
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 d-flex flex-column gap-3 mb-3">
 
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="bg-sociprodd-bleuefoncee text-sociprodd-blanc p-2 w-100 bdr-sociprodd-all-bleuefoncee br-sociprodd-1">Send Message</button>
-                                    </div>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" id="name" placeholder="Your Name">
+                                    <label for="name">Nom complet</label>
                                 </div>
-                            </form>
+                                <div class="form-floating">
+                                    <input type="email" class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" id="email" placeholder="Your Email">
+                                    <label for="email">Email </label>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <select class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" name="indicatif_pays" id="indicatif_pays" required>
+                                        <option value="" selected>+xxx</option>
+                                    </select>
+                                    <input class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" id="phone" placeholder="Téléphone" required>
+                                </div>
+                                <div class="sujet">
+                                    <select class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" name="" id="">
+                                        <option value="" selected>Quel est votre option ?</option>
+                                        <option value="">Travailler avec nous</option>
+                                        <option value="">Devenir Membre</option>
+                                        <option value="">Devenir Partenaire</option>
+                                        <option value="">Simple prise de contact</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex flex-column gap-3 mb-3">
+                                <div class="form-floating">
+                                    <textarea class="form-control bdr-sociprodd-all-bleueclaire br-sociprodd-1" placeholder="Leave a message here" id="message" style="height: 240px; resize: none; "></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                    <div class="rounded h-100 bdr-sociprodd-all-bleueclaire">
-                        <iframe class="rounded h-100 w-100" 
-                        style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15919.41349049153!2d9.766596!3d4.050317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1061128be2e1fe6d%3A0x92daa1444781c48b!2sDouala%2C%20Cameroun!5e0!3m2!1sfr!2sus!4v1732990420264!5m2!1sfr!2sus"
-                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+                        <div class="col-12 mt-4">
+                            <button class="bg-sociprodd-bleuefoncee text-sociprodd-blanc p-2 w-100 bdr-sociprodd-all-bleuefoncee br-sociprodd-1">Send Message</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

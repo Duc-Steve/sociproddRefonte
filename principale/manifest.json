@@ -1,0 +1,22 @@
+{
+    "name": "SOCIPRODD",
+    "short_name": "SOCIPRODD",
+    "description": "La Société Civile pour la Promotion des Droits et Devoirs (SOCIPRODD).",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#050A2E",
+    "icons": [
+      {
+        "src": "/principale/public/assets/images/Logo-SOCIPRODD.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/principale/public/assets/images/Logo-SOCIPRODD.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

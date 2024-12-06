@@ -72,7 +72,7 @@
 
                         
                         <div class="menu-section">
-                            <strong>Ce que nous faisons</strong>
+                            <strong><a href="" class="text-sociprodd-bleuefoncee">Ce que nous faison</a></strong>
                             <ul>
                                 <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir l'éducation juridique <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
                                 <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
@@ -83,7 +83,7 @@
                         </div>
 
                         <div class="menu-section">
-                            <strong>Découvrir SOCIPRODD</strong>
+                            <strong><a href="{{ route('decouvrir-sociprodd.acceuil') }}" class="text-sociprodd-bleuefoncee">Découvrir SOCIPRODD</a> </strong>
                             <div class="row me-2 mt-3">
                                 <div class="col-6 mb-3">
                                     <a href="{{ route('decouvrir-sociprodd.organisation') }}" class="text-sociprodd-bleuefoncee d-flex align-items-center">
@@ -123,7 +123,7 @@
                         </div>
 
                         <div class="menu-section">
-                            <strong>Agir avec nous</strong>
+                            <strong><a href="" class="text-sociprodd-bleuefoncee">Agir avec nous</a></strong>
                             <div class="row me-2 mt-3">
                                 <div class="col-6 mb-3">
                                     <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">

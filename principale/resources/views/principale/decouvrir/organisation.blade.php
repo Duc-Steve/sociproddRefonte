@@ -8,20 +8,19 @@
     <title>L'Organisation | SOCIPRODD </title>
 
     <!-- Description de la page pour les moteurs de recherche -->
-    <meta name="description" content="Page organisation SOCIPRODD" />
+    <meta name="description" content="Rejoignez-nous pour explorer notre mission et nos initiatives visant à promouvoir les droits et devoirs dans nos sociétés." />
 
     <!-- Balises Open Graph pour Facebook et autres réseaux sociaux -->
     <meta property="og:title" content="L'Organisation | SOCIPRODD " />
-    <meta property="og:description" content="Page organisation SOCIPRODD" />
+    <meta property="og:description" content="Rejoignez-nous pour explorer notre mission et nos initiatives visant à promouvoir les droits et devoirs dans nos sociétés." />
     <meta property="og:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
-    <meta property="og:url" content="https://sociprodd.org" />
+    <meta property="og:url" content="https://sociprodd.org/decouvrir-sociprodd/organisation" />
 
     <!-- Balises Twitter Card pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="L'Organisation | SOCIPRODD " />
-    <meta name="twitter:creator" content="SOCIPRODD" />
-    <meta name="twitter:url" content="https://www.sociprodd.org" />
-    <meta name="twitter:description" content="Page organisation SOCIPRODD" />
+    <meta name="twitter:url" content="https://sociprodd.org/decouvrir-sociprodd/organisation" />
+    <meta name="twitter:description" content="Rejoignez-nous pour explorer notre mission et nos initiatives visant à promouvoir les droits et devoirs dans nos sociétés." />
     <meta name="twitter:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
     <meta name="twitter:image:height" content="333" />
     <meta name="twitter:image:width" content="500" />
@@ -48,22 +47,17 @@
 
     <!-- Balises supplémentaires pour le SEO -->
     <!-- Lien canonique pour éviter le contenu dupliqué -->
-    <link rel="canonical" href="https://sociprodd.org" />
-    
+    <link rel="canonical" href="https://sociprodd.org/decouvrir-sociprodd/organisation" />
     <!-- Définir la langue du contenu -->
     <meta http-equiv="content-language" content="fr" />
-    
     <!-- Directives pour les robots des moteurs de recherche -->
     <meta name="robots" content="index, follow" />
-    
     <!-- Lien court pour l'URL de la page -->
-    <link rel="shortlink" href="https://sociprodd.org" />
-
+    <link rel="shortlink" href="https://sociprodd.org/decouvrir-sociprodd/organisation" />
     <!-- Lien alternatif pour d'autres langues et versions -->
-    <link rel="alternate" hreflang="fr" href="https://sociprodd.org" />
-
+    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/decouvrir-sociprodd/organisation" />
     <!-- Lien de révision -->
-    <link rel="revision" href="https://sociprodd.org" />
+    <link rel="revision" href="https://sociprodd.org/decouvrir-sociprodd/organisation" />
 
     <!-- Script JSON-LD pour les données structurées -->
     <script type="application/ld+json">
@@ -72,25 +66,30 @@
             "@graph": [
                 {
                     "@type": "WebPage",
-                    "breadcrumb": []
-                },
-                {
-                    "@type": "WebSite",
-                    "@id": "https://www.sociprodd.org/",
-                    "name": "SOCIPRODD",
-                    "url": "https://www.sociprodd.org/",
+                    "@id": "https://www.sociprodd.org/decouvrir-sociprodd/organisation",
+                    "name": "L'Organisation | SOCIPRODD",
+                    "url": "https://www.sociprodd.org/decouvrir-sociprodd/organisation",
+                    "breadcrumb": {
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Accueil",
+                                "item": "https://sociprodd.org"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "L'Organisation",
+                                "item": "https://www.sociprodd.org/decouvrir-sociprodd/organisation"
+                            }
+                        ]
+                    },
                     "publisher": {
                         "@type": "Organization",
-                        "@id": "https://www.sociprodd.org/",
                         "name": "SOCIPRODD",
-                        "url": "https://www.sociprodd.org/",
-                        "sameAs": [
-                            "https://www.facebook.com/",
-                            "https://twitter.com/",
-                            "https://www.instagram.com/",
-                            "https://www.youtube.com/",
-                            "https://www.linkedin.com/"
-                        ],
+                        "url": "https://sociprodd.org",
                         "logo": {
                             "@type": "ImageObject",
                             "url": "https://www.sociprodd.org/principale/public/assets/images/Logo-SOCIPRODD.png"
