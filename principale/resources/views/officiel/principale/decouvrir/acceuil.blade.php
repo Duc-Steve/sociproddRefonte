@@ -139,7 +139,7 @@
             <p class="text-sociprodd-bleuefoncee p-clasique mb-5">Nous sommes la SOCIPRODD; Nous travaillons dans plus de 10 pays pour aider à créer un monde où nous sommes tous égaux.</p>
             <div class="row mb-4">
                 <div class="col-lg-6 mb-3">
-                    <img src="/principale/public/assets/images/businessman-touching-red-icon-connected.jpg" alt="" class="img-fluid w-100 img-border-radius">
+                    <img src="/principale/public/assets/images/organisation.webp" alt="" class="img-fluid w-100 img-border-radius">
                 </div>
                 <div class="col-lg-6 mb-3 p-3 d-flex flex-column gap-2">
                     <h1 class="text-sociprodd-bleueclaire">L'Organisation</h1>
@@ -154,12 +154,12 @@
                     <a href="{{ route('decouvrir-sociprodd.contacts') }}" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">Contactez-nous</a>
                 </div>
                 <div class="col-lg-6 mb-3">
-                    <img src="/principale/public/assets/images/candid-shot-attractive-young-african-woman-with-curly-hair-wearing-wrap-talking-mobile-phone.jpg" alt="" class="img-fluid w-100 img-border-radius">
+                    <img src="/principale/public/assets/images/contacts.jpeg" alt="" class="img-fluid w-100 img-border-radius">
                 </div>
             </div>
             <div class="row mb-4">
                 <div class="col-lg-6 mb-3 img-border-radius">
-                    <img src="/principale/public/assets/images/front-view-employees-working-together.jpg" alt="" class="img-fluid w-100 img-border-radius">
+                    <img src="/principale/public/assets/images/bilan.jpg" alt="" class="img-fluid w-100 img-border-radius">
                 </div>
                 <div class="col-lg-6 mb-3 p-3 d-flex flex-column gap-2">
                     <h1 class="text-sociprodd-bleueclaire">Bilan anuelle 2023</h1>
@@ -174,7 +174,7 @@
                     <a href="{{ route('decouvrir-sociprodd.localisation') }}" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">En savoir plus</a>
                 </div>
                 <div class="col-lg-6 mb-3">
-                    <img src="/principale/public/assets/images/close-up-hand-holding-smartphone.jpg" alt="" class="img-fluid w-100 img-border-radius">
+                    <img src="/principale/public/assets/images/localisation.jpg" alt="" class="img-fluid w-100 img-border-radius">
                 </div>
             </div>
 

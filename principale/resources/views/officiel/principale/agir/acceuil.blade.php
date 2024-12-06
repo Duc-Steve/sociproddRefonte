@@ -130,56 +130,75 @@
     <!-- Navbar & Hero End -->
 
     
-    <!-- Découvrirtart -->
+   <!-- Agir avec SOCIPRODD -->
     <div class="container-fluid py-5 mt-5 d-flex justify-content-center align-items-center">
         <div class="col-lg-8">
-        <h1 class="text-sociprodd-bleuefoncee mt-5 mb-3">Agir avec SOCIPRODD</h1>
-            <p class="text-sociprodd-bleuefoncee p-clasique mb-5">Rejoignez-nous dans nos actions pour un développement durable et équitable. Votre engagement fait la différence.</p>
+            <h1 class="text-sociprodd-bleuefoncee mt-5 mb-3">Agir avec SOCIPRODD</h1>
+            <p class="text-sociprodd-bleuefoncee p-clasique mb-5">
+                Ensemble, contribuons à un développement durable et équitable. Votre engagement, sous toutes ses formes, fait la différence.
+            </p>
+
+            <!-- Section Newsletter -->
             <div class="row mb-4">
                 <div class="col-lg-6 mb-3">
-                    <img src="/principale/public/assets/images/businessman-touching-red-icon-connected.jpg" alt="" class="img-fluid w-100 img-border-radius">
+                    <img src="/principale/public/assets/images/newsletter.jpg" alt="Newsletter SOCIPRODD" class="img-fluid w-100 img-border-radius">
                 </div>
                 <div class="col-lg-6 mb-3 p-3 d-flex flex-column gap-2">
-                    <h1 class="text-sociprodd-bleueclaire">L'Organisation</h1>
-                    <p class="text-sociprodd-bleuefoncee">Découvrez comment nous gérons notre organisation pour contribuer à créer un monde où nous sommes tous égaux.</p>
-                    <a href="{{ route('decouvrir-sociprodd.organisation') }}" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">En savoir plus</a>
-                </div>
-            </div>
-            <div class="row mb-4">
-                <div class="col-lg-6 mb-3 p-3 d-flex flex-column gap-2">
-                    <h1 class="text-sociprodd-bleueclaire">Contactez-nous</h1>
-                    <p class="text-sociprodd-bleuefoncee">Trouvez les coordonnées de notre sécrétariat permanent..</p>
-                    <a href="{{ route('decouvrir-sociprodd.contacts') }}" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">Contactez-nous</a>
-                </div>
-                <div class="col-lg-6 mb-3">
-                    <img src="/principale/public/assets/images/candid-shot-attractive-young-african-woman-with-curly-hair-wearing-wrap-talking-mobile-phone.jpg" alt="" class="img-fluid w-100 img-border-radius">
-                </div>
-            </div>
-            <div class="row mb-4">
-                <div class="col-lg-6 mb-3 img-border-radius">
-                    <img src="/principale/public/assets/images/front-view-employees-working-together.jpg" alt="" class="img-fluid w-100 img-border-radius">
-                </div>
-                <div class="col-lg-6 mb-3 p-3 d-flex flex-column gap-2">
-                    <h1 class="text-sociprodd-bleueclaire">Bilan anuelle 2023</h1>
-                    <p class="text-sociprodd-bleuefoncee">Dans ce rapport, vous découvrirez comment nous nous efforçons d’avoir un plus grand impact.</p>
-                    <a href="{{ route('decouvrir-sociprodd.bilan') }}" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">En savoir plus</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 mb-3 p-3 d-flex flex-column gap-2">
-                    <h1 class="text-sociprodd-bleueclaire">Localisation</h1>
-                    <p class="text-sociprodd-bleuefoncee">Trouvez la géolocalisation de la SOCIPRODD Centrale</p>
-                    <a href="{{ route('decouvrir-sociprodd.localisation') }}" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">En savoir plus</a>
-                </div>
-                <div class="col-lg-6 mb-3">
-                    <img src="/principale/public/assets/images/close-up-hand-holding-smartphone.jpg" alt="" class="img-fluid w-100 img-border-radius">
+                    <h1 class="text-sociprodd-bleueclaire">Restez connectés avec nos actualités</h1>
+                    <p class="text-sociprodd-bleuefoncee">
+                        Inscrivez-vous à notre newsletter pour suivre nos projets, initiatives et actions. Informez-vous et inspirez-vous pour rejoindre notre mission.
+                    </p>
+                    <a href="{{ route('agir-avec-nous.newsletter') }}" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">Inscription gratuite</a>
                 </div>
             </div>
 
+            <!-- Section Rejoindre notre réseau -->
+            <div class="row mb-4">
+                <div class="col-lg-6 mb-3 p-3 d-flex flex-column gap-2">
+                    <h1 class="text-sociprodd-bleueclaire">Rejoignez notre réseau</h1>
+                    <p class="text-sociprodd-bleuefoncee">
+                        Devenez acteur du changement. Découvrez comment collaborer avec nous en tant que partenaire, membre ou bénévole.
+                    </p>
+                    <a href="{{ route('agir-avec-nous.devenir-membre') }}" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">Contactez-nous</a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <img src="/principale/public/assets/images/membres.jpg" alt="Rejoindre SOCIPRODD" class="img-fluid w-100 img-border-radius">
+                </div>
+            </div>
+
+            <!-- Section Soutenir nos projets -->
+            <div class="row mb-4">
+                <div class="col-lg-6 mb-3">
+                    <img src="/principale/public/assets/images/project.jpg" alt="Soutenez nos projets SOCIPRODD" class="img-fluid w-100 img-border-radius">
+                </div>
+                <div class="col-lg-6 mb-3 p-3 d-flex flex-column gap-2">
+                    <h1 class="text-sociprodd-bleueclaire">Soutenez nos projets</h1>
+                    <p class="text-sociprodd-bleuefoncee">
+                        Votre contribution nous aide à renforcer nos actions et à toucher encore plus de vies. Soutenez nos projets pour bâtir un avenir équitable et durable.
+                    </p>
+                    <a href="{{ route('agir-avec-nous.projets') }}" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">Faites un don maintenant</a>
+                </div>
+            </div>
+
+            <!-- Section Travailler avec nous -->
+            <div class="row mb-4">
+                <div class="col-lg-6 mb-3 p-3 d-flex flex-column gap-2">
+                    <h1 class="text-sociprodd-bleueclaire">Travailler avec nous</h1>
+                    <p class="text-sociprodd-bleuefoncee">
+                        Rejoignez notre équipe pour contribuer directement à notre mission. Consultez nos offres d’emploi et devenez un acteur du changement.
+                    </p>
+                    <a href="" class="bg-sociprodd-jaune p-2 px-3 text-sociprodd-bleuefoncee br-sociprodd-1 text-center">Voir les offres</a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <img src="/principale/public/assets/images/offredemploi.jpg" alt="Offres d'emploi SOCIPRODD" class="img-fluid w-100 img-border-radius">
+                </div>
+            </div>
 
         </div>
     </div>
-    <!-- Découvrirnd -->
+    <!-- Fin Agir avec SOCIPRODD -->
+
+
 
 
 @endsection

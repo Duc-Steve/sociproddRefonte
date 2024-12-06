@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\OfficielController\AgirController\PageAgirAvecNousController;
+use App\Http\Controllers\OfficielController\AgirController\PageMembresController;
+use App\Http\Controllers\OfficielController\AgirController\PageNewsletterController;
+use App\Http\Controllers\OfficielController\AgirController\PageProjetsController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -55,6 +58,12 @@ Route::domain('sociprodd.local')->group(function () {
     Route::prefix('/agir-avec-nous')->name('agir-avec-nous.')->group(function () {
         //Principale
         Route::get('/', [PageAgirAvecNousController::class, 'index'])->name('acceuil');
+        //Newsletter
+        Route::get('/newsletter', [PageNewsletterController::class, 'index'])->name('newsletter');
+        //Membres
+        Route::get('/devenir-membre', [PageMembresController::class, 'index'])->name('devenir-membre');
+        //Projets
+        Route::get('/projets', [PageProjetsController::class, 'index'])->name('projets');
 
     });
 });
