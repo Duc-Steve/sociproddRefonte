@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layoutsOfficiel.app')
 
 
 <!-- Optimisation -->
@@ -133,7 +133,7 @@
                 <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
                     <li class="breadcrumb-item"><a href="{{ route('welcome') }}">Acceuil</a></li>
                     <li class="breadcrumb-item"><a href="{{ route('decouvrir-sociprodd.acceuil') }}">Découvrir SOCIPRODD</a></li>
-                    <li class="breadcrumb-item text-sociprodd-blanc">Localisation</li>
+                    <li class="breadcrumb-item text-sociprodd-blanc">Bilan 2023</li>
                 </ol>    
             </div>
         </div>
@@ -143,21 +143,37 @@
     
     <!-- Bilan 2023 start -->
     <div class="container-fluid py-5 mt-5 d-flex justify-content-center align-items-center">
-        <div class="col-lg-8">
+        <div class="col-lg-7">
 
-            <h1 class="text-sociprodd-bleuefoncee mt-4 mb-3">Bilan 2023 SOCIPRODD</h1>
-            <p class="text-sociprodd-bleuefoncee"> Le siège permanent de la SOCIPRODD centrale est situé: </p>
-            <ul>
-                <li class="text-sociprodd-bleueclaire">au Cameroun,</li>
-                <li class="text-sociprodd-bleueclaire">à Douala</li>
-            </ul>
-            <div class="wow fadeInRight" data-wow-delay="0.2s" style="height: 400px;">
-                <div class="rounded h-100 bdr-sociprodd-all-bleueclaire">
-                    <iframe class="rounded h-100 w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15919.41349049153!2d9.766596!3d4.050317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1061128be2e1fe6d%3A0x92daa1444781c48b!2sDouala%2C%20Cameroun!5e0!3m2!1sfr!2sus!4v1732990420264!5m2!1sfr!2sus"
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+            <h1 class="text-sociprodd-bleuefoncee mt-4 mb-3">Télécharger les rapports annuels</h1>
+
+            <div class="row mt-5">
+                <div class="col-lg-4"><a href="" class="bg-sociprodd-bleuefoncee text-sociprodd-blanc br-sociprodd-1 p-2 px-3">Rapport des états financiers</a></div>
+                <div class="col-lg-4"><a href="" class="bg-sociprodd-bleuefoncee text-sociprodd-blanc br-sociprodd-1 p-2 px-3">Rapport de communication globale</a></div>
+                <div class="col-lg-4"><a href="" class="bg-sociprodd-bleuefoncee text-sociprodd-blanc br-sociprodd-1 p-2 px-3">Rapport stratégique</a></div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6"><a href="" class="bg-sociprodd-bleuefoncee text-sociprodd-blanc br-sociprodd-1 p-2 px-3">Rapport d'impact</a></div>
+                <div class="col-lg-6"><a href="" class="bg-sociprodd-bleuefoncee text-sociprodd-blanc br-sociprodd-1 p-2 px-3">Rapport d'activité</a></div>
             </div>
 
+            <p class="text-sociprodd-bleuefoncee mt-5 p-clasique">
+                Découvrez nos rapports annuels qui reflètent notre engagement envers la transparence, l'innovation et l'impact social. Chaque document met en lumière nos réalisations, nos stratégies, et notre vision pour un développement durable. Téléchargez nos rapports pour mieux comprendre notre travail et nos contributions à la promotion des droits et devoirs au sein des communautés.
+            </p>
+
+            <div class="wow fadeIn mt-5" style="z-index: 10;" data-wow-delay="0.1s">
+                <div class="bdr-sociprodd-all-bleueclaire img-border-radius" style="height: 500px;">
+                    <img src="/principale/public/assets/images/Logo-SOCIPRODD.png" alt="" class="w-100 h-100">
+                </div>
+            </div>
+            
+
+            <h1 class="text-sociprodd-bleuefoncee mt-5 mb-3">Suivez nous !</h1>
+
+            <ul>
+                <li>Infos : <a href=""  class="text-sociprodd-bleueclaire p-clasique">Nos <u>Actualités</u></a></li>
+                <li>Tags : <a href=""  class="text-sociprodd-bleueclaire p-clasique">Nos <u>Réalisations</u></a></li>
+            </ul>
 
         </div>
     </div>

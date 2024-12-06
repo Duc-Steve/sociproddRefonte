@@ -1,18 +1,18 @@
 <?php
 
-namespace App\Http\Controllers\PrincipaleController;
+namespace App\Http\Controllers\OfficielController\DecouvrirController;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\View\View;
 
-class PageWelcomeController extends Controller
+class PageStructureController extends Controller
 {
     //
 
     public function index(): RedirectResponse|View
     {
-        return view('welcome');
+        return view('officiel.principale.decouvrir.structure');
     }
 }

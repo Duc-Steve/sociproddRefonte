@@ -1,18 +1,17 @@
 <?php
 
-namespace App\Http\Controllers\PrincipaleController\DecouvrirController;
+namespace App\Http\Controllers\OfficielController\AgirController;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\View\View;
 
-class PageOrganisationController extends Controller
+class PageAgirAvecNousController extends Controller
 {
     //
-
     public function index(): RedirectResponse|View
     {
-        return view('principale.decouvrir.organisation');
+        return view('officiel.principale.agir.acceuil');
     }
 }

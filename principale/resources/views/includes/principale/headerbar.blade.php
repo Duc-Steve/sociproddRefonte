@@ -123,7 +123,7 @@
                         </div>
 
                         <div class="menu-section">
-                            <strong><a href="" class="text-sociprodd-bleuefoncee">Agir avec nous</a></strong>
+                            <strong><a href="{{ route('agir-avec-nous.acceuil') }}" class="text-sociprodd-bleuefoncee">Agir avec nous</a></strong>
                             <div class="row me-2 mt-3">
                                 <div class="col-6 mb-3">
                                     <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
@@ -171,7 +171,7 @@
                             
                         <a href="" class="d-none d-lg-block nav-item nav-link">Ce que nous faisons</a>
                         <a href="{{ route('decouvrir-sociprodd.acceuil') }}" class="d-none d-lg-block nav-item nav-link">Découvrir SOCIPRODD</a>
-                        <a href="" class="d-none d-lg-block nav-item nav-link">Agir avec nous</a>
+                        <a href="{{ route('agir-avec-nous.acceuil') }}" class="d-none d-lg-block nav-item nav-link">Agir avec nous</a>
                         
                         <!-- Pour Ordinateur -->
                         <a href="https://pays.sociprodd.org" target="_blank" class="d-none d-lg-block nav-item nav-link" style="margin-left: 5em;">

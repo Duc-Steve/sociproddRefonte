@@ -1,27 +1,26 @@
-@extends('layouts.app')
+@extends('layoutsOfficiel.app')
 
 
 <!-- Optimisation -->
 @section('optimisation')
                 
     <!-- Titre de la page -->
-    <title>Découvrir SOCIPRODD </title>
+    <title>Agir avec nous | SOCIPRODD</title>
 
     <!-- Description de la page pour les moteurs de recherche -->
-    <meta name="description" content="Page découvrir la SOCIPRODD" />
+    <meta name="description" content="Participez activement aux initiatives de SOCIPRODD pour promouvoir les droits et devoirs. Ensemble, construisons un avenir meilleur pour nos communautés." />
 
     <!-- Balises Open Graph pour Facebook et autres réseaux sociaux -->
-    <meta property="og:title" content="Découvrir SOCIPRODD " />
-    <meta property="og:description" content="Page découvrir la SOCIPRODD" />
+    <meta property="og:title" content="Agir avec nous | SOCIPRODD" />
+    <meta property="og:description" content="Participez activement aux initiatives de SOCIPRODD pour promouvoir les droits et devoirs. Ensemble, construisons un avenir meilleur pour nos communautés." />
     <meta property="og:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
-    <meta property="og:url" content="https://sociprodd.org" />
+    <meta property="og:url" content="https://sociprodd.org/agir-avec-nous" />
 
     <!-- Balises Twitter Card pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Découvrir SOCIPRODD " />
-    <meta name="twitter:creator" content="SOCIPRODD" />
-    <meta name="twitter:url" content="https://www.sociprodd.org" />
-    <meta name="twitter:description" content="Page découvrir la SOCIPRODD" />
+    <meta name="twitter:title" content="Agir avec nous | SOCIPRODD" />
+    <meta name="twitter:url" content="https://www.sociprodd.org/agir-avec-nous" />
+    <meta name="twitter:description" content="Participez activement aux initiatives de SOCIPRODD pour promouvoir les droits et devoirs. Ensemble, construisons un avenir meilleur pour nos communautés." />
     <meta name="twitter:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
     <meta name="twitter:image:height" content="333" />
     <meta name="twitter:image:width" content="500" />
@@ -48,22 +47,17 @@
 
     <!-- Balises supplémentaires pour le SEO -->
     <!-- Lien canonique pour éviter le contenu dupliqué -->
-    <link rel="canonical" href="https://sociprodd.org" />
-    
+    <link rel="canonical" href="https://sociprodd.org/agir-avec-nous" />
     <!-- Définir la langue du contenu -->
     <meta http-equiv="content-language" content="fr" />
-    
     <!-- Directives pour les robots des moteurs de recherche -->
     <meta name="robots" content="index, follow" />
-    
     <!-- Lien court pour l'URL de la page -->
-    <link rel="shortlink" href="https://sociprodd.org" />
-
+    <link rel="shortlink" href="https://sociprodd.org/agir-avec-nous" />
     <!-- Lien alternatif pour d'autres langues et versions -->
-    <link rel="alternate" hreflang="fr" href="https://sociprodd.org" />
-
+    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/agir-avec-nous" />
     <!-- Lien de révision -->
-    <link rel="revision" href="https://sociprodd.org" />
+    <link rel="revision" href="https://sociprodd.org/agir-avec-nous" />
 
     <!-- Script JSON-LD pour les données structurées -->
     <script type="application/ld+json">
@@ -72,25 +66,30 @@
             "@graph": [
                 {
                     "@type": "WebPage",
-                    "breadcrumb": []
-                },
-                {
-                    "@type": "WebSite",
-                    "@id": "https://www.sociprodd.org/",
-                    "name": "SOCIPRODD",
-                    "url": "https://www.sociprodd.org/",
+                    "@id": "https://www.sociprodd.org/agir-avec-nous",
+                    "name": "Agir avec nous | SOCIPRODD",
+                    "url": "https://www.sociprodd.org/agir-avec-nous",
+                    "breadcrumb": {
+                        "@type": "BreadcrumbList",
+                        "itemListElement": [
+                            {
+                                "@type": "ListItem",
+                                "position": 1,
+                                "name": "Accueil",
+                                "item": "https://sociprodd.org"
+                            },
+                            {
+                                "@type": "ListItem",
+                                "position": 2,
+                                "name": "Agir avec nous",
+                                "item": "https://www.sociprodd.org/agir-avec-nous"
+                            }
+                        ]
+                    },
                     "publisher": {
                         "@type": "Organization",
-                        "@id": "https://www.sociprodd.org/",
                         "name": "SOCIPRODD",
-                        "url": "https://www.sociprodd.org/",
-                        "sameAs": [
-                            "https://www.facebook.com/",
-                            "https://twitter.com/",
-                            "https://www.instagram.com/",
-                            "https://www.youtube.com/",
-                            "https://www.linkedin.com/"
-                        ],
+                        "url": "https://sociprodd.org",
                         "logo": {
                             "@type": "ImageObject",
                             "url": "https://www.sociprodd.org/principale/public/assets/images/Logo-SOCIPRODD.png"
@@ -134,9 +133,8 @@
     <!-- Découvrirtart -->
     <div class="container-fluid py-5 mt-5 d-flex justify-content-center align-items-center">
         <div class="col-lg-8">
-
-            <h1 class="text-sociprodd-bleuefoncee mt-5 mb-3">Découvrir la SOCIPRODD</h1>
-            <p class="text-sociprodd-bleuefoncee p-clasique mb-5">Nous sommes la SOCIPRODD; Nous travaillons dans plus de 10 pays pour aider à créer un monde où nous sommes tous égaux.</p>
+        <h1 class="text-sociprodd-bleuefoncee mt-5 mb-3">Agir avec SOCIPRODD</h1>
+            <p class="text-sociprodd-bleuefoncee p-clasique mb-5">Rejoignez-nous dans nos actions pour un développement durable et équitable. Votre engagement fait la différence.</p>
             <div class="row mb-4">
                 <div class="col-lg-6 mb-3">
                     <img src="/principale/public/assets/images/businessman-touching-red-icon-connected.jpg" alt="" class="img-fluid w-100 img-border-radius">

@@ -1,16 +1,18 @@
 <?php
 
-use App\Http\Controllers\PrincipaleController\DecouvrirController\PageBilanController;
-use App\Http\Controllers\PrincipaleController\DecouvrirController\PageContactController;
-use App\Http\Controllers\PrincipaleController\DecouvrirController\PageDecouvrirSOCIPRODDController;
-use App\Http\Controllers\PrincipaleController\DecouvrirController\PageLocalisationController;
-use App\Http\Controllers\PrincipaleController\DecouvrirController\PageOrganisationController;
-use App\Http\Controllers\PrincipaleController\DecouvrirController\PageStructureController;
-use App\Http\Controllers\PrincipaleController\DecouvrirController\PageTravaillonsController;
+use App\Http\Controllers\OfficielController\AgirController\PageAgirAvecNousController;
 use Illuminate\Support\Facades\Route;
 
 
-use App\Http\Controllers\PrincipaleController\PageWelcomeController;
+use App\Http\Controllers\OfficielController\PageWelcomeController;
+use App\Http\Controllers\OfficielController\DecouvrirController\PageBilanController;
+use App\Http\Controllers\OfficielController\DecouvrirController\PageContactController;
+use App\Http\Controllers\OfficielController\DecouvrirController\PageDecouvrirSOCIPRODDController;
+use App\Http\Controllers\OfficielController\DecouvrirController\PageLocalisationController;
+use App\Http\Controllers\OfficielController\DecouvrirController\PageOrganisationController;
+use App\Http\Controllers\OfficielController\DecouvrirController\PageStructureController;
+use App\Http\Controllers\OfficielController\DecouvrirController\PageTravaillonsController;
+
 
 
 
@@ -47,4 +49,38 @@ Route::domain('sociprodd.local')->group(function () {
         //Localisation
         Route::get('/localisation', [PageLocalisationController::class, 'index'])->name('localisation');
     });
+
+    
+    // Agir avec nous
+    Route::prefix('/agir-avec-nous')->name('agir-avec-nous.')->group(function () {
+        //Principale
+        Route::get('/', [PageAgirAvecNousController::class, 'index'])->name('acceuil');
+
+    });
 });
+
+
+
+
+// Route pour le site pays.sociprodd.org
+// Accessible aux visiteurs
+// Exemple : https://pays.sociprodd.org/
+
+Route::domain('pays.sociprodd.local')->group(function () {
+
+
+});
+
+
+
+
+// Route pour le site configuration.sociprodd.org
+// Accessible aux administrateurs internes
+// Exemple : https://configuration.sociprodd.org/
+
+Route::domain('configuration.sociprodd.local')->group(function () {
+
+
+});
+
+
