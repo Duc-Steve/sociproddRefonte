@@ -1,0 +1,60 @@
+
+
+:where(.formotp, .input-field) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formotp .input-field {
+    row-gap: 20px;
+    gap: 5px;
+    flex-direction: row;
+}
+
+.formotp .input-field input {
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    outline: none;
+    text-align: center;
+    border: 1px solid #073066;
+}
+
+.formotp .input-field input::-webkit-inner-spin-button,
+.formotp .input-field input::-webkit-outer-spin-button {
+    display: none;
+}
+
+.formotp .otpvalidationform button {
+    width: 100%;
+    color: #073066;
+    font-size: 1rem;
+    border: none;
+    padding: 0.5em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border-radius: 5px;
+    background: #073066;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.formotp .otpvalidationform button span {
+    display: none;
+}
+
+.formotp .otpvalidationform button.active {
+    background: #ff914d;
+    pointer-events: auto;
+}
+
+.formotp .otpvalidationform button.active span {
+    display: block;
+}
+
+input:disabled {
+    background: #ff914d;
+}

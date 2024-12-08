@@ -11,6 +11,13 @@ use App\Http\Controllers\OfficielController\DecouvrirController\PageLocalisation
 use App\Http\Controllers\OfficielController\DecouvrirController\PageOrganisationController;
 use App\Http\Controllers\OfficielController\DecouvrirController\PageStructureController;
 use App\Http\Controllers\OfficielController\DecouvrirController\PageTravaillonsController;
+use App\Http\Controllers\OfficielController\AgirController\PageAgirAvecNousController;
+use App\Http\Controllers\OfficielController\AgirController\PageMembresController;
+use App\Http\Controllers\OfficielController\AgirController\PageProjetsController;
+
+
+
+
 
 
 use App\Http\Controllers\PaysController\PageAcceuilController;
@@ -108,8 +115,6 @@ use App\Http\Controllers\ConfigurationController\UtilisateursController\MiseJour
 use App\Http\Controllers\ConfigurationController\UtilisateursController\PageDetailUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ModifierDonneeUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ChangerStatutUtilisateurController;
-
-
 
 
 

@@ -1,0 +1,11 @@
+.header-titre {
+    background-color:#050A2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-titre h1 {
+    color:#fff;
+    text-align: center;
+}
