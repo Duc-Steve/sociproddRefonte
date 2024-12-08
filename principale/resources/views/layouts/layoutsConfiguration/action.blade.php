@@ -16,9 +16,9 @@
 
     <!-- PWA  -->
     <meta name="theme-color" content="#050A2E"/>
-    <link rel="apple-touch-icon" href="/paysSystemeConfig/public/systeme/img/sociproddLogo.png">
+    <link rel="apple-touch-icon" href="/principale/public/systeme/img/sociproddLogo.png">
     
-    <link rel="shortcut icon" href="/paysSystemeConfig/public/systeme/img/sociproddLogo.png"/>
+    <link rel="shortcut icon" href="/principale/public/systeme/img/sociproddLogo.png"/>
 
 	<title>SOCIPRODD</title>
     
@@ -30,8 +30,8 @@
     @yield('plugins_css')
     
 
-    <link href="/paysSystemeConfig/public/systeme/css/sociproddBootstrap.css" rel="stylesheet">
-    <link href="/paysSystemeConfig/public/systeme/css/sociproddPersonnalise.css" rel="stylesheet">
+    <link href="/principale/public/systeme/css/sociproddBootstrap.css" rel="stylesheet">
+    <link href="/principale/public/systeme/css/sociproddPersonnalise.css" rel="stylesheet">
 
     @yield('rafraichir_automatiquement')
     
@@ -50,7 +50,7 @@
                 <div class="sidebar-content p-2 js-simplebar mb-5">
                     <div class="sidebar-brand d-flex justify-content-around m-1 mb-3 bg-sociprodd-bleueclaire br-sociprodd-1 p-1">
                         <a class="" href="https://sociprodd.org" target="_blank">
-                            <img src="/paysSystemeConfig/public/systeme/img/sociproddLogo.png" alt="Logo SOCIPRODD" class="br-sociprodd-1" width="80px">
+                            <img src="/principale/public/systeme/img/sociproddLogo.png" alt="Logo SOCIPRODD" class="br-sociprodd-1" width="80px">
                         </a>
                         <div class="d-flex text-align-center pt-4">
                             <strong class="text-sociprodd-blanc">SOCIPRODD</strong>
@@ -310,7 +310,7 @@
 
 
     
-    <script src="/paysSystemeConfig/public/systeme/js/sociprodd.js"></script>
+    <script src="/principale/public/systeme/js/sociprodd.js"></script>
 	
     @if($UtilisateurConnecter->type_utilisateur == "representant")  
 	
