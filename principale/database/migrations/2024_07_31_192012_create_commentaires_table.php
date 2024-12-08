@@ -27,7 +27,7 @@ return new class extends Migration
 
             $table->uuid('utilisateur_id')->nullable();
             
-            $table->enum('statut_commentaire', ['publier', 'supprimer'])->default('en attente');
+            $table->enum('statut_commentaire', ['publier', 'supprimer', 'en attente'])->default('en attente');
 
             $table->timestamps();
         });

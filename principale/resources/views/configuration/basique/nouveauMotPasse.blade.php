@@ -28,10 +28,10 @@
 
 		<main class="d-flex w-100 mb-5">
 			<div class="container d-flex flex-column">
-				
+					
 				<!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-				@include('inclusions.messageErrorSucces')
-                
+				@include('includes.paysConfiguration.messageErrorSucces')
+					
 				<div class="row vh-100">
 					<div class="col-sm-10 col-md-8 col-lg-6 mx-auto d-table h-100">
 						<div class="d-table-cell align-middle">
