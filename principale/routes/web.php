@@ -33,6 +33,7 @@ use App\Http\Controllers\OfficielController\DecouvrirController\PageTravaillonsC
 
 Route::domain('sociprodd.local')->group(function () {
 
+    //Welcome
     Route::get('/', [PageWelcomeController::class, 'index'])->name('welcome');
 
     // Découvrir la SOCIPRODD
@@ -92,4 +93,16 @@ Route::domain('configuration.sociprodd.local')->group(function () {
 
 });
 
+
+
+
+
+// Route pour le site recrutements.sociprodd.org
+// Accessible aux visiteurs
+// Exemple : https://recrutements.sociprodd.org/
+
+Route::domain('recrutements.sociprodd.local')->group(function () {
+
+
+});
 
