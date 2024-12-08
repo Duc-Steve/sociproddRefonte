@@ -1,4 +1,4 @@
-@extends('layoutsOfficiel.app')
+@extends('layouts.layoutsOfficiel.app')
 
 
 <!-- Optimisation -->

@@ -7,12 +7,14 @@ use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\View\View;
 
-class PageProjetsController extends Controller
+class PageNewsletterOfficielController extends Controller
 {
     //
     public function index(): RedirectResponse|View
     {
+        $newsletterDiv = true;
 
-        return view('officiel.principale.agir.projets');
+        return view('officiel.principale.agir.newsletter', compact('newsletterDiv'));
     }
+
 }

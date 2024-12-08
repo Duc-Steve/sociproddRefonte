@@ -1,4 +1,4 @@
-@extends('layoutsOfficiel.app')
+@extends('layouts.layoutsOfficiel.app')
 
 
 <!-- Optimisation -->
@@ -147,7 +147,7 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-4 mb-3">
-                    <div class="bdr-sociprodd-all-bleueclaire br-sociprodd-1 p-3 d-flex flex-column gap-2 align-items-center">
+                    <div class="bdr-sociprodd-all-bleueclaire img-border-radius p-3 d-flex flex-column gap-2 align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"  fill="rgba(34,108,224,1)"><path d="M20 20C20 20.5523 19.5523 21 19 21H5C4.44772 21 4 20.5523 4 20V11L1 11L11.3273 1.6115C11.7087 1.26475 12.2913 1.26475 12.6727 1.6115L23 11L20 11V20ZM11 13V19H13V13H11Z"></path></svg>
                         <strong class="text-sociprodd-bleueclaire">Adresse</strong>
                         <a href="#" class="text-sociprodd-bleuefoncee">Sable Bonamoussadi, Douala</a>
@@ -155,14 +155,14 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="bdr-sociprodd-all-bleueclaire br-sociprodd-1 p-3 d-flex flex-column gap-2 align-items-center">
+                    <div class="bdr-sociprodd-all-bleueclaire img-border-radius p-3 d-flex flex-column gap-2 align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"  fill="rgba(34,108,224,1)"><path d="M2 5.5V3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5ZM0 10H5V12H0V10ZM0 15H8V17H0V15Z"></path></svg>
                         <strong class="text-sociprodd-bleueclaire">E-mail</strong>
                         <a href="mailto:contact@sociprodd.org" class="text-sociprodd-bleuefoncee">contact@sociprodd.org</a>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <div class="bdr-sociprodd-all-bleueclaire br-sociprodd-1 p-3 d-flex flex-column gap-2 align-items-center">
+                    <div class="bdr-sociprodd-all-bleueclaire img-border-radius p-3 d-flex flex-column gap-2 align-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"  fill="rgba(34,108,224,1)"><path d="M21 16.42V19.9561C21 20.4811 20.5941 20.9167 20.0705 20.9537C19.6331 20.9846 19.2763 21 19 21C10.1634 21 3 13.8366 3 5C3 4.72371 3.01545 4.36687 3.04635 3.9295C3.08337 3.40588 3.51894 3 4.04386 3H7.5801C7.83678 3 8.05176 3.19442 8.07753 3.4498C8.10067 3.67907 8.12218 3.86314 8.14207 4.00202C8.34435 5.41472 8.75753 6.75936 9.3487 8.00303C9.44359 8.20265 9.38171 8.44159 9.20185 8.57006L7.04355 10.1118C8.35752 13.1811 10.8189 15.6425 13.8882 16.9565L15.4271 14.8019C15.5572 14.6199 15.799 14.5573 16.001 14.6532C17.2446 15.2439 18.5891 15.6566 20.0016 15.8584C20.1396 15.8782 20.3225 15.8995 20.5502 15.9225C20.8056 15.9483 21 16.1633 21 16.42Z"></path></svg>
                         <strong class="text-sociprodd-bleueclaire">Téléphone</strong>
                         <a href="tel:+237 694 53 98 93" class="text-sociprodd-bleuefoncee">(+237) 6 94 53 98 93</a>

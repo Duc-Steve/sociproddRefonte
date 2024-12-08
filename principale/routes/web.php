@@ -44,7 +44,6 @@ use App\Http\Middleware\ConfigurationMiddleware\ExistanceIdActualiteMidd;
 use App\Http\Middleware\ConfigurationMiddleware\ExistanceIdContactMidd;
 use App\Http\Middleware\ConfigurationMiddleware\ExistanceIdElementMidd;
 use App\Http\Middleware\ConfigurationMiddleware\ExistanceIdPodcastMidd;
-use App\Http\Middleware\ConfigurationMiddleware\ExistanceIdProjetMidd;
 use App\Http\Middleware\ConfigurationMiddleware\ExistanceIdReportageMidd;
 use App\Http\Middleware\ConfigurationMiddleware\MessageTelechargementMidd;
 use App\Http\Middleware\ConfigurationMiddleware\ExistanceEmailPasswordMidd;
@@ -93,7 +92,6 @@ use App\Http\Controllers\ConfigurationController\PaysController\PageDetailContac
 use App\Http\Controllers\ConfigurationController\PaysController\PageDetailElementsAutrePaysController;
 use App\Http\Controllers\ConfigurationController\PaysController\PageElementsPaysController;
 use App\Http\Controllers\ConfigurationController\PaysController\PageInterfacePaysController;
-use App\Http\Controllers\ConfigurationController\PaysController\PageMembresSociproddPaysController;
 use App\Http\Controllers\ConfigurationController\PaysController\PageNewsletterController;
 use App\Http\Controllers\ConfigurationController\PaysController\PublierCommuniquerController;
 use App\Http\Controllers\ConfigurationController\PaysController\PageNouveauCoordonneeController;
@@ -105,7 +103,6 @@ use App\Http\Controllers\ConfigurationController\PaysController\PagePaysControll
 use App\Http\Controllers\ConfigurationController\PaysController\PageSousMembresExecutifController;
 use App\Http\Controllers\ConfigurationController\PaysController\SauvegarderNouveauActualitePaysController;
 use App\Http\Controllers\ConfigurationController\PaysController\SauvegarderNouveauPodcastPaysController;
-use App\Http\Controllers\ConfigurationController\PaysController\SauvegarderNouveauProjetPaysController;
 use App\Http\Controllers\ConfigurationController\PaysController\SauvegarderNouveauReportagePaysController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\PageNouveauUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\PageUtilisateurController;
@@ -115,6 +112,8 @@ use App\Http\Controllers\ConfigurationController\UtilisateursController\MiseJour
 use App\Http\Controllers\ConfigurationController\UtilisateursController\PageDetailUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ModifierDonneeUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ChangerStatutUtilisateurController;
+use App\Http\Controllers\OfficielController\AgirController\PageNewsletterOfficielController;
+
 
 
 
@@ -124,7 +123,6 @@ use App\Http\Controllers\ConfigurationController\UtilisateursController\ChangerS
 // Route pour le site sociprodd.org
 // Accessible aux visiteurs
 // Exemple : https://sociprodd.org/
-
 Route::domain('sociprodd.local')->group(function () {
 
     //Welcome
@@ -132,6 +130,7 @@ Route::domain('sociprodd.local')->group(function () {
 
     // Découvrir la SOCIPRODD
     Route::prefix('/decouvrir-sociprodd')->name('decouvrir-sociprodd.')->group(function () {
+
         //Principale
         Route::get('/', [PageDecouvrirSOCIPRODDController::class, 'index'])->name('acceuil');
         //Contactez-nous
@@ -146,15 +145,17 @@ Route::domain('sociprodd.local')->group(function () {
         Route::get('/travaillons', [PageTravaillonsController::class, 'index'])->name('travaillons');
         //Localisation
         Route::get('/localisation', [PageLocalisationController::class, 'index'])->name('localisation');
+        
     });
 
     
     // Agir avec nous
     Route::prefix('/agir-avec-nous')->name('agir-avec-nous.')->group(function () {
+
         //Principale
         Route::get('/', [PageAgirAvecNousController::class, 'index'])->name('acceuil');
         //Newsletter
-        Route::get('/newsletter', [PageNewsletterController::class, 'index'])->name('newsletter');
+        Route::get('/newsletter', [PageNewsletterOfficielController::class, 'index'])->name('newsletter');
         //Membres
         Route::get('/devenir-membre', [PageMembresController::class, 'index'])->name('devenir-membre');
         //Projets
@@ -169,7 +170,6 @@ Route::domain('sociprodd.local')->group(function () {
 // Route pour le site pays.sociprodd.org
 // Accessible aux visiteurs
 // Exemple : https://pays.sociprodd.org/
-
 Route::domain('pays.sociprodd.local')->group(function () {
 
     
@@ -209,7 +209,6 @@ Route::domain('pays.sociprodd.local')->group(function () {
 // Route pour le site configuration-pays.sociprodd.org
 // Accessible aux administrateurs internes
 // Exemple : https://configuration-pays.sociprodd.org/
-
 Route::domain('configuration-pays.sociprodd.local')->group(function () {
 
     
@@ -471,7 +470,6 @@ Route::domain('configuration-pays.sociprodd.local')->group(function () {
 // Route pour le site recrutements.sociprodd.org
 // Accessible aux visiteurs
 // Exemple : https://recrutements.sociprodd.org/
-
 Route::domain('recrutements.sociprodd.local')->group(function () {
 
 
