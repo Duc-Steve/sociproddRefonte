@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\ComitesController\InterfaceController\PaysController;
+namespace App\Http\Controllers\ConfigurationController\PaysController;
 
 use App\Http\Controllers\Controller;
 use App\Models\Pays;

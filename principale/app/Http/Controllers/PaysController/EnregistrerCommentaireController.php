@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\SiteController;
+namespace App\Http\Controllers\PaysController;
 
 use App\Http\Controllers\Controller;
 use App\Models\Commentaires;

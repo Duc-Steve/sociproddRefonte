@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\ComitesController\InterfaceController\GestionController;
+namespace App\Http\Controllers\ConfigurationController\GestionController;
 
 use App\Http\Controllers\Controller;
 use App\Models\ProfilesMembreBureauExecutifs;

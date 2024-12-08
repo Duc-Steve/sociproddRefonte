@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\ComitesController\BasiqueController;
+namespace App\Http\Controllers\ConfigurationController\BasiqueController;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -9,7 +9,7 @@ use Illuminate\Http\Response;
 use Illuminate\View\View;
 use Illuminate\Support\Facades\Auth;
 
-class DeconnexionComitesController extends Controller
+class DeconnexionConfigurationController extends Controller
 {
     // 
     public function index(Request $request): RedirectResponse|View

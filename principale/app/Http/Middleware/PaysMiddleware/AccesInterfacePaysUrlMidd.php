@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace App\Http\Middleware\PaysMiddleware;
 
 use App\Models\EnteteDonnees;
 use App\Models\Interfaces;

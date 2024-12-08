@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Http\Controllers\ComitesController\BasiqueController;
+namespace App\Http\Controllers\ConfigurationController\BasiqueController;
 
 use App\Http\Controllers\Controller;
 use App\Models\ReseauxUtilisateurs;

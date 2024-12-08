@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\ComitesController\InterfaceController;
+namespace App\Http\Controllers\ConfigurationController;
 
 use App\Http\Controllers\Controller;
 use App\Models\AppareilUtilisateurs;

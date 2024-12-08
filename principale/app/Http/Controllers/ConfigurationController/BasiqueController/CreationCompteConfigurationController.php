@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\ComitesController\BasiqueController;
+namespace App\Http\Controllers\ConfigurationController\BasiqueController;
 
 
 use App\Http\Controllers\Controller;
@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Crypt;
 use App\Models\Utilisateurs;
 use Carbon\Carbon;
 
-class CreationCompteComitesController extends Controller
+class CreationCompteConfigurationController extends Controller
 {
     //
     public function create(Request $request): RedirectResponse|View

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware\SiteMiddleware;
+namespace App\Http\Middleware\PaysMiddleware;
 
 use App\Models\Elements;
 use Closure;

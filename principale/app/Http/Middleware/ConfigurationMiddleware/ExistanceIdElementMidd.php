@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware\ComitesMiddleware;
+namespace App\Http\Middleware\ConfigurationMiddleware;
 
 use App\Models\Elements;
 use Closure;
