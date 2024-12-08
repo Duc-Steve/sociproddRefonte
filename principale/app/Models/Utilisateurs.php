@@ -30,7 +30,7 @@ use App\Mail\ComiteMail\UtilisateurMail\TentativeConnexionMail;
 class Utilisateurs extends Model implements AuthenticatableContract, MustVerifyEmailContract
 {
     // Utilise les traits nécessaires
-    use HasApiTokens, HasFactory, Notifiable, Authenticatable, HasUuids, MustVerifyEmail;
+    use HasFactory, Notifiable, Authenticatable, HasUuids, MustVerifyEmail;
 
     // Définir la table associée au modèle
     protected $table = 'utilisateurs';
