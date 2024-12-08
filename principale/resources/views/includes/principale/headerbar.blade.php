@@ -38,7 +38,15 @@
                         <div class="row">
                             <div class="col-6 mb-3">
                                 <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
-                                    Nos réalisations 
+                                    Nouvelles
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
+                                        <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    Podcasts
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                         <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
                                     </svg>
@@ -46,7 +54,7 @@
                             </div>
                             <div class="col-6 mb-3">
                                 <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
-                                    Nos actualités 
+                                    Publications
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                         <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
                                     </svg>
@@ -54,15 +62,7 @@
                             </div>
                             <div class="col-6">
                                 <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
-                                    Nos podcasts 
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
-                                        <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
-                                    Nos missions 
+                                    Missions
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                         <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
                                     </svg>

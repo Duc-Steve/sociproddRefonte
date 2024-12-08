@@ -128,6 +128,14 @@ Route::domain('sociprodd.local')->group(function () {
     //Welcome
     Route::get('/', [PageWelcomeController::class, 'index'])->name('welcome');
 
+    
+    // Agir avec nous
+    Route::prefix('/ce-que-nous-faisons')->name('agir-avec-nous.')->group(function () {
+
+    });
+
+
+
     // Découvrir la SOCIPRODD
     Route::prefix('/decouvrir-sociprodd')->name('decouvrir-sociprodd.')->group(function () {
 
@@ -162,6 +170,7 @@ Route::domain('sociprodd.local')->group(function () {
         Route::get('/projets', [PageProjetsController::class, 'index'])->name('projets');
 
     });
+    
 });
 
 
