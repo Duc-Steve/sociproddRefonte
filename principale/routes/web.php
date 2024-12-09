@@ -14,6 +14,11 @@ use App\Http\Controllers\OfficielController\DecouvrirController\PageTravaillonsC
 use App\Http\Controllers\OfficielController\AgirController\PageAgirAvecNousController;
 use App\Http\Controllers\OfficielController\AgirController\PageMembresController;
 use App\Http\Controllers\OfficielController\AgirController\PageProjetsController;
+use App\Http\Controllers\OfficielController\AgirController\PageNewsletterOfficielController;
+use App\Http\Controllers\OfficielController\PageActualitesOfficielController;
+use App\Http\Controllers\OfficielController\PagePodcastsOfficielController;
+use App\Http\Controllers\OfficielController\PageReportagesOfficielController;
+use App\Http\Controllers\OfficielController\PagesMissionsOfficielController;
 
 
 
@@ -112,9 +117,6 @@ use App\Http\Controllers\ConfigurationController\UtilisateursController\MiseJour
 use App\Http\Controllers\ConfigurationController\UtilisateursController\PageDetailUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ModifierDonneeUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ChangerStatutUtilisateurController;
-use App\Http\Controllers\OfficielController\AgirController\PageNewsletterOfficielController;
-
-
 
 
 
@@ -127,6 +129,15 @@ Route::domain('sociprodd.local')->group(function () {
 
     //Welcome
     Route::get('/', [PageWelcomeController::class, 'index'])->name('welcome');
+    
+    //Actualites
+    Route::get('/actualites', [PageActualitesOfficielController::class, 'index'])->name('actualites');
+    //Podcasts
+    Route::get('/podcasts', [PagePodcastsOfficielController::class, 'index'])->name('podcasts');
+    //Reportages
+    Route::get('/reportages', [PageReportagesOfficielController::class, 'index'])->name('reportages');
+    //Missions
+    Route::get('/missions', [PagesMissionsOfficielController::class, 'index'])->name('missions');
 
     
     // Agir avec nous

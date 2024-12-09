@@ -143,7 +143,7 @@
 
     <!-- Organisation Start -->
     <div class="container-fluid py-5 mt-5 d-flex justify-content-center align-items-center">
-        <div class="col-lg-5">
+        <div class="col-lg-8">
 
             <h1 class="text-sociprodd-bleuefoncee mb-3">L'organisation</h1>
             <p class="text-sociprodd-bleuefoncee p-clasique">
