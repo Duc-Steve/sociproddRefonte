@@ -12,6 +12,8 @@ class PageAgirAvecNousController extends Controller
     //
     public function index(): RedirectResponse|View
     {
-        return view('officiel.principale.agir.acceuil');
+        $activeAgirAvecNous = true;
+
+        return view('officiel.principale.agir.acceuil', compact('activeAgirAvecNous'));
     }
 }

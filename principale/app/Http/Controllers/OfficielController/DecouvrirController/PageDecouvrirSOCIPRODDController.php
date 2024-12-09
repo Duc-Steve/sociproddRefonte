@@ -13,6 +13,8 @@ class PageDecouvrirSOCIPRODDController extends Controller
 
     public function index(): RedirectResponse|View
     {
-        return view('officiel.principale.decouvrir.acceuil');
+        $activeDecouvrirSociprodd = true;
+
+        return view('officiel.principale.decouvrir.acceuil', compact('activeDecouvrirSociprodd'));
     }
 }
