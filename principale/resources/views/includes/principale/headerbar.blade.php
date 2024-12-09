@@ -126,7 +126,7 @@
                             <strong><a href="{{ route('agir-avec-nous.acceuil') }}" class="text-sociprodd-bleuefoncee">Agir avec nous</a></strong>
                             <div class="row me-2 mt-3">
                                 <div class="col-6 mb-3">
-                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    <a href="{{ route('agir-avec-nous.newsletter') }}" class="text-sociprodd-bleuefoncee d-flex align-items-center">
                                         Newsletter
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                             <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
@@ -134,7 +134,7 @@
                                     </a>
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    <a href="{{ route('agir-avec-nous.projets') }}" class="text-sociprodd-bleuefoncee d-flex align-items-center">
                                         Projets 
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                             <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
@@ -142,7 +142,7 @@
                                     </a>
                                 </div>
                                 <div class="col-6 mb-3">
-                                    <a href="" class="text-sociprodd-bleuefoncee d-flex align-items-center">
+                                    <a href="{{ route('agir-avec-nous.devenir-membre') }}" class="text-sociprodd-bleuefoncee d-flex align-items-center">
                                         Membres 
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="ms-2">
                                             <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>

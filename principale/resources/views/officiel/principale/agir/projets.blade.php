@@ -153,19 +153,21 @@
 
                 
 
+          
             <div class="br-sociprodd-1 p-2 bdr-sociprodd-all-bleuefoncee bg-sociprodd-bleuefoncee">
-                <div class="nav nav-tabs mb-1 gap-3" id="nav-tab" role="tablist">
+                <div class="nav nav-tabs mb-1 gap-1" id="nav-tab" role="tablist">
                     <button class="nav-link fw-semi-bold text-sociprodd-jaune active" id="nav-non-vue-tab" data-bs-toggle="tab"
                         data-bs-target="#nav-non-vue" type="button" role="tab" aria-controls="nav-non-vue"
                         aria-selected="true">En cours</button>
                     <button class="nav-link fw-semi-bold text-sociprodd-jaune" id="nav-atente-tab" data-bs-toggle="tab"
                         data-bs-target="#nav-atente" type="button" role="tab" aria-controls="nav-atente"
-                        aria-selected="false">En attente de financement</button>
+                        aria-selected="false">En attente</button>
                     <button class="nav-link fw-semi-bold text-sociprodd-jaune" id="nav-vue-tab" data-bs-toggle="tab"
                         data-bs-target="#nav-vue" type="button" role="tab" aria-controls="nav-vue"
                         aria-selected="false">Terminer</button>
                 </div>
             </div>    
+                   
                 
             <div class="br-sociprodd-1 p-4 bdr-sociprodd-all-bleuefoncee mt-4"> 
                 <div class="tab-content" id="nav-tabContent">

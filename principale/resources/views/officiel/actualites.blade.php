@@ -125,9 +125,145 @@
     <div class="position-relative p-0">
         
         @include('includes.principale.headerbar')
+        
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Actualités</h4>  
+            </div>
+        </div>
+        <!-- Header End -->
     
     </div>
     <!-- Navbar & Hero End -->
+
+    
+
+    <!-- Actualités Start -->
+    <div class="container-fluid element-actualite py-5">
+        <div class="container py-5">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+                <h2 class="mb-5">Restez informé des dernières actualités et initiatives de la SOCIPRODD.</h2>
+            </div>
+            <div class="row g-5 justify-content-center">
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="element-actualite-item rounded">
+                        <div class="element-actualite-img">
+                            <div class="overflow-hidden img-border-radius">
+                                <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                        </div>
+                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
+                            <div class="element-actualite-text-inner">
+                                <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
+                                <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
+                            </div>
+                            
+                            <div class="text-end p-3 mt-4">
+                                <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>Lire plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="element-actualite-item rounded">
+                        <div class="element-actualite-img">
+                            <div class="overflow-hidden img-border-radius">
+                                <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                        </div>
+                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
+                            <div class="element-actualite-text-inner">
+                                <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
+                                <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
+                            </div>
+                            
+                            <div class="text-end p-3 mt-4">
+                                <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>Lire plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="element-actualite-item rounded">
+                        <div class="element-actualite-img">
+                            <div class="overflow-hidden img-border-radius">
+                                <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                        </div>
+                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
+                            <div class="element-actualite-text-inner">
+                                <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
+                                <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
+                            </div>
+                            
+                            <div class="text-end p-3 mt-4">
+                                <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>Lire plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="element-actualite-item rounded">
+                        <div class="element-actualite-img">
+                            <div class="overflow-hidden img-border-radius">
+                                <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                        </div>
+                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
+                            <div class="element-actualite-text-inner">
+                                <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
+                                <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
+                            </div>
+                            
+                            <div class="text-end p-3 mt-4">
+                                <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>Lire plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="element-actualite-item rounded">
+                        <div class="element-actualite-img">
+                            <div class="overflow-hidden img-border-radius">
+                                <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                        </div>
+                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
+                            <div class="element-actualite-text-inner">
+                                <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
+                                <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
+                            </div>
+                            
+                            <div class="text-end p-3 mt-4">
+                                <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>Lire plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="element-actualite-item rounded">
+                        <div class="element-actualite-img">
+                            <div class="overflow-hidden img-border-radius">
+                                <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
+                            </div>
+                        </div>
+                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
+                            <div class="element-actualite-text-inner">
+                                <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
+                                <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
+                            </div>
+                            
+                            <div class="text-end p-3 mt-4">
+                                <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>Lire plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <!-- Actualités Start -->
 
     
 

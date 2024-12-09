@@ -245,3 +245,40 @@ p {
     list-style-type: disc;
     margin: 5px 0;
 }
+
+
+.element-actualite .element-actualite-item .element-actualite-img .element-actualite-rate {
+    position: absolute;
+    width: 100px; 
+    top: -20px; 
+    left: 50%; 
+    margin-left: -50px; 
+    border-radius: 10% / 50%;
+}
+
+.element-actualite .element-actualite-item .element-actualite-text {
+    padding-top: 150px; 
+    margin-top: -125px;
+}
+
+.element-actualite .element-actualite-item .element-actualite-img img,
+.element-actualite .element-actualite-item .element-actualite-teacher img,
+.element-actualite .element-actualite-item:hover .element-actualite-text-inner a.h4 {
+    transition: 0.5s;
+}
+
+.element-actualite .element-actualite-item:hover .element-actualite-img img,
+.element-actualite .element-actualite-item:hover .element-actualite-teacher img {
+    transform: scale(1.2);
+}
+
+
+.taille-videos {
+    height: 300px;
+}
+
+.img-uniforme {
+    width: 100%; /* Adaptation à la largeur du conteneur */
+    height: 250px; /* Taille fixe ou ajustable en pixels */
+    object-fit: cover; /* Ajuste l'image tout en respectant ses proportions */
+}

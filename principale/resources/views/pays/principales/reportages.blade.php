@@ -144,7 +144,7 @@
                             </div>
                             <div class="post-item-description">
                                 <span class="post-meta-date">{{ $ReportagesActifsIndividu->created_at->format('Y-m-d')}}</span>
-                                <h2><strong style="margin-top: 1em">{{ Crypt::decrypt($ReportagesActifsIndividu->titre) }}</strong></a> </h2>
+                                <h2><strong style="margin-top: 1em">{{ Crypt::decrypt($ReportagesActifsIndividu->titre) }}</strong> </h2>
                                 <p>{{ Crypt::decrypt($ReportagesActifsIndividu->petite_description) }}</p>
                                 <a href="{{ route('information', ['PaysUrl' => $PaysDonnee->nom_url, 'IdElementSite' => $ReportagesActifsIndividu->id_element]) }}" class="item-link bg-sociprodd-jaune p-1 px-3"><strong class="text-sociprodd-bleuefoncee">Lire plus 
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg></strong></a>
