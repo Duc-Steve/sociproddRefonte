@@ -117,10 +117,8 @@ use App\Http\Controllers\ConfigurationController\UtilisateursController\MiseJour
 use App\Http\Controllers\ConfigurationController\UtilisateursController\PageDetailUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ModifierDonneeUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ChangerStatutUtilisateurController;
-
-
-
-
+use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesCeQueNousFaisonsController;
+use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesEducationJuridiqueController;
 
 // Route pour le site sociprodd.org
 // Accessible aux visiteurs
@@ -141,7 +139,12 @@ Route::domain('sociprodd.local')->group(function () {
 
     
     // Agir avec nous
-    Route::prefix('/ce-que-nous-faisons')->name('agir-avec-nous.')->group(function () {
+    Route::prefix('/ce-que-nous-faisons')->name('ce-que-nous-faisons.')->group(function () {
+        
+        //Principale
+        Route::get('/', [PagesCeQueNousFaisonsController::class, 'index'])->name('acceuil');
+        //Education juridique
+        Route::get('/education-juridique', [PagesEducationJuridiqueController::class, 'index'])->name('education-juridique');
 
     });
 

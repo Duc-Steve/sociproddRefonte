@@ -153,8 +153,8 @@
                                 <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
                             </div>
                         </div>
-                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
-                            <div class="element-actualite-text-inner">
+                        <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
+                            <div class="element-actualite-text-inner pt-3">
                                 <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
                                 <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
                             </div>
@@ -172,8 +172,8 @@
                                 <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
                             </div>
                         </div>
-                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
-                            <div class="element-actualite-text-inner">
+                        <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
+                            <div class="element-actualite-text-inner pt-3">
                                 <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
                                 <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
                             </div>
@@ -191,8 +191,8 @@
                                 <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
                             </div>
                         </div>
-                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
-                            <div class="element-actualite-text-inner">
+                        <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
+                            <div class="element-actualite-text-inner pt-3">
                                 <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
                                 <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
                             </div>
@@ -210,8 +210,8 @@
                                 <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
                             </div>
                         </div>
-                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
-                            <div class="element-actualite-text-inner">
+                        <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
+                            <div class="element-actualite-text-inner pt-3">
                                 <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
                                 <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
                             </div>
@@ -229,8 +229,8 @@
                                 <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
                             </div>
                         </div>
-                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
-                            <div class="element-actualite-text-inner">
+                        <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
+                            <div class="element-actualite-text-inner pt-3">
                                 <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
                                 <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
                             </div>
@@ -248,8 +248,8 @@
                                 <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
                             </div>
                         </div>
-                        <div class="element-actualite-text bg-sociprodd-gris px-4 pb-3">
-                            <div class="element-actualite-text-inner">
+                        <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
+                            <div class="element-actualite-text-inner pt-3">
                                 <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
                                 <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
                             </div>

@@ -282,3 +282,69 @@ p {
     height: 250px; /* Taille fixe ou ajustable en pixels */
     object-fit: cover; /* Ajuste l'image tout en respectant ses proportions */
 }
+
+
+.fond-fixe-education-image {
+    margin: 0;
+    height: 100vh; /* Assure que le fond couvre toute la hauteur de la fenêtre */
+    position: relative; /* Nécessaire pour que le ::before fonctionne correctement */
+    background-image: url('/principale/public/assets/images/education-juridique-sociprodd-refugie.jpg'); /* Chemin de l'image */
+    background-size: cover; /* L'image couvre toute la page */
+    background-attachment: fixed; /* Image fixe au défilement */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    font-family: Arial, sans-serif;
+    color: white; /* Texte blanc pour contraster avec le fond */
+}
+
+/* Superposition sombre */
+.fond-fixe-education-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* S'assure que la superposition couvre toute la largeur */
+    height: 100%; /* S'assure que la superposition couvre toute la hauteur */
+    background-color: rgba(0, 0, 0, 0.6); /* Couche sombre (50% d'opacité) */
+    z-index: 1; /* Place la superposition au-dessus de l'image */
+}
+
+/* Style du contenu */
+.fond-fixe-education-image .content {
+    position: relative; /* Nécessaire pour que le contenu passe au-dessus de la superposition */
+    z-index: 2; /* Place le contenu au-dessus de la superposition */
+}
+
+
+/* ----------------------------------------------------------------
+	Accordion
+-----------------------------------------------------------------*/
+.accordion .ac-item { margin-bottom: 10px; padding: 12px 20px; border-radius: 5px; border: 1px solid #226CE0; }
+
+.accordion .ac-item .ac-title { font-weight: 500; position: relative; padding-right: 10px; margin: 0; font-size: 1em; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+.accordion .ac-item .ac-title > i { margin-right: 8px; }
+
+.accordion .ac-item .ac-content { padding-top: 12px; }
+
+.accordion .ac-item .ac-content > p:last-child { margin-bottom: 6px; }
+
+.accordion.accordion-shadow .ac-item { box-shadow: 0 6px 12px rgba(140, 152, 164, 0.075); }
+
+.accordion.accordion-simple .ac-item { padding: 14px 0; margin-bottom: 0; border-radius: 0; border: 0; border-bottom: 1px solid #e4e6ef; }
+
+.accordion.accordion-simple .ac-item:last-child { border: 0; }
+
+.accordion.accordion-flat .ac-item { padding: 10px 0; margin-bottom: 0; border-radius: 0; border: 0; }
+
+.accordion.accordion-theme .ac-item { background-color: #2250fc; border: 0; }
+
+.accordion.accordion-theme .ac-item .ac-title { color: #fff; }
+
+.accordion.accordion-theme .ac-item .ac-content, .accordion.accordion-theme .ac-item .ac-content p { color: #fff; }
+
+.accordion.dark .ac-item { background-color: #1e2022; border: 0; }
+
+.accordion.dark .ac-item .ac-title { color: #fff; }
+
+.accordion.dark .ac-item .ac-content, .accordion.dark .ac-item .ac-content p { color: #fff; }

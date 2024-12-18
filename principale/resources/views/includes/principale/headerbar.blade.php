@@ -72,9 +72,9 @@
 
                         
                         <div class="menu-section">
-                            <strong><a href="" class="text-sociprodd-bleuefoncee">Ce que nous faison</a></strong>
+                            <strong><a href="{{ route('ce-que-nous-faisons.acceuil') }}" class="text-sociprodd-bleuefoncee">Ce que nous faison</a></strong>
                             <ul>
-                                <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir l'éducation juridique <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
+                                <li><a href="{{ route('ce-que-nous-faisons.education-juridique') }}" class="text-sociprodd-bleuefoncee">Promouvoir l'éducation juridique <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
                                 <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
                                 <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir les droits des femmes , les droits des minorités et l'égalité de genre<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
                                 <li><a href="" class="text-sociprodd-bleuefoncee">Favoriser l'inclusion et l'autonomisation des couches sociales défavorisées<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
