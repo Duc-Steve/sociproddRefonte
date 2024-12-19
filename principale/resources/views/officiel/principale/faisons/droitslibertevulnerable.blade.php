@@ -131,7 +131,7 @@
     <!-- Navbar & Hero End -->
 
     <!-- Droits, libertés et Vulnérable -->
-    <div class="fond-fixe-education-image">
+    <div class="fond-fixe-droitlibertevulnerable-image">
 
         <div class="container-fluid py-5 mt-5 d-flex justify-content-start content">
             

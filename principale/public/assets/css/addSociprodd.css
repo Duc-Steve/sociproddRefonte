@@ -317,11 +317,11 @@ p {
 
 
 
-.fond-fixe-education-image {
+.fond-fixe-droitlibertevulnerable-image {
     margin: 0;
     height: 100vh; /* Assure que le fond couvre toute la hauteur de la fenêtre */
     position: relative; /* Nécessaire pour que le ::before fonctionne correctement */
-    background-image: url('/principale/public/assets/images/education-juridique-sociprodd-refugie.jpg'); /* Chemin de l'image */
+    background-image: url('/principale/public/assets/images/droits-libertes-vulnerables.jpg'); /* Chemin de l'image */
     background-size: cover; /* L'image couvre toute la page */
     background-attachment: fixed; /* Image fixe au défilement */
     background-position: center; /* Centre l'image */
@@ -331,7 +331,7 @@ p {
 }
 
 /* Superposition sombre */
-.fond-fixe-education-image::before {
+.fond-fixe-droitlibertevulnerable-image::before {
     content: '';
     position: absolute;
     top: 0;
@@ -343,7 +343,7 @@ p {
 }
 
 /* Style du contenu */
-.fond-fixe-education-image .content {
+.fond-fixe-droitlibertevulnerable-image .content {
     position: relative; /* Nécessaire pour que le contenu passe au-dessus de la superposition */
     z-index: 2; /* Place le contenu au-dessus de la superposition */
 }
