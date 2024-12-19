@@ -118,6 +118,7 @@ use App\Http\Controllers\ConfigurationController\UtilisateursController\PageDeta
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ModifierDonneeUtilisateurController;
 use App\Http\Controllers\ConfigurationController\UtilisateursController\ChangerStatutUtilisateurController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesCeQueNousFaisonsController;
+use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesDroitsLiberteVulnerableController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesEducationJuridiqueController;
 
 // Route pour le site sociprodd.org
@@ -145,6 +146,8 @@ Route::domain('sociprodd.local')->group(function () {
         Route::get('/', [PagesCeQueNousFaisonsController::class, 'index'])->name('acceuil');
         //Education juridique
         Route::get('/education-juridique', [PagesEducationJuridiqueController::class, 'index'])->name('education-juridique');
+        //Droits, libertes et vulnerabilité
+        Route::get('/droits-liberte-vulnerable', [PagesDroitsLiberteVulnerableController::class, 'index'])->name('droits-liberte-vulnerable');
 
     });
 

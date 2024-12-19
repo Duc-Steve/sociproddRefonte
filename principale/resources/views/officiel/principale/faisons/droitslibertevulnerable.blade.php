@@ -5,22 +5,22 @@
 @section('optimisation')
                 
     <!-- Titre de la page -->
-    <title>Education juridique | SOCIPRODD </title>
+    <title>Droits, Libertés et Vulnérabilité | SOCIPRODD </title>
 
     <!-- Description de la page pour les moteurs de recherche -->
-    <meta name="description" content="Découvrez nos ressources et initiatives pour mieux comprendre et promouvoir les droits et devoirs à travers l'éducation juridique." />
+    <meta name="description" content="Explorez comment la SOCIPRODD s'engage à protéger les droits, renforcer les libertés et soutenir les personnes vulnérables grâce à des actions concrètes et des outils éducatifs." />
 
     <!-- Balises Open Graph pour Facebook et autres réseaux sociaux -->
-    <meta property="og:title" content="Education juridique | SOCIPRODD " />
-    <meta property="og:description" content="Découvrez nos ressources et initiatives pour mieux comprendre et promouvoir les droits et devoirs à travers l'éducation juridique." />
+    <meta property="og:title" content="Droits, Libertés et Vulnérabilité | SOCIPRODD " />
+    <meta property="og:description" content="Explorez comment la SOCIPRODD s'engage à protéger les droits, renforcer les libertés et soutenir les personnes vulnérables grâce à des actions concrètes et des outils éducatifs." />
     <meta property="og:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
-    <meta property="og:url" content="https://sociprodd.org/ce-que-nous-faisons/education-juridique" />
+    <meta property="og:url" content="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
 
     <!-- Balises Twitter Card pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Education juridique | SOCIPRODD " />
-    <meta name="twitter:url" content="https://sociprodd.org/ce-que-nous-faisons/education-juridique" />
-    <meta name="twitter:description" content="Découvrez nos ressources et initiatives pour mieux comprendre et promouvoir les droits et devoirs à travers l'éducation juridique." />
+    <meta name="twitter:title" content="Droits, Libertés et Vulnérabilité | SOCIPRODD " />
+    <meta name="twitter:url" content="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
+    <meta name="twitter:description" content="Explorez comment la SOCIPRODD s'engage à protéger les droits, renforcer les libertés et soutenir les personnes vulnérables grâce à des actions concrètes et des outils éducatifs." />
     <meta name="twitter:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
     <meta name="twitter:image:height" content="333" />
     <meta name="twitter:image:width" content="500" />
@@ -47,17 +47,17 @@
 
     <!-- Balises supplémentaires pour le SEO -->
     <!-- Lien canonique pour éviter le contenu dupliqué -->
-    <link rel="canonical" href="https://sociprodd.org/ce-que-nous-faisons/education-juridique" />
+    <link rel="canonical" href="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
     <!-- Définir la langue du contenu -->
     <meta http-equiv="content-language" content="fr" />
     <!-- Directives pour les robots des moteurs de recherche -->
     <meta name="robots" content="index, follow" />
     <!-- Lien court pour l'URL de la page -->
-    <link rel="shortlink" href="https://sociprodd.org/ce-que-nous-faisons/education-juridique" />
+    <link rel="shortlink" href="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
     <!-- Lien alternatif pour d'autres langues et versions -->
-    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/ce-que-nous-faisons/education-juridique" />
+    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
     <!-- Lien de révision -->
-    <link rel="revision" href="https://sociprodd.org/ce-que-nous-faisons/education-juridique" />
+    <link rel="revision" href="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
 
     <!-- Script JSON-LD pour les données structurées -->
     <script type="application/ld+json">
@@ -66,9 +66,9 @@
             "@graph": [
                 {
                     "@type": "WebPage",
-                    "@id": "https://www.sociprodd.org/ce-que-nous-faisons/education-juridique",
-                    "name": "Education juridique | SOCIPRODD",
-                    "url": "https://www.sociprodd.org/ce-que-nous-faisons/education-juridique",
+                    "@id": "https://www.sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable",
+                    "name": "Droits, Libertés et Vulnérabilité | SOCIPRODD",
+                    "url": "https://www.sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable",
                     "breadcrumb": {
                         "@type": "BreadcrumbList",
                         "itemListElement": [
@@ -81,8 +81,8 @@
                             {
                                 "@type": "ListItem",
                                 "position": 2,
-                                "name": "Education juridique",
-                                "item": "https://www.sociprodd.org/ce-que-nous-faisons/education-juridique"
+                                "name": "Droits, Libertés et Vulnérabilité",
+                                "item": "https://www.sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable"
                             }
                         ]
                     },
@@ -130,7 +130,7 @@
     </div>
     <!-- Navbar & Hero End -->
 
-    <!-- Education Juridique -->
+    <!-- Droits, libertés et Vulnérable -->
     <div class="fond-fixe-education-image">
 
         <div class="container-fluid py-5 mt-5 d-flex justify-content-start content">
@@ -139,25 +139,26 @@
 
                 <!-- Pour Ordinateur -->
                 <div class="d-none d-lg-block p-4 pt-5">
-                    <h1 class="text-sociprodd-jaune mb-3 pt-3">Promouvoir l'éducation juridique</h1>
+                    <h1 class="text-sociprodd-jaune mb-3 pt-3">Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        L’adage « Nul n’est censé ignorer la loi » souligne l’importance pour chaque citoyen de connaître les règles qui régissent la société. Cependant, en Afrique, cette réalité demeure éloignée pour une grande partie de la population, en raison du manque d’accès à une éducation juridique de base. La SOCIPRODD se donne pour mission de combler cette lacune en vulgarisant les lois fondamentales nécessaires à l’épanouissement social et individuel.  
-                        <br /><br />
-                        À travers des initiatives adaptées, nous visons à sensibiliser, informer et former les citoyens sur leurs droits et devoirs, afin qu’ils puissent pleinement participer à la vie sociale, économique et politique. Cette démarche vise non seulement à renforcer leur autonomie, mais également à promouvoir une société plus juste, où chacun comprend les cadres juridiques qui protègent et encadrent son quotidien.
-                        <br /><br />
-                        Concrètement, la SOCIPRODD propose des ateliers, des séminaires et des programmes de formation accessibles à tous, quel que soit le niveau d’éducation. Ces initiatives couvrent des sujets variés, comme les droits fondamentaux, les procédures administratives essentielles, ou encore la gestion des conflits au quotidien. Nous utilisons également des supports numériques et interactifs pour atteindre un plus grand nombre de personnes, y compris dans les zones les plus reculées.
-                        <br /><br />
-                        En enseignant ces connaissances juridiques essentielles, nous aspirons à transformer chaque citoyen en acteur conscient et responsable de la société, capable de défendre ses droits et de respecter ceux des autres. Ensemble, nous construisons une communauté mieux informée, plus solidaire et engagée dans la promotion des droits et devoirs.
+                        La protection des droits humains et des libertés fondamentales constitue un enjeu majeur, particulièrement dans des contextes où les contraintes institutionnelles freinent les efforts des organisations de la société civile. Consciente de ces défis, la SOCIPRODD adopte une approche proactive axée sur l’éducation des citoyens à leurs droits, devoirs et aux lois qui les régissent. Cette démarche éducative est un levier essentiel pour prévenir les violations des droits humains et promouvoir une citoyenneté éclairée.  
+                        <br><br>
+                        Par ailleurs, la SOCIPRODD dispose d’un service interne spécialisé, dédié à l’assistance des victimes de violations, offrant accompagnement juridique et soutien psychologique. Nous concentrons également nos efforts sur la défense des droits des personnes vulnérables, notamment les femmes, les enfants, et les populations marginalisées, souvent confrontées à des inégalités sociales, économiques ou culturelles.  
+                        <br><br>
+                        En militant pour une société plus juste et équitable, nous cherchons à renforcer la résilience des communautés, tout en plaidant pour des réformes structurelles favorisant la protection des droits humains et l’inclusion sociale. Avec la SOCIPRODD, chaque individu peut devenir acteur de changement et contribuer à un avenir où les droits et libertés sont respectés pour tous.
                     </p>
+
                 </div>
                 
                 <!-- Pour Téléphone -->
                 <div class="d-block d-lg-none pt-5">
-                    <h1 class="text-sociprodd-jaune mb-3">Promouvoir l'éducation juridique</h1>
+                    <h1 class="text-sociprodd-jaune mb-3">Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        L’adage « Nul n’est censé ignorer la loi » souligne l’importance pour chaque citoyen de connaître les règles qui régissent la société. Cependant, en Afrique, cette réalité demeure éloignée pour une grande partie de la population, en raison du manque d’accès à une éducation juridique de base. La SOCIPRODD se donne pour mission de combler cette lacune en vulgarisant les lois fondamentales nécessaires à l’épanouissement social et individuel.  
-                        <br /><br />
-                        À travers des initiatives adaptées, nous visons à sensibiliser, informer et former les citoyens sur leurs droits et devoirs, afin qu’ils puissent pleinement participer à la vie sociale, économique et politique. Cette démarche vise non seulement à renforcer leur autonomie, mais également à promouvoir une société plus juste, où chacun comprend les cadres juridiques qui protègent et encadrent son quotidien.
+                        La protection des droits humains et des libertés fondamentales est un défi crucial, surtout dans des contextes où les contraintes institutionnelles limitent les actions des organisations civiles. La SOCIPRODD mise sur l’éducation citoyenne pour sensibiliser aux droits, devoirs et lois, favorisant ainsi la prévention des violations et une citoyenneté éclairée.  
+                        <br><br>
+                        Nous offrons un service spécialisé pour accompagner juridiquement et psychologiquement les victimes de violations, tout en concentrant nos efforts sur les droits des personnes vulnérables, telles que les femmes, les enfants et les populations marginalisées.  
+                        <br><br>
+                        SOCIPRODD milite pour une société équitable en renforçant les communautés et en plaidant pour des réformes inclusives, afin que chacun devienne acteur du respect des droits et libertés pour tous.
                     </p>
 
                 </div>
@@ -176,34 +177,25 @@
         <div class="col-lg-8">
 
 
-            <h3>Questions Générales <small>(4)</small></h3>
-            <p class="text-sociprodd-bleuefoncee">Retrouvez ici des réponses aux questions fréquemment posées sur notre mission d'éducation juridique.</p>
+            <h3>Questions Générales <small>(3)</small></h3>
+            <p class="text-sociprodd-bleuefoncee">Retrouvez ici des réponses aux questions fréquemment posées sur notre mission des droits humains et les libertés et particulièrement ceux des personnes vulnérables.</p>
             <div class="accordion toggle fancy radius clean mb-5">
-                <div class="ac-item ac-active">
-                    <h5 class="ac-title">
-                        <i class="fa fa-question-circle"></i>Pourquoi est-il important de connaître ses droits ? 
-                        <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
-                    </h5>
-                    <div class="ac-content">
-                        Connaître ses droits permet de mieux se protéger, de faire valoir ses intérêts et de participer activement à la société. Cela renforce également la justice sociale en aidant chacun à respecter les règles et les droits d’autrui.
-                    </div>
-                </div>
                 <div class="ac-item">
                     <h5 class="ac-title">
                         <i class="fa fa-question-circle"></i>Comment la SOCIPRODD aide-t-elle les citoyens à comprendre la loi ? 
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Nous proposons des ateliers, des séminaires, des guides pratiques, et des supports numériques interactifs pour vulgariser les lois fondamentales. Notre objectif est de rendre ces connaissances accessibles à tous, même dans les zones rurales.
+                        Nous organisons des ateliers, des séminaires, et mettons à disposition des guides pratiques ainsi que des supports numériques interactifs, pour rendre les lois fondamentales accessibles à tous, notamment dans les zones rurales." Cela évite la répétition de "nous proposons" et apporte un peu plus de variété.
                     </div>
                 </div>
                 <div class="ac-item">
                     <h5 class="ac-title">
-                        <i class="fa fa-question-circle"></i>Quelles sont les lois fondamentales enseignées ? 
+                        <i class="fa fa-question-circle"></i>Quelles sont les lois fondamentales enseignées par la SOCIPRODD ? 
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Nous mettons l'accent sur les droits fondamentaux, comme les droits humains, les droits civils, et les lois relatives à la famille, au travail, et aux conflits de voisinage. Ces lois sont essentielles pour l’épanouissement personnel et collectif.
+                        Nous mettons l'accent sur les droits fondamentaux, tels que les droits humains, les droits civils, ainsi que les lois relatives à la famille, au travail, et aux conflits de voisinage, qui sont cruciaux pour l’épanouissement personnel et collectif des citoyens.
                     </div>
                 </div>
                 <div class="ac-item">
@@ -212,7 +204,7 @@
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Oui, nous collaborons avec des établissements scolaires et des universités pour intégrer l’éducation juridique dans les programmes scolaires. Nous organisons également des séances spéciales pour sensibiliser les jeunes à leurs droits et devoirs.
+                        Oui, nous collaborons avec des établissements scolaires et des universités afin d'intégrer l’éducation juridique dans les programmes scolaires et organisons des séances spéciales pour sensibiliser les jeunes à leurs droits et devoirs, afin de les préparer à devenir des citoyens responsables et éclairés.
                     </div>
                 </div>
             </div>
@@ -224,8 +216,8 @@
                     
                 </div>
                 <div class="col-lg-6 p-4">
-                    <h2 class="text-sociprodd-jaune mb-3">Promouvoir l'éducation juridique</h2>
-                    <p class="text-sociprodd-blanc">Alors qu’un adage affirme que « nul n’est censé ignorer la loi », nous constatons que la plupart des citoyens en Afrique ignorent toujours les lois fondamentales nécessaires pour leur épanouissement. C’est la raison pour laquelle, la SOCIPRODD entend enseigner les lois à l’ensemble des populations afin de donner un sens à cet adage et surtout permettre à tout un chacun de connaitre le minimum de lois nécessaire pour son épanouissement social.</p>
+                    <h2 class="text-sociprodd-jaune mb-3">Promouvoir et défendre les droits humains et libertés et particulièrement ceux des personnes vulnérables</h2>
+                    <p class="text-sociprodd-blanc">La protection des droits humains et des libertés reste un défi pour les organisations de la société civile qui peinent à atteindre leurs objectifs au regard de certaines contraintes étatiques. La SOCIPRODD dans sa démarche éduque préalablement les citoyens sur leurs droits et devoirs et sur les lois les concernant. Cela participe à la protection directe de leurs droits car l’éducation participe à la prévention. Nous disposons d’un service interne spécialisé pour la défense des droits des personnes victimes des violations. Nous militons davantage pour les causes des personnes vulnérables.</p>
                 </div>
             </div>
         </div>
@@ -299,7 +291,7 @@
         </div>
 
     </div>
-    <!-- Education Juridique -->
+    <!-- Droits, libertés et Vulnérable -->
 
 
 @endsection
