@@ -29,6 +29,7 @@ class AuthentificationVerificationMidd
         }
 
         if (auth('utilisateur')->check()) {
+
             // Récupérer l'utilisateur connecté
             $utilisateur = auth('utilisateur')->user();
 
@@ -46,30 +47,17 @@ class AuthentificationVerificationMidd
                 // Rediriger vers la page de connexion avec un message d'erreur
                 return redirect()->route('connexion')->with('error', "Vous devez changer votre mot de passe car il a expiré.");
             }
+    
+            // Vérification du statut du compte
+            if ($utilisateur->etat_compte == "actif") {
+                // Envoyer les informations de l'utilisateur au contrôleur via la demande
+                $request->attributes->add(['authenticated_utilisateur' => $utilisateur]);
 
-            // Récupérer les réseaux de connexion de l'utilisateur
-            $reseauxUtilisateurRecuperer = ReseauxUtilisateurs::where('utilisateur_id', $utilisateur->id_utilisateur)->get();
-
-            // Boucle de vérification des adresses IP et de la sécurité
-            foreach ($reseauxUtilisateurRecuperer as $reseauxUtilisateurRecupererIndividu) {
-                if (Crypt::decrypt($reseauxUtilisateurRecupererIndividu->ip_address) === $request->ip() &&
-                    Crypt::decrypt($reseauxUtilisateurRecupererIndividu->securite) == "oui") {
-
-                    // Vérification du statut du compte
-                    if ($utilisateur->etat_compte == "actif") {
-                        // Envoyer les informations de l'utilisateur au contrôleur via la demande
-                        $request->attributes->add(['authenticated_utilisateur' => $utilisateur]);
-
-                        return $next($request);
-                    } else {
-                        // Redirection vers la route de déconnexion si le compte n'est pas actif
-                        return redirect()->route('deconnexion');
-                    }
-                }
+                return $next($request);
+            } else {
+                // Redirection vers la route de déconnexion si le compte n'est pas actif
+                return redirect()->route('deconnexion');
             }
-
-            // Redirection vers la route de déconnexion si aucune correspondance n'a été trouvée
-            return redirect()->route('deconnexion');
         }
 
         // Redirection vers la route de connexion si l'utilisateur n'est pas authentifié

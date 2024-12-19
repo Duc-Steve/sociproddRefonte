@@ -27,10 +27,12 @@ use App\Mail\ComiteMail\UtilisateurMail\DesactivationCompteMail;
 use App\Mail\ComiteMail\UtilisateurMail\EnregistrementCompteMail;
 use App\Mail\ComiteMail\UtilisateurMail\TentativeConnexionMail;
 
+
 class Utilisateurs extends Model implements AuthenticatableContract, MustVerifyEmailContract
 {
     // Utilise les traits nécessaires
-    use HasFactory, Notifiable, Authenticatable, HasUuids, MustVerifyEmail;
+    use HasApiTokens, HasFactory, Notifiable, Authenticatable, HasUuids, MustVerifyEmail;
+
 
     // Définir la table associée au modèle
     protected $table = 'utilisateurs';
@@ -147,18 +149,8 @@ class Utilisateurs extends Model implements AuthenticatableContract, MustVerifyE
      * @param string $appareilTentative
      * @return bool
      */
-    public static function TentativeConnexionAutreAndSendEmail($UtilisateurTentative, $DonneFormerSecurite, $ReseauxTentative)
+    public static function TentativeConnexionAutreAndSendEmail($UtilisateurTentative, $DonneFormerSecurite, $AdresseIp)
     {
-    
-        // Créer un nouveau token d'API pour le choix de sécurité
-        $token = $UtilisateurTentative->createToken('API Token Appareil Sécurité');
-
-        // Ajouter une date d'expiration
-        $expiresAt = now()->addMinutes(30);
-        $token->accessToken->expires_at = $expiresAt;
-        $token->accessToken->save();
-
-        $tokenSecurite = $token->plainTextToken;
 
         // Déchiffrement de l'adresse e-mail du destinataire
         $recipientEmail = Crypt::decrypt($UtilisateurTentative->email);
@@ -167,28 +159,13 @@ class Utilisateurs extends Model implements AuthenticatableContract, MustVerifyE
         $nomPrenom = Crypt::decrypt($UtilisateurTentative->nom_prenom);
 
         // Déchiffrement des données de l'appareil
-        $AdresseIp = Crypt::decrypt($ReseauxTentative->ip_address);
         $typeNavigateur = Crypt::decrypt($DonneFormerSecurite['type_navigateur']);
         $typeAppareil = Crypt::decrypt($DonneFormerSecurite['type_appareil']);
         $typeSysteme = Crypt::decrypt($DonneFormerSecurite['type_systeme_dexploitation']);
         $VersionSysteme = Crypt::decrypt($DonneFormerSecurite['version_systeme_dexploitation']);
-    
-        // Génération de l'URL de tentative de connexion comme paramètre pour le Oui
-        $ouiSecuriteUrl = route('tentative-connexion', [
-            'IdReseaux' => $ReseauxTentative->id_reseaux_utilisateur,
-            'TokenSecurite' => $tokenSecurite,
-            'securite' => 'oui'
-        ]);
-
-        // Génération de l'URL de tentative de connexion comme paramètre pour le Non
-        $nonSecuriteUrl = route('tentative-connexion', [
-            'IdReseaux' => $ReseauxTentative->id_reseaux_utilisateur,
-            'TokenSecurite' => $tokenSecurite,
-            'securite' => 'non'
-        ]);
 
         // Envoi de l'e-mail de confirmation avec les détails nécessaires
-        Mail::to($recipientEmail)->send(new TentativeConnexionMail($nomPrenom, $ouiSecuriteUrl, $nonSecuriteUrl, $AdresseIp, $typeNavigateur, $typeAppareil, $typeSysteme, $VersionSysteme));
+        Mail::to($recipientEmail)->send(new TentativeConnexionMail($nomPrenom, $AdresseIp, $typeNavigateur, $typeAppareil, $typeSysteme, $VersionSysteme));
 
 
         return true;

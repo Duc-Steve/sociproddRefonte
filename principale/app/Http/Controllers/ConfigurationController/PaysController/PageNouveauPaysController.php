@@ -25,7 +25,7 @@ class PageNouveauPaysController extends Controller
         //page tableau de bord
         $PaysExist =  true;
 
-        return view('principale.pays.nouveauPays', compact('PaysExist', 'UtilisateurConnecter'));
+        return view('configuration.pays.nouveauPays', compact('PaysExist', 'UtilisateurConnecter'));
    
     }
 }

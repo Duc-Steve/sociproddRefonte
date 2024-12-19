@@ -1,4 +1,14 @@
-@extends('layouts.app')
+@extends('layouts.layoutsConfiguration.app')
+
+
+<!-- Optimisation -->
+@section('optimisation')
+                
+    <!-- Titre de la page -->
+    <title>Tableau de bord</title>
+                
+
+@endsection
 
 @section('content')
 

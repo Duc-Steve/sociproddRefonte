@@ -150,7 +150,7 @@
                 <div class="d-block d-lg-none pt-5">
                     <h1 class="text-sociprodd-jaune mb-3">Protection de l’environnement et infrastructure publique.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        La SOCIPRODD s'engage activement pour la protection de l'environnement en menant des initiatives de sensibilisation visant à éduquer les communautés sur les dangers liés à la pollution et aux pratiques nuisibles pour l'environnement. L'ONG soutient également la mise en œuvre et le respect des lois et réglementations qui encadrent les activités susceptibles d’avoir un impact environnemental, notamment dans les domaines de l'agriculture, de l'industrie et de la gestion des déchets. En parallèle, la SOCIPRODD œuvre pour la préservation et la bonne gestion des infrastructures publiques en sensibilisant les populations à leur utilisation responsable et à la nécessité de maintenir ces infrastructures en bon état pour garantir leur accessibilité et leur durabilité au service de tous.
+                        La SOCIPRODD s'engage pour la protection de l'environnement en sensibilisant les communautés aux dangers de la pollution et des pratiques nuisibles. L'ONG soutient également le respect des lois encadrant les activités impactant l'environnement, comme l'agriculture, l'industrie et la gestion des déchets. Parallèlement, elle œuvre pour la préservation et la gestion des infrastructures publiques en sensibilisant à leur utilisation responsable et à leur maintien pour garantir leur durabilité et accessibilité.
                     </p>
 
 

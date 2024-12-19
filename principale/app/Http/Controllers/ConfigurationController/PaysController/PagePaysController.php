@@ -37,7 +37,7 @@ class PagePaysController extends Controller
         //page tableau de bord
         $PaysExist =  true;
 
-        return view('principale.pays.pays', compact('PaysExist', 'UtilisateurConnecter', 'NombrePays', 'RecupererListePays'));
+        return view('configuration.pays.pays', compact('PaysExist', 'UtilisateurConnecter', 'NombrePays', 'RecupererListePays'));
    
     }
 }

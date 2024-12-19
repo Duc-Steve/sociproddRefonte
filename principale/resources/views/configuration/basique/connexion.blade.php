@@ -11,16 +11,16 @@
 
     <!-- PWA  -->
     <meta name="theme-color" content="#050A2E"/>
-    <link rel="apple-touch-icon" href="/paysSystemeConfig/public/systeme/img/sociproddLogo.png">
+    <link rel="apple-touch-icon" href="/principale/public/assets/images/Logo-SOCIPRODD.png">
     
-    <link rel="shortcut icon" href="/paysSystemeConfig/public/systeme/img/sociproddLogo.png"/>
+    <link rel="shortcut icon" href="/principale/public/assets/images/Logo-SOCIPRODD.png"/>
 
 	<title>SOCIPRODD Connexion</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
-    <link href="/paysSystemeConfig/public/systeme/css/sociproddBootstrap.css" rel="stylesheet">
-    <link href="/paysSystemeConfig/public/systeme/css/sociproddPersonnalise.css" rel="stylesheet">
+    <link href="/principale/public/systeme/css/sociproddBootstrap.css" rel="stylesheet">
+    <link href="/principale/public/systeme/css/sociproddPersonnalise.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
 </head>
@@ -46,7 +46,7 @@
 								<div class="card-body">
 									<div class="m-sm-4">
 										<div class="text-center">
-											<img src="/paysSystemeConfig/public/systeme/img/sociproddLogo.png" alt="Logo SOCIPRODD" class="img-fluid rounded-circle" width="132" height="132" />
+											<img src="/principale/public/assets/images/Logo-SOCIPRODD.png" alt="Logo SOCIPRODD" class="img-fluid rounded-circle" width="132" height="132" />
 										</div>
 										<form action="{{route('connexion.session')}}" method="POST" class="mt-4">
 											@csrf
@@ -99,7 +99,7 @@
         
         
 	
-    <script src="/paysSystemeConfig/public/systeme/js/sociprodd.js"></script>
+    <script src="/principale/public/systeme/js/sociprodd.js"></script>
 	
 
 </body>

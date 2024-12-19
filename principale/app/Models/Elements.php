@@ -20,6 +20,7 @@ class Elements extends Model
         'lien_photos',
         'lien_video',
         'type_element',
+        'mission_id',
         'pays_id',
         'utilisateur_id',
         'validateur_id',

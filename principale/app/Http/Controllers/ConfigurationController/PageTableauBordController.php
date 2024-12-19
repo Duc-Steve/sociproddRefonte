@@ -49,7 +49,7 @@ class PageTableauBordController extends Controller
         //page tableau de bord
         $TableauBordExist =  true;
 
-        return view('tableauBord', compact('TableauBordExist', 'UtilisateurConnecter', 'newsletterNombre', 'ContactNombreDemande', 'NombrePays', 'UtilisateurNombre'));
+        return view('configuration.tableauBord', compact('TableauBordExist', 'UtilisateurConnecter', 'newsletterNombre', 'ContactNombreDemande', 'NombrePays', 'UtilisateurNombre'));
    
     }
 }

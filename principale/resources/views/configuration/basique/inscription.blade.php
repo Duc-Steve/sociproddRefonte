@@ -11,14 +11,14 @@
 
     <!-- PWA  -->
     <meta name="theme-color" content="#050A2E"/>
-    <link rel="apple-touch-icon" href="/paysSystemeConfig/public/assets/img/sociproddLogo.png">
+    <link rel="apple-touch-icon" href="/principale/public/assets/images/Logo-SOCIPRODD.png">
     
-    <link rel="shortcut icon" href="/paysSystemeConfig/public/assets/img/sociproddLogo.png"/>
+    <link rel="shortcut icon" href="/principale/public/assets/images/Logo-SOCIPRODD.png"/>
 
 	<title>SOCIPRODD Inscription</title>
 
-    <link href="/paysSystemeConfig/public/systeme/css/sociproddBootstrap.css" rel="stylesheet">
-    <link href="/paysSystemeConfig/public/systeme/css/sociproddPersonnalise.css" rel="stylesheet">
+    <link href="/principale/public/systeme/css/sociproddBootstrap.css" rel="stylesheet">
+    <link href="/principale/public/systeme/css/sociproddPersonnalise.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
 </head>

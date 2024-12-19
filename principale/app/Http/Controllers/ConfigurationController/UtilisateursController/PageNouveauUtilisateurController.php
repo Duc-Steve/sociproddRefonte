@@ -29,7 +29,7 @@ class PageNouveauUtilisateurController extends Controller
         //page tableau de bord
         $UtilisateurExist =  true;
 
-        return view('principale.utilisateurs.nouvelUtilisateur', compact('UtilisateurExist', 'UtilisateurConnecter', 'RecupererListePays'));
+        return view('configuration.utilisateurs.nouvelUtilisateur', compact('UtilisateurExist', 'UtilisateurConnecter', 'RecupererListePays'));
    
     }
 }

@@ -36,7 +36,7 @@ class PageConnexionController extends Controller
         } else {
 
             // Afficher la vue de connexion si l'utilisateur n'est pas authentifié
-            return view('basique.connexion');
+            return view('configuration.basique.connexion');
         }
     }
 

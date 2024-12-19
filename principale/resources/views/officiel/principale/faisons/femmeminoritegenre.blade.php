@@ -157,12 +157,11 @@
                 <div class="d-block d-lg-none pt-3">
                     <h1 class="text-sociprodd-jaune mb-3">Promouvoir les droits des femmes, les droits des minorités et l’égalité de genre.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        Historiquement souvent considérée comme le « sexe faible », la femme continue de faire face à de nombreuses discriminations sociales, économiques et culturelles. La SOCIPRODD s’engage activement à changer cette perception en menant des actions concrètes pour promouvoir les droits des femmes, renforcer leur autonomie, et encourager leur pleine participation dans tous les aspects de la société.  
-                        <br><br>
-                        En parallèle, nous soutenons les minorités souvent marginalisées ou stigmatisées, en veillant à ce que leurs droits soient respectés et leurs voix entendues. La SOCIPRODD milite également pour l’égalité de genre, en sensibilisant la société à l’importance d’éliminer les stéréotypes et en promouvant une culture de respect et d’inclusion.  
-                        <br><br>
-                        Grâce à nos programmes éducatifs, nos campagnes de plaidoyer et nos partenariats stratégiques, nous aspirons à bâtir une société où chaque individu, quel que soit son genre ou son appartenance, peut s’épanouir librement et dignement.
+                        Historiquement perçue comme le « sexe faible », la femme fait face à des discriminations sociales, économiques et culturelles. La SOCIPRODD s'engage à changer cette perception en promouvant les droits des femmes, en renforçant leur autonomie et en favorisant leur participation active dans la société.<br><br>
+                        Nous soutenons également les minorités marginalisées en veillant à respecter leurs droits et à faire entendre leurs voix. SOCIPRODD milite pour l'égalité de genre, en sensibilisant la société à l'importance de l'élimination des stéréotypes et de la promotion du respect et de l'inclusion.<br><br>
+                        À travers nos programmes éducatifs, nos campagnes de plaidoyer et nos partenariats, nous aspirons à créer une société où chaque individu peut s’épanouir librement et dignement.
                     </p>
+
 
 
                 </div>

@@ -1,4 +1,14 @@
-@extends('layouts.app')
+@extends('layouts.layoutsConfiguration.app')
+
+
+<!-- Optimisation -->
+@section('optimisation')
+                
+    <!-- Titre de la page -->
+    <title>Listes des pays</title>
+                
+
+@endsection
 
 
 
@@ -10,7 +20,7 @@
 
 
 @section('css_tableau')
-    @include('inclusions.tableau_css')
+    @include('includes.paysConfiguration.tableau_css')
 @endsection
 
 
@@ -34,7 +44,7 @@
             @if($NombrePays > 0)
                 
                 <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-                @include('inclusions.messageErrorSucces')
+                @include('includes.paysConfiguration.messageErrorSucces')
             
                 <h1 class="mb-3">Nos pays</h1>
                 <div class="col-lg-12 p-2 bg-sociprodd-blanc bdr-sociprodd-all-bleuefoncee bx-shadow-sociprodd-bleuefoncee">
@@ -148,7 +158,7 @@
 
 
 @section('js_tableau')
-    @include('inclusions.tableau_js')
+@include('includes.paysConfiguration.tableau_js')
     
     <script>
       $(function () {

@@ -1,6 +1,16 @@
-@extends('layouts.app')
+@extends('layouts.layoutsConfiguration.app')
 
 
+
+
+<!-- Optimisation -->
+@section('optimisation')
+                
+    <!-- Titre de la page -->
+    <title>Nouveau Utilisateur</title>
+                
+
+@endsection
 
 
 @section('content')
@@ -18,7 +28,7 @@
             
         
             <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-            @include('inclusions.messageErrorSucces')
+            @include('includes.paysConfiguration.messageErrorSucces')
 
             <form action="{{route('utilisateur.nouvel-utilisateur.enregistrer')}}" method="POST">
                @csrf
@@ -180,6 +190,6 @@
 
 @section('js_infos_pays')
 
-    @include('inclusions.infos_pays_number')
+    @include('includes.paysConfiguration.infos_pays_number')
 
 @endsection

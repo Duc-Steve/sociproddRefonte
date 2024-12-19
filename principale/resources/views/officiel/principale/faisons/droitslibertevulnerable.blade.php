@@ -154,11 +154,9 @@
                 <div class="d-block d-lg-none pt-5">
                     <h1 class="text-sociprodd-jaune mb-3">Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        La protection des droits humains et des libertés fondamentales est un défi crucial, surtout dans des contextes où les contraintes institutionnelles limitent les actions des organisations civiles. La SOCIPRODD mise sur l’éducation citoyenne pour sensibiliser aux droits, devoirs et lois, favorisant ainsi la prévention des violations et une citoyenneté éclairée.  
-                        <br><br>
-                        Nous offrons un service spécialisé pour accompagner juridiquement et psychologiquement les victimes de violations, tout en concentrant nos efforts sur les droits des personnes vulnérables, telles que les femmes, les enfants et les populations marginalisées.  
-                        <br><br>
-                        SOCIPRODD milite pour une société équitable en renforçant les communautés et en plaidant pour des réformes inclusives, afin que chacun devienne acteur du respect des droits et libertés pour tous.
+                        La protection des droits humains est essentielle, notamment dans les contextes où les contraintes institutionnelles limitent l'action des organisations civiles. La SOCIPRODD se concentre sur l'éducation citoyenne pour sensibiliser aux droits et devoirs, prévenant ainsi les violations et favorisant une citoyenneté éclairée.<br><br>
+                        Nous offrons un accompagnement juridique et psychologique aux victimes, en mettant particulièrement l'accent sur les droits des femmes, des enfants et des populations vulnérables.<br><br>
+                        SOCIPRODD milite pour une société plus équitable, en renforçant les communautés et en plaidant pour des réformes inclusives pour garantir le respect des droits pour tous.
                     </p>
 
                 </div>

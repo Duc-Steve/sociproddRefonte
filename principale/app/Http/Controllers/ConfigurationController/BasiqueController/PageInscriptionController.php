@@ -24,7 +24,7 @@ class PageInscriptionController extends Controller
             return redirect()->route('connexion');
         } else {
             // Si aucun compte n'existe, afficher la vue d'inscription
-            return view('basique.inscription');
+            return view('configuration.basique.inscription');
         }
 
         

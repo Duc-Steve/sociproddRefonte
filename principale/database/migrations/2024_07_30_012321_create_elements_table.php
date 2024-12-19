@@ -20,7 +20,10 @@ return new class extends Migration
             $table->text('lien_photos')->nullable();
             $table->text('lien_video')->nullable();
 
-            $table->enum('type_element', ['actualite', 'reportage', 'podcast', 'projet']);
+            $table->enum('type_element', ['actualite', 'reportage', 'podcast', 'projet', 'mission']);
+            
+            $table->uuid('mission_id');
+            $table->foreign('mission_id')->references('id_mission')->on('missions');
 
             $table->uuid('pays_id');
             $table->foreign('pays_id')->references('id_pays')->on('pays');

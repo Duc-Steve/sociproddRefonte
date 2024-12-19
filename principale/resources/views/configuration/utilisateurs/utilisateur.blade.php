@@ -1,8 +1,18 @@
-@extends('layouts.app')
+@extends('layouts.layoutsConfiguration.app')
+
+
+<!-- Optimisation -->
+@section('optimisation')
+                
+    <!-- Titre de la page -->
+    <title>Listes des utilisateurs</title>
+                
+
+@endsection
 
 
 @section('css_tableau')
-    @include('inclusions.tableau_css')
+    @include('includes.paysConfiguration.tableau_css')
 @endsection
 
 
@@ -24,7 +34,7 @@
 
                 
                 <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-                @include('inclusions.messageErrorSucces')
+                @include('includes.paysConfiguration.messageErrorSucces')
                 
                 
                 <h1 class="mb-3">Nos Utilisateurs</h1>
@@ -127,7 +137,7 @@
 
 
 @section('js_tableau')
-    @include('inclusions.tableau_js')
+    @include('includes.paysConfiguration.tableau_js')
     
     <script>
       $(function () {

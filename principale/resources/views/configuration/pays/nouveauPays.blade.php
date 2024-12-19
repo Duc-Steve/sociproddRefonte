@@ -1,6 +1,14 @@
-@extends('layouts.app')
+@extends('layouts.layoutsConfiguration.app')
 
 
+<!-- Optimisation -->
+@section('optimisation')
+                
+    <!-- Titre de la page -->
+    <title>Nouveau pays</title>
+                
+
+@endsection
 
 @section('style_css')
     <style>
@@ -30,9 +38,9 @@
                 </a>
             </div>
             
-        
+    
             <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-            @include('inclusions.messageErrorSucces')
+            @include('includes.paysConfiguration.messageErrorSucces')
 
             <form action="{{route('pays.nouveau-pays.enregistrer')}}" method="POST" enctype="multipart/form-data">
                @csrf

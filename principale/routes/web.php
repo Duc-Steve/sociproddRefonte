@@ -175,7 +175,7 @@ Route::domain('sociprodd.local')->group(function () {
         //Droits, libertes et vulnerabilité
         Route::get('/femmes-minorites-genre', [PagesFemmeMinoriteGenreController::class, 'index'])->name('femmes-minorites-genre');
         //Inclusions et automatisation
-        Route::get('/inclusions-automatisation', [PagesInclusionsAutomatisationController::class, 'index'])->name('inclusions-automatisation');
+        Route::get('/inclusions-autonomisation', [PagesInclusionsAutomatisationController::class, 'index'])->name('inclusions-autonomisation');
         //Gouvernance et dévéloppement
         Route::get('/gouvernance-developpement', [PagesGouvernanceDeveloppementController::class, 'index'])->name('gouvernance-developpement');
         //Environnement et infrastructure publique
@@ -336,6 +336,14 @@ Route::domain('configuration-pays.sociprodd.local')->group(function () {
                     Route::get('/change-statut-pays/{IdPays}', [ChangerStatutPaysController::class, 'update'])->name('change-statut-pays');
                 });
             });
+            
+            // Préfixe toutes les routes liées aux missions
+            Route::prefix('/missions')->name('missions.')->group(function () {
+                
+                // Route pour afficher la liste des missions
+                Route::get('/', [PagePaysController::class, 'index'])->name('nos-missions');
+            
+            });   
 
             // Préfixe toutes les routes liées aux utilisateurs
             Route::prefix('/utilisateur')->name('utilisateur.')->group(function () {

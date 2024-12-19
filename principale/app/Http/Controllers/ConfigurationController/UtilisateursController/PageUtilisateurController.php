@@ -35,7 +35,7 @@ class PageUtilisateurController extends Controller
         //page tableau de bord
         $UtilisateurExist =  true;
 
-        return view('principale.utilisateurs.utilisateur', compact('UtilisateurExist', 'UtilisateurConnecter', 'NombreUtilisateur', 'RecupererListeUtilisateur'));
+        return view('configuration.utilisateurs.utilisateur', compact('UtilisateurExist', 'UtilisateurConnecter', 'NombreUtilisateur', 'RecupererListeUtilisateur'));
    
     }
 }

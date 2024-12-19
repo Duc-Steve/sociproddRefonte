@@ -5,21 +5,21 @@
 @section('optimisation')
                 
     <!-- Titre de la page -->
-    <title>Inclusion et Automatisation | SOCIPRODD </title>
+    <title>Inclusion et Autonomisation | SOCIPRODD </title>
 
     <!-- Description de la page pour les moteurs de recherche -->
     <meta name="description" content="Découvrez comment la SOCIPRODD œuvre pour favoriser l'inclusion sociale et l'autonomisation des couches défavorisées, en promouvant l'accès aux droits, à l'éducation et aux opportunités pour tous." />
 
     <!-- Balises Open Graph pour Facebook et autres réseaux sociaux -->
-    <meta property="og:title" content="Inclusion et Automatisation | SOCIPRODD " />
+    <meta property="og:title" content="Inclusion et Autonomisation | SOCIPRODD " />
     <meta property="og:description" content="Découvrez comment la SOCIPRODD œuvre pour favoriser l'inclusion sociale et l'autonomisation des couches défavorisées, en promouvant l'accès aux droits, à l'éducation et aux opportunités pour tous." />
     <meta property="og:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
-    <meta property="og:url" content="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
+    <meta property="og:url" content="https://sociprodd.org/ce-que-nous-faisons/inclusions-Autonomisation" />
 
     <!-- Balises Twitter Card pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Inclusion et Automatisation | SOCIPRODD " />
-    <meta name="twitter:url" content="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
+    <meta name="twitter:title" content="Inclusion et Autonomisation | SOCIPRODD " />
+    <meta name="twitter:url" content="https://sociprodd.org/ce-que-nous-faisons/inclusions-Autonomisation" />
     <meta name="twitter:description" content="Découvrez comment la SOCIPRODD œuvre pour favoriser l'inclusion sociale et l'autonomisation des couches défavorisées, en promouvant l'accès aux droits, à l'éducation et aux opportunités pour tous." />
     <meta name="twitter:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
     <meta name="twitter:image:height" content="333" />
@@ -47,17 +47,17 @@
 
     <!-- Balises supplémentaires pour le SEO -->
     <!-- Lien canonique pour éviter le contenu dupliqué -->
-    <link rel="canonical" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
+    <link rel="canonical" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-Autonomisation" />
     <!-- Définir la langue du contenu -->
     <meta http-equiv="content-language" content="fr" />
     <!-- Directives pour les robots des moteurs de recherche -->
     <meta name="robots" content="index, follow" />
     <!-- Lien court pour l'URL de la page -->
-    <link rel="shortlink" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
+    <link rel="shortlink" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-Autonomisation" />
     <!-- Lien alternatif pour d'autres langues et versions -->
-    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
+    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-Autonomisation" />
     <!-- Lien de révision -->
-    <link rel="revision" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
+    <link rel="revision" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-Autonomisation" />
 
     <!-- Script JSON-LD pour les données structurées -->
     <script type="application/ld+json">
@@ -66,9 +66,9 @@
             "@graph": [
                 {
                     "@type": "WebPage",
-                    "@id": "https://www.sociprodd.org/ce-que-nous-faisons/inclusions-automatisation",
-                    "name": "Inclusion et Automatisation | SOCIPRODD",
-                    "url": "https://www.sociprodd.org/ce-que-nous-faisons/inclusions-automatisation",
+                    "@id": "https://www.sociprodd.org/ce-que-nous-faisons/inclusions-Autonomisation",
+                    "name": "Inclusion et Autonomisation | SOCIPRODD",
+                    "url": "https://www.sociprodd.org/ce-que-nous-faisons/inclusions-Autonomisation",
                     "breadcrumb": {
                         "@type": "BreadcrumbList",
                         "itemListElement": [
@@ -81,8 +81,8 @@
                             {
                                 "@type": "ListItem",
                                 "position": 2,
-                                "name": "Inclusion et Automatisation",
-                                "item": "https://www.sociprodd.org/ce-que-nous-faisons/inclusions-automatisation"
+                                "name": "Inclusion et Autonomisation",
+                                "item": "https://www.sociprodd.org/ce-que-nous-faisons/inclusions-Autonomisation"
                             }
                         ]
                     },
@@ -130,8 +130,8 @@
     </div>
     <!-- Navbar & Hero End -->
 
-    <!-- Inclusion et Automatisation -->
-    <div class="fond-fixe-inclusionsautomatisation-image">
+    <!-- Inclusion et Autonomisation -->
+    <div class="fond-fixe-inclusionsAutonomisation-image">
 
         <div class="container-fluid py-5 mt-5 d-flex justify-content-start content">
             
@@ -316,7 +316,7 @@
         </div>
 
     </div>
-    <!-- Inclusion et Automatisation -->
+    <!-- Inclusion et Autonomisation -->
 
 
 @endsection

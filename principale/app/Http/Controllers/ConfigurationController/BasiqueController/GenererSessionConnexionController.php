@@ -74,10 +74,6 @@ class GenererSessionConnexionController extends Controller
             $detect = new MobileDetect;
             $deviceType = $detect->isMobile() ? 'Téléphone' : ($detect->isTablet() ? 'Tablette' : 'Ordinateur');
             
-    
-
-            // Récupérer le nombre de réseaux de connexion de l'utilisateur
-            $ConnexionAppareilNombre = ReseauxUtilisateurs::where('utilisateur_id', $user->id_utilisateur)->count();
             
             $userAgent = $request->header('User-Agent');
             $result = new Parser($userAgent);
@@ -117,174 +113,69 @@ class GenererSessionConnexionController extends Controller
                 'version_systeme_dexploitation' => Crypt::encrypt($osVersion),
                 'type_appareil' => Crypt::encrypt($deviceType),
             ];
-            
-            //verifier l'etat du compte
-            if($user->etat_compte == "actif") {
 
-                if($ConnexionAppareilNombre != 0) {
-                    
-                    // Récupérer les réseaux de connexion de l'utilisateur
-                    $reseauxUtilisateurRecuperer = ReseauxUtilisateurs::where('utilisateur_id', $user->id_utilisateur)
-                                                                    ->get();
-                         
-                    //boucle de verification
-                    foreach($reseauxUtilisateurRecuperer as $reseauxUtilisateurRecupererIndividu) {
-                        
-                        // Si les mêmes coordonnées se connectent au compte
-                        if(Crypt::decrypt($reseauxUtilisateurRecupererIndividu->ip_address) === $request->ip()) {
-                            
-                                        
-                            if(Crypt::decrypt($reseauxUtilisateurRecupererIndividu->securite) == "oui") {
-                               
-                                
-                                // Enregistrer le nouvel appareil et la connexion de l'utilisateur
-                                $newAppareil = AppareilUtilisateurs::create([
-                                    'user_agent' => $userAgent,
-                                    'systeme_exploitation' => json_encode($systemeExploitation),
-                                    'navigateur' => json_encode($navigateur),
-                                    'appareil' => json_encode($appareil),
-                                    'reseaux_utilisateur_id' => $reseauxUtilisateurRecupererIndividu->id_reseaux_utilisateur
-                                ]);
+            // Envoyer un email à l'utilisateur pour signaler la nouvelle connexion
+            //if($user->TentativeConnexionAutreAndSendEmail($user, $DonneFormerMAilSecurite, $request->ip())){
+                
+                //verifier l'etat du compte
+                if($user->etat_compte == "actif") {
+                
 
+                    if ($user && $user->email_verified_at) {
         
-                                if ($user && $user->email_verified_at) {
-                    
-                                    // Tentative de connexion avec les informations fournies
-                                    if (Utilisateurs::login($credentials, $remember) == true) {
-                                                                        
-                                        // Authentification réussie
-                                        $request->session()->regenerate();
-            
-                                        // Si l'utilisateur est un représentant
-                                        if ($user->type_utilisateur == "representant") {
-            
-                                            //Verifions si le pays associer compte du representant existe
-                                            $existencePays = Pays::where('id_pays', $user->pays_id)
-                                                                ->first();
-            
-                                            if(!isset($existencePays)) {
-            
-                                                // Redirection avec message d'erreur
-                                                return back()->with('error', "Cher représentant votre pays n'existe pas!.");
-                                            
-                                            }
-            
-                                            // Redirection vers la page d'accueil pour les représentants
-                                            return redirect()->route('bilan-pays', ['IdPays' => $user->pays_id]);
-            
-                                        } else {
-                                            // Redirection vers le tableau de bord
-                                            return redirect()->route('tableau-bord');
-                                        }
-                                                                
-                                    } else {
-                                        // Redirection avec message d'erreur
-                                        return back()->with('error', 'Les informations de connexion sont incorrectes.');
-                                    }
-                                } else {
+                        // Tentative de connexion avec les informations fournies
+                        if (Utilisateurs::login($credentials, $remember) == true) {
+                                                            
+                            // Authentification réussie
+                            $request->session()->regenerate();
+
+                            // Si l'utilisateur est un représentant
+                            if ($user->type_utilisateur == "representant") {
+
+                                //Verifions si le pays associer compte du representant existe
+                                $existencePays = Pays::where('id_pays', $user->pays_id)
+                                                    ->first();
+
+                                if(!isset($existencePays)) {
+
                                     // Redirection avec message d'erreur
-                                    return back()->with('error', "Vous n'avez pas vérifié votre compte.");
+                                    return back()->with('error', "Cher représentant votre pays n'existe pas!.");
+                                
                                 }
-                
-                            }elseif(Crypt::decrypt($reseauxUtilisateurRecupererIndividu->securite) == "non") {
-                                
-                                // Redirection avec message d'erreur
-                                return back()->with('error', "Alerte tentative non autoriser!.");
-                                
-                            }else {
-                                            
-                                // Envoyer un email à l'utilisateur pour signaler la nouvelle connexion
-                                if($user->TentativeConnexionAutreAndSendEmail($user, $DonneFormerMAilSecurite, $reseauxUtilisateurRecupererIndividu)){
-            
-                                    // Redirection avec message d'erreur
-                                    return back()->with('error', 'Vous avez reçu un mail de sécurité pour confirmer que c\'est bien vous qui utilisez ce réseau. Veuillez confirmer ou infirmer.');
-                                
-                                    
-                                }else {
-                                     
-                                    return back()->with('error', 'Une erreur est survenue');
-                                     
-                                }
+
+                                // Redirection vers la page d'accueil pour les représentants
+                                return redirect()->route('bilan-pays', ['IdPays' => $user->pays_id]);
+
+                            } else {
+                                // Redirection vers le tableau de bord
+                                return redirect()->route('tableau-bord');
                             }
-                            
+                                                    
+                        } else {
+                            // Redirection avec message d'erreur
+                            return back()->with('error', 'Les informations de connexion sont incorrectes.');
                         }
-
-                    }
-                     
-
-                    // Enregistrer le reseaux de l'utilisateur
-                    $newReseaux = ReseauxUtilisateurs::create([
-                        'ip_address' => Crypt::encrypt($request->ip()),
-                        'securite' => Crypt::encrypt(null),
-                        'utilisateur_id' => $user->id_utilisateur
-                    ]);
-
-
-                    // Enregistrer le nouvel appareil et la connexion de l'utilisateur
-                    $newAppareil = AppareilUtilisateurs::create([
-                        'user_agent' => $userAgent,
-                        'systeme_exploitation' => json_encode($systemeExploitation),
-                        'navigateur' => json_encode($navigateur),
-                        'appareil' => json_encode($appareil),
-                        'reseaux_utilisateur_id' => $newReseaux->id_reseaux_utilisateur
-                    ]);
-
-
-                    // Envoyer un email à l'utilisateur pour signaler la nouvelle connexion
-                    if($user->TentativeConnexionAutreAndSendEmail($user, $DonneFormerMAilSecurite, $newReseaux)){
-
+                    } else {
                         // Redirection avec message d'erreur
-                        return back()->with('error', 'Vous avez reçu un mail de sécurité pour confirmer que c\'est bien vous qui utilisez ce réseau. Veuillez confirmer ou infirmer.');
-                    
-                        
-                    }else {
-                         
-                        return back()->with('error', 'Une erreur est survenue');
-                         
+                        return back()->with('error', "Vous n'avez pas vérifié votre compte.");
                     }
                     
-                } else {
-                    
-                    // Enregistrer le reseaux de l'utilisateur
-                    $newReseaux = ReseauxUtilisateurs::create([
-                        'ip_address' => Crypt::encrypt($request->ip()),
-                        'securite' => Crypt::encrypt(null),
-                        'utilisateur_id' => $user->id_utilisateur
-                    ]);
-                    
-                    // Enregistrer le nouvel appareil et la connexion de l'utilisateur
-                    $newAppareil = AppareilUtilisateurs::create([
-                        'user_agent' => $userAgent,
-                        'systeme_exploitation' => json_encode($systemeExploitation),
-                        'navigateur' => json_encode($navigateur),
-                        'appareil' => json_encode($appareil),
-                        'reseaux_utilisateur_id' => $newReseaux->id_reseaux_utilisateur
-                    ]);
-
-                     // Envoyer un email à l'utilisateur pour signaler la nouvelle connexion
-                    if($user->TentativeConnexionAutreAndSendEmail($user, $DonneFormerMAilSecurite, $newReseaux)){
-
-                        // Redirection avec message d'erreur
-                        return back()->with('error', 'Vous avez reçu un mail de sécurité pour confirmer que c\'est bien vous qui utilisez ce réseau. Veuillez confirmer ou infirmer.');
+        
+                }else {
                         
-                    }else {
-                         
-                        return back()->with('error', 'Une erreur est survenue');
-                         
-                    }
-
+                    // Redirection avec message d'erreur
+                    return back()->with('error', "Votre compte est inaccessible pour de multiple raison, contacter l'organisation pour en savoir plus.");
                 }
-                
-    
-            }else {
                     
-                // Redirection avec message d'erreur
-                return back()->with('error', "Votre compte est inaccessible pour de multiple raison, contacter l'organisation pour en savoir plus.");
-            }
+            /*}else {
+                    
+                return back()->with('error', 'Une erreur est survenue');
+                    
+            }*/
                     
         } catch (\Exception $e) {
             // Redirection vers la page précédente avec un message d'erreur si une exception est lancée
-            return back()->with('error', 'Une erreur est survenue : ' /* .$e->getMessage()*/);
+            return back()->with('error', 'Une erreur est survenue : ' .$e->getMessage());
         }
     }
 }

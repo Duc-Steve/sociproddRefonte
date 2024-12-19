@@ -152,7 +152,7 @@
                 </div>
                 
                 <!-- Pour Téléphone -->
-                <div class="d-block d-lg-none pt-5">
+                <div class="d-block d-lg-none pt-3">
                     <h1 class="text-sociprodd-jaune mb-3">Promouvoir l'éducation juridique</h1>
                     <p class="text-sociprodd-blanc p-clasique">
                         L’adage « Nul n’est censé ignorer la loi » souligne l’importance pour chaque citoyen de connaître les règles qui régissent la société. Cependant, en Afrique, cette réalité demeure éloignée pour une grande partie de la population, en raison du manque d’accès à une éducation juridique de base. La SOCIPRODD se donne pour mission de combler cette lacune en vulgarisant les lois fondamentales nécessaires à l’épanouissement social et individuel.  

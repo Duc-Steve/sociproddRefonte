@@ -156,9 +156,9 @@
                 <div class="d-block d-lg-none pt-5">
                     <h1 class="text-sociprodd-jaune mb-3">Promouvoir la bonne gouvernance et le développement social.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        La SOCIPRODD se distingue par son engagement à promouvoir une gouvernance transparente et responsable. Elle met en place des programmes de formation destinés aux leaders politiques et administratifs pour améliorer leur efficacité et leur transparence, afin de mieux répondre aux besoins de la population et renforcer la confiance des citoyens envers les institutions publiques.<br><br>
-                        L'ONG lutte activement contre la corruption en sensibilisant et en mettant en place des stratégies de surveillance. Elle œuvre pour des politiques publiques visant à éradiquer les pratiques corruptives, freinant ainsi le développement socio-économique.<br><br>
-                        La SOCIPRODD soutient également les gouvernements dans la mise en place de réformes de gouvernance, visant à garantir une gestion plus équitable et inclusive des ressources publiques, afin d'assurer un développement durable et une meilleure qualité de vie pour tous.
+                        La SOCIPRODD s'engage pour une gouvernance transparente et responsable en formant les leaders politiques et administratifs pour améliorer leur efficacité et renforcer la confiance des citoyens envers les institutions publiques.<br><br>
+                        L'ONG lutte contre la corruption en sensibilisant et en mettant en place des stratégies de surveillance pour éradiquer les pratiques corruptives freinant le développement socio-économique.<br><br>
+                        Elle soutient également la mise en place de réformes de gouvernance pour une gestion plus équitable des ressources publiques et un développement durable pour tous.
                     </p>
 
                 </div>
