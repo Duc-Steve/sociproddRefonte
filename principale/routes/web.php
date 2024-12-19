@@ -121,6 +121,27 @@ use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesCeQu
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesDroitsLiberteVulnerableController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesEducationJuridiqueController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesFemmeMinoriteGenreController;
+use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesInclusionsAutomatisationController;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Route pour le site sociprodd.org
 // Accessible aux visiteurs
@@ -151,6 +172,8 @@ Route::domain('sociprodd.local')->group(function () {
         Route::get('/droits-liberte-vulnerable', [PagesDroitsLiberteVulnerableController::class, 'index'])->name('droits-liberte-vulnerable');
         //Droits, libertes et vulnerabilité
         Route::get('/femmes-minorites-genre', [PagesFemmeMinoriteGenreController::class, 'index'])->name('femmes-minorites-genre');
+        //Inclusions et automatisation
+        Route::get('/inclusions-automatisation', [PagesInclusionsAutomatisationController::class, 'index'])->name('inclusions-automatisation');
 
     });
 

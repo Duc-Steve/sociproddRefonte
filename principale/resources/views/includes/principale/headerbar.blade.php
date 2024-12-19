@@ -94,8 +94,15 @@
                                     <li><a href="{{ route('ce-que-nous-faisons.femmes-minorites-genre') }}" class="text-sociprodd-bleuefoncee">Promouvoir les droits des femmes , les droits des minorités et l'égalité de genre<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
                                 @endif
 
-                                <li><a href="" class="text-sociprodd-bleuefoncee">Favoriser l'inclusion et l'autonomisation des couches sociales défavorisées<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
+                                
+                                @if(isset($inclusionsautomatisation))
+                                    <li><a href="{{ route('ce-que-nous-faisons.inclusions-automatisation') }}" class="text-sociprodd-bleueclaire">Favoriser l'inclusion et l'autonomisation des couches sociales défavorisées<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
+                                @else
+                                    <li><a href="{{ route('ce-que-nous-faisons.inclusions-automatisation') }}" class="text-sociprodd-bleuefoncee">Favoriser l'inclusion et l'autonomisation des couches sociales défavorisées<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
+                                @endif
+
                                 <li><a href="" class="text-sociprodd-bleuefoncee">Promouvoir la bonne gouvernance et le développement social<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
+                                <li><a href="" class="text-sociprodd-bleuefoncee">Protection de l’environnement et infrastructure publique<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(218,202,12,1)" class="me-2"><path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path></svg></a></li>
                             </ul>
                         </div>
 

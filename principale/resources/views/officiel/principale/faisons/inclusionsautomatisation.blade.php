@@ -5,22 +5,22 @@
 @section('optimisation')
                 
     <!-- Titre de la page -->
-    <title>Femmes, Minorités et Genre | SOCIPRODD </title>
+    <title>Inclusion et Automatisation | SOCIPRODD </title>
 
     <!-- Description de la page pour les moteurs de recherche -->
-    <meta name="description" content="Découvrez les initiatives de la SOCIPRODD pour promouvoir l'égalité, défendre les droits des femmes et des minorités." />
+    <meta name="description" content="Découvrez comment la SOCIPRODD œuvre pour favoriser l'inclusion sociale et l'autonomisation des couches défavorisées, en promouvant l'accès aux droits, à l'éducation et aux opportunités pour tous." />
 
     <!-- Balises Open Graph pour Facebook et autres réseaux sociaux -->
-    <meta property="og:title" content="Femmes, Minorités et Genre | SOCIPRODD " />
-    <meta property="og:description" content="Découvrez les initiatives de la SOCIPRODD pour promouvoir l'égalité, défendre les droits des femmes et des minorités." />
+    <meta property="og:title" content="Inclusion et Automatisation | SOCIPRODD " />
+    <meta property="og:description" content="Découvrez comment la SOCIPRODD œuvre pour favoriser l'inclusion sociale et l'autonomisation des couches défavorisées, en promouvant l'accès aux droits, à l'éducation et aux opportunités pour tous." />
     <meta property="og:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
-    <meta property="og:url" content="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
+    <meta property="og:url" content="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
 
     <!-- Balises Twitter Card pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Femmes, Minorités et Genre | SOCIPRODD " />
-    <meta name="twitter:url" content="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
-    <meta name="twitter:description" content="Découvrez les initiatives de la SOCIPRODD pour promouvoir l'égalité, défendre les droits des femmes et des minorités." />
+    <meta name="twitter:title" content="Inclusion et Automatisation | SOCIPRODD " />
+    <meta name="twitter:url" content="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
+    <meta name="twitter:description" content="Découvrez comment la SOCIPRODD œuvre pour favoriser l'inclusion sociale et l'autonomisation des couches défavorisées, en promouvant l'accès aux droits, à l'éducation et aux opportunités pour tous." />
     <meta name="twitter:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
     <meta name="twitter:image:height" content="333" />
     <meta name="twitter:image:width" content="500" />
@@ -47,17 +47,17 @@
 
     <!-- Balises supplémentaires pour le SEO -->
     <!-- Lien canonique pour éviter le contenu dupliqué -->
-    <link rel="canonical" href="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
+    <link rel="canonical" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
     <!-- Définir la langue du contenu -->
     <meta http-equiv="content-language" content="fr" />
     <!-- Directives pour les robots des moteurs de recherche -->
     <meta name="robots" content="index, follow" />
     <!-- Lien court pour l'URL de la page -->
-    <link rel="shortlink" href="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
+    <link rel="shortlink" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
     <!-- Lien alternatif pour d'autres langues et versions -->
-    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
+    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
     <!-- Lien de révision -->
-    <link rel="revision" href="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
+    <link rel="revision" href="https://sociprodd.org/ce-que-nous-faisons/inclusions-automatisation" />
 
     <!-- Script JSON-LD pour les données structurées -->
     <script type="application/ld+json">
@@ -66,9 +66,9 @@
             "@graph": [
                 {
                     "@type": "WebPage",
-                    "@id": "https://www.sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre",
-                    "name": "Femmes, Minorités et Genre | SOCIPRODD",
-                    "url": "https://www.sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre",
+                    "@id": "https://www.sociprodd.org/ce-que-nous-faisons/inclusions-automatisation",
+                    "name": "Inclusion et Automatisation | SOCIPRODD",
+                    "url": "https://www.sociprodd.org/ce-que-nous-faisons/inclusions-automatisation",
                     "breadcrumb": {
                         "@type": "BreadcrumbList",
                         "itemListElement": [
@@ -81,8 +81,8 @@
                             {
                                 "@type": "ListItem",
                                 "position": 2,
-                                "name": "Femmes, Minorités et Genre",
-                                "item": "https://www.sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre"
+                                "name": "Inclusion et Automatisation",
+                                "item": "https://www.sociprodd.org/ce-que-nous-faisons/inclusions-automatisation"
                             }
                         ]
                     },
@@ -130,8 +130,8 @@
     </div>
     <!-- Navbar & Hero End -->
 
-    <!-- Femmes, Minorités et Genre -->
-    <div class="fond-fixe-femmeminoritegenre-image">
+    <!-- Inclusion et Automatisation -->
+    <div class="fond-fixe-inclusionsautomatisation-image">
 
         <div class="container-fluid py-5 mt-5 d-flex justify-content-start content">
             
@@ -139,31 +139,42 @@
 
                 <!-- Pour Ordinateur -->
                 <div class="d-none d-lg-block p-4 pt-5">
-                    <h1 class="text-sociprodd-jaune mb-3 pt-3">Promouvoir les droits des femmes, les droits des minorités et l’égalité de genre.</h1>
+                    <h1 class="text-sociprodd-jaune mb-3 pt-3">Favoriser l'inclusion et l'autonomisation des couches sociales défavorisées.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        Historiquement souvent considérée comme le « sexe faible », la femme continue de faire face à de nombreuses discriminations sociales, économiques et culturelles. La SOCIPRODD s’engage activement à changer cette perception en menant des actions concrètes pour promouvoir les droits des femmes, renforcer leur autonomie, et encourager leur pleine participation dans tous les aspects de la société.  
-                        <br><br>
-                        En parallèle, nous soutenons les minorités souvent marginalisées ou stigmatisées, en veillant à ce que leurs droits soient respectés et leurs voix entendues. La SOCIPRODD milite également pour l’égalité de genre, en sensibilisant la société à l’importance d’éliminer les stéréotypes et en promouvant une culture de respect et d’inclusion.  
-                        <br><br>
-                        L’égalité de genre est au cœur de notre mission. Nous croyons fermement que l’équilibre entre les genres est essentiel pour une société prospère et équitable. Pour y parvenir, nous organisons des campagnes de sensibilisation, des ateliers éducatifs et des initiatives communautaires visant à déconstruire les stéréotypes sexistes et à promouvoir une culture basée sur le respect mutuel. Nous collaborons avec les institutions publiques et privées pour intégrer cette vision dans les politiques et pratiques locales.  
-                        <br><br>
-                        Enfin, la SOCIPRODD considère que chaque individu, quel que soit son genre ou son appartenance, a un rôle clé à jouer dans la construction d’un avenir équitable. Ensemble, nous pouvons bâtir une société où les droits de chacun sont respectés, où les différences sont célébrées, et où chaque personne a la possibilité de réaliser son plein potentiel.
+                        Les actions de la SOCIPRODD sont orientées vers l’amélioration des conditions de vie des groupes vulnérables et marginalisés. Nous œuvrons pour promouvoir leur inclusion sociale et économique à travers divers moyens :
+                        <ul>
+                            <li class="p-clasique"><strong>Accès à l'éducation : </strong>Des programmes de sensibilisation et de soutien scolaire sont mis en place pour garantir l’éducation des enfants issus de familles défavorisées.</li>
+                            <li class="p-clasique"><strong>Formation professionnelle : </strong>Nous organisons des ateliers pratiques et techniques pour permettre aux jeunes et aux adultes d'acquérir des compétences utiles pour le marché du travail.</li>
+                            <li class="p-clasique"><strong>Emploi et entrepreneuriat : </strong>La SOCIPRODD soutient la création d’emplois locaux et encourage l’entrepreneuriat communautaire pour générer des revenus durables.</li>
+                            <li class="p-clasique"><strong>Santé et bien-être : </strong>Nous favorisons l’accès aux soins de santé, à l’information sanitaire et à des infrastructures adaptées aux besoins des populations défavorisées.</li>
+                            <li class="p-clasique"><strong>Logement décent : </strong>La SOCIPRODD milite pour des projets d’habitat social afin de garantir un logement sécurisé et salubre à tous.</li>
+                            <li class="p-clasique">etc....</li>
+                        </ul>
                     </p>
-
+                    <p class="text-sociprodd-blanc p-clasique">
+                        Ces initiatives visent à autonomiser les individus en leur fournissant les outils nécessaires pour améliorer durablement leur qualité de vie et contribuer activement à une société plus équitable.
+                    </p>
 
                 </div>
                 
                 <!-- Pour Téléphone -->
-                <div class="d-block d-lg-none pt-3">
-                    <h1 class="text-sociprodd-jaune mb-3">Promouvoir les droits des femmes, les droits des minorités et l’égalité de genre.</h1>
+                <div class="d-block d-lg-none pt-5">
+                    <h1 class="text-sociprodd-jaune mb-3">Favoriser l'inclusion et l'autonomisation des couches sociales défavorisées.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        Historiquement souvent considérée comme le « sexe faible », la femme continue de faire face à de nombreuses discriminations sociales, économiques et culturelles. La SOCIPRODD s’engage activement à changer cette perception en menant des actions concrètes pour promouvoir les droits des femmes, renforcer leur autonomie, et encourager leur pleine participation dans tous les aspects de la société.  
-                        <br><br>
-                        En parallèle, nous soutenons les minorités souvent marginalisées ou stigmatisées, en veillant à ce que leurs droits soient respectés et leurs voix entendues. La SOCIPRODD milite également pour l’égalité de genre, en sensibilisant la société à l’importance d’éliminer les stéréotypes et en promouvant une culture de respect et d’inclusion.  
-                        <br><br>
-                        Grâce à nos programmes éducatifs, nos campagnes de plaidoyer et nos partenariats stratégiques, nous aspirons à bâtir une société où chaque individu, quel que soit son genre ou son appartenance, peut s’épanouir librement et dignement.
+                        Les actions de la SOCIPRODD sont orientées vers l’amélioration des conditions de vie des groupes vulnérables et marginalisés. Nous œuvrons pour promouvoir leur inclusion sociale et économique à travers divers moyens :
+                        <ul>
+                            <li class="p-clasique"><strong>Accès à l'éducation</strong></li>
+                            <li class="p-clasique"><strong>Formation professionnelle</strong></li>
+                            <li class="p-clasique"><strong>Emploi et entrepreneuriat</strong></li>
+                            <li class="p-clasique"><strong>Santé et bien-être</strong></li>
+                            <li class="p-clasique"><strong>Logement décent</strong></li>
+                            <li class="p-clasique">etc....</li>
+                        </ul>
                     </p>
 
+                    <p class="text-sociprodd-blanc p-clasique">
+                        Ces initiatives visent à autonomiser les individus en leur fournissant les outils nécessaires pour améliorer durablement leur qualité de vie et contribuer activement à une société plus équitable.
+                    </p>
 
                 </div>
 
@@ -182,43 +193,43 @@
 
 
             <h3>Questions Générales <small>(4)</small></h3>
-            <p class="text-sociprodd-bleuefoncee">Retrouvez ici des réponses aux questions fréquemment posées sur notre mission de promouvoir les droits des femmes, des minorités et l'égalité de genre.</p>
+            <p class="text-sociprodd-bleuefoncee">Retrouvez ici des réponses aux questions fréquemment posées sur notre mission de favorisation de l'inclusion et de l'autonomisation des couches sociales défavorisées</p>
             <div class="accordion toggle fancy radius clean mb-5">
                 
                 <div class="ac-item">
                     <h5 class="ac-title">
-                        <i class="fa fa-question-circle"></i>Comment la SOCIPRODD soutient-elle les minorités ? 
+                        <i class="fa fa-question-circle"></i>Comment la SOCIPRODD contribue-t-elle à l'autonomisation des personnes âgées dans les communautés ?
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Nous menons des actions de plaidoyer pour des réformes inclusives, organisons des ateliers sur les droits fondamentaux, et offrons un accompagnement personnalisé pour aider les minorités à surmonter les défis liés aux discriminations et à l’exclusion sociale.
+                        Nous développons des programmes spécifiques pour les personnes âgées en leur offrant un accès à des soins de santé adaptés, des espaces de socialisation, et des formations pour préserver leur autonomie. La SOCIPRODD milite également pour la création de structures d'accueil pour les personnes âgées en situation de vulnérabilité, en garantissant leur inclusion dans le tissu social.
                     </div>
                 </div>
                 <div class="ac-item">
                     <h5 class="ac-title">
-                        <i class="fa fa-question-circle"></i>Quels sont les objectifs de la SOCIPRODD en matière d'égalité de genre ? 
+                        <i class="fa fa-question-circle"></i>Quels programmes la SOCIPRODD met-elle en place pour autonomiser les femmes issues de milieux défavorisés ?
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Notre objectif est de favoriser un environnement où les genres sont traités de manière égale, que ce soit dans l'accès à l'éducation, aux opportunités économiques ou dans la participation aux processus décisionnels. Nous déconstruisons les stéréotypes sexistes à travers des campagnes et des initiatives éducatives.
+                        Nous soutenons l'autonomisation des femmes par des programmes qui offrent des formations en entrepreneuriat, des accès à des financements pour leurs projets locaux, et un accompagnement juridique pour faire valoir leurs droits. Nous veillons à ce que les femmes des communautés marginalisées puissent accéder à l'éducation, à des soins de santé adaptés et à des opportunités économiques durables.
                     </div>
                 </div>
                 <div class="ac-item">
                     <h5 class="ac-title">
-                        <i class="fa fa-question-circle"></i>Quels programmes sont proposés pour soutenir l'autonomie des femmes ? 
+                        <i class="fa fa-question-circle"></i>Comment la SOCIPRODD favorise-t-elle l’inclusion des personnes en situation de handicap ?
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Nous offrons des formations professionnelles, des ateliers de leadership, et des outils éducatifs pour renforcer l’autonomie financière et sociale des femmes. Ces initiatives visent à les aider à devenir des actrices de changement dans leurs communautés.
+                        La SOCIPRODD œuvre activement pour l'inclusion des personnes en situation de handicap en facilitant leur accès à des formations professionnelles adaptées, à des emplois accessibles et à des espaces publics adaptés. Nous sensibilisons également les communautés locales à la nécessité d'une inclusion sociale réelle, en favorisant des initiatives qui valorisent les compétences des personnes handicapées.
                     </div>
                 </div>
                 <div class="ac-item">
                     <h5 class="ac-title">
-                        <i class="fa fa-question-circle"></i>Comment la SOCIPRODD collabore-t-elle avec d'autres acteurs pour atteindre ses objectifs ? 
+                        <i class="fa fa-question-circle"></i>Comment la SOCIPRODD soutient-elle les jeunes issus de milieux défavorisés dans leur quête d'emploi ?
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Nous travaillons en partenariat avec des organisations locales, des institutions publiques et des entreprises privées pour maximiser l'impact de nos actions. Ces collaborations permettent de combiner ressources et expertises pour promouvoir les droits et l'égalité de manière plus efficace.
+                        La SOCIPRODD soutient les jeunes en situation de vulnérabilité à travers des formations professionnelles, des stages pratiques et des ateliers sur la gestion d’entreprise. Nous offrons également des opportunités de mentorat pour les accompagner dans leur insertion sur le marché de l’emploi, en mettant l’accent sur les métiers porteurs et accessibles.
                     </div>
                 </div>
             </div>
@@ -226,12 +237,12 @@
             
             <div class="row bg-sociprodd-bleueclaire br-sociprodd-1">
                 <div class="col-lg-6 p-3">
-                    <img src="/principale/public/assets/images/femmes-minorite-genre.jpg" class="img-fluid bdr-sociprodd-all-jaune w-100 img-border-radius" alt="Image">
+                    <img src="/principale/public/assets/images/inclusions-automatisation.jpg" class="img-fluid bdr-sociprodd-all-jaune w-100 img-border-radius" alt="Image">
                     
                 </div>
                 <div class="col-lg-6 p-4">
-                    <h2 class="text-sociprodd-jaune mb-3">Promouvoir les droits des femmes, les droits des minorités et l’égalité de genre</h2>
-                    <p class="text-sociprodd-blanc">La femme est considérée comme sexe faible et mérite d’être un peu plus soutenue dans la société raison pour laquelle la SOCIPRODD, mène des actions en faveur des femmes et de la promotion de leurs droits. La SOCIPRODD soutient également les couches minoritaires pour garantir le respect de leurs droits et milite pour l’égalité du genre.</p>
+                    <h2 class="text-sociprodd-jaune mb-3">Favoriser l'inclusion et l'autonomisation des couches sociales défavorisées</h2>
+                    <p class="text-sociprodd-blanc">Les actions de la SOCIPRODD visent à améliorer les conditions dans lesquelles les individus et les groupes peuvent participer à la vie en société. Elles visent à favoriser le bien être des personnes vulnérables et des communautés à travers des formations, l’accès à des emplois décents, à l’éducation, la santé, le logement etc.</p>
                 </div>
             </div>
         </div>
@@ -305,7 +316,7 @@
         </div>
 
     </div>
-    <!-- Femmes, Minorités et Genre -->
+    <!-- Inclusion et Automatisation -->
 
 
 @endsection
