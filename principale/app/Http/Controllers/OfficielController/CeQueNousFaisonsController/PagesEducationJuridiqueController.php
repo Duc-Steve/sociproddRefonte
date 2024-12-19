@@ -12,6 +12,8 @@ class PagesEducationJuridiqueController extends Controller
     //
     public function index(): RedirectResponse|View
     {
-        return view('officiel.principale.faisons.educationjuridique');
+        $educationjuridique = true;
+        
+        return view('officiel.principale.faisons.educationjuridique', compact('educationjuridique'));
     }
 }

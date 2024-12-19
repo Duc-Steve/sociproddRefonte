@@ -12,6 +12,8 @@ class PagesFemmeMinoriteGenreController extends Controller
     //
     public function index(): RedirectResponse|View
     {
-        return view('officiel.principale.faisons.femmeminoritegenre');
+        $femmeminoritegenre = true;
+
+        return view('officiel.principale.faisons.femmeminoritegenre', compact('femmeminoritegenre'));
     }
 }

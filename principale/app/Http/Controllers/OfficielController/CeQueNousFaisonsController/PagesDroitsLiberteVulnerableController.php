@@ -12,6 +12,8 @@ class PagesDroitsLiberteVulnerableController extends Controller
     //
     public function index(): RedirectResponse|View
     {
-        return view('officiel.principale.faisons.droitslibertevulnerable');
+        $droitslibertevulnerable = true;
+        
+        return view('officiel.principale.faisons.droitslibertevulnerable', compact('droitslibertevulnerable'));
     }
 }
