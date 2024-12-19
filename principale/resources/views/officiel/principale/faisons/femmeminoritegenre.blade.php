@@ -5,22 +5,22 @@
 @section('optimisation')
                 
     <!-- Titre de la page -->
-    <title>Droits, Libertés et Vulnérabilité | SOCIPRODD </title>
+    <title>Femmes, Minorités et Genre | SOCIPRODD </title>
 
     <!-- Description de la page pour les moteurs de recherche -->
-    <meta name="description" content="Explorez comment la SOCIPRODD s'engage à protéger les droits, renforcer les libertés et soutenir les personnes vulnérables grâce à des actions concrètes et des outils éducatifs." />
+    <meta name="description" content="Découvrez les initiatives de la SOCIPRODD pour promouvoir l'égalité, défendre les droits des femmes et des minorités." />
 
     <!-- Balises Open Graph pour Facebook et autres réseaux sociaux -->
-    <meta property="og:title" content="Droits, Libertés et Vulnérabilité | SOCIPRODD " />
-    <meta property="og:description" content="Explorez comment la SOCIPRODD s'engage à protéger les droits, renforcer les libertés et soutenir les personnes vulnérables grâce à des actions concrètes et des outils éducatifs." />
+    <meta property="og:title" content="Femmes, Minorités et Genre | SOCIPRODD " />
+    <meta property="og:description" content="Découvrez les initiatives de la SOCIPRODD pour promouvoir l'égalité, défendre les droits des femmes et des minorités." />
     <meta property="og:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
-    <meta property="og:url" content="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
+    <meta property="og:url" content="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
 
     <!-- Balises Twitter Card pour Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Droits, Libertés et Vulnérabilité | SOCIPRODD " />
-    <meta name="twitter:url" content="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
-    <meta name="twitter:description" content="Explorez comment la SOCIPRODD s'engage à protéger les droits, renforcer les libertés et soutenir les personnes vulnérables grâce à des actions concrètes et des outils éducatifs." />
+    <meta name="twitter:title" content="Femmes, Minorités et Genre | SOCIPRODD " />
+    <meta name="twitter:url" content="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
+    <meta name="twitter:description" content="Découvrez les initiatives de la SOCIPRODD pour promouvoir l'égalité, défendre les droits des femmes et des minorités." />
     <meta name="twitter:image" content="/principale/public/assets/images/Logo-SOCIPRODD.png" />
     <meta name="twitter:image:height" content="333" />
     <meta name="twitter:image:width" content="500" />
@@ -47,17 +47,17 @@
 
     <!-- Balises supplémentaires pour le SEO -->
     <!-- Lien canonique pour éviter le contenu dupliqué -->
-    <link rel="canonical" href="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
+    <link rel="canonical" href="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
     <!-- Définir la langue du contenu -->
     <meta http-equiv="content-language" content="fr" />
     <!-- Directives pour les robots des moteurs de recherche -->
     <meta name="robots" content="index, follow" />
     <!-- Lien court pour l'URL de la page -->
-    <link rel="shortlink" href="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
+    <link rel="shortlink" href="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
     <!-- Lien alternatif pour d'autres langues et versions -->
-    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
+    <link rel="alternate" hreflang="fr" href="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
     <!-- Lien de révision -->
-    <link rel="revision" href="https://sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable" />
+    <link rel="revision" href="https://sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre" />
 
     <!-- Script JSON-LD pour les données structurées -->
     <script type="application/ld+json">
@@ -66,9 +66,9 @@
             "@graph": [
                 {
                     "@type": "WebPage",
-                    "@id": "https://www.sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable",
-                    "name": "Droits, Libertés et Vulnérabilité | SOCIPRODD",
-                    "url": "https://www.sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable",
+                    "@id": "https://www.sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre",
+                    "name": "Femmes, Minorités et Genre | SOCIPRODD",
+                    "url": "https://www.sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre",
                     "breadcrumb": {
                         "@type": "BreadcrumbList",
                         "itemListElement": [
@@ -81,8 +81,8 @@
                             {
                                 "@type": "ListItem",
                                 "position": 2,
-                                "name": "Droits, Libertés et Vulnérabilité",
-                                "item": "https://www.sociprodd.org/ce-que-nous-faisons/droits-liberte-vulnerable"
+                                "name": "Femmes, Minorités et Genre",
+                                "item": "https://www.sociprodd.org/ce-que-nous-faisons/femmes-minorites-genre"
                             }
                         ]
                     },
@@ -130,8 +130,8 @@
     </div>
     <!-- Navbar & Hero End -->
 
-    <!-- Droits, libertés et Vulnérable -->
-    <div class="fond-fixe-droitlibertevulnerable-image">
+    <!-- Femmes, Minorités et Genre -->
+    <div class="fond-fixe-femmeminoritegenre-image">
 
         <div class="container-fluid py-5 mt-5 d-flex justify-content-start content">
             
@@ -139,27 +139,31 @@
 
                 <!-- Pour Ordinateur -->
                 <div class="d-none d-lg-block p-4 pt-5">
-                    <h1 class="text-sociprodd-jaune mb-3 pt-3">Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables.</h1>
+                    <h1 class="text-sociprodd-jaune mb-3 pt-3">Promouvoir les droits des femmes, les droits des minorités et l’égalité de genre.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        La protection des droits humains et des libertés fondamentales constitue un enjeu majeur, particulièrement dans des contextes où les contraintes institutionnelles freinent les efforts des organisations de la société civile. Consciente de ces défis, la SOCIPRODD adopte une approche proactive axée sur l’éducation des citoyens à leurs droits, devoirs et aux lois qui les régissent. Cette démarche éducative est un levier essentiel pour prévenir les violations des droits humains et promouvoir une citoyenneté éclairée.  
+                        Historiquement souvent considérée comme le « sexe faible », la femme continue de faire face à de nombreuses discriminations sociales, économiques et culturelles. La SOCIPRODD s’engage activement à changer cette perception en menant des actions concrètes pour promouvoir les droits des femmes, renforcer leur autonomie, et encourager leur pleine participation dans tous les aspects de la société.  
                         <br><br>
-                        Par ailleurs, la SOCIPRODD dispose d’un service interne spécialisé, dédié à l’assistance des victimes de violations, offrant accompagnement juridique et soutien psychologique. Nous concentrons également nos efforts sur la défense des droits des personnes vulnérables, notamment les femmes, les enfants, et les populations marginalisées, souvent confrontées à des inégalités sociales, économiques ou culturelles.  
+                        En parallèle, nous soutenons les minorités souvent marginalisées ou stigmatisées, en veillant à ce que leurs droits soient respectés et leurs voix entendues. La SOCIPRODD milite également pour l’égalité de genre, en sensibilisant la société à l’importance d’éliminer les stéréotypes et en promouvant une culture de respect et d’inclusion.  
                         <br><br>
-                        En militant pour une société plus juste et équitable, nous cherchons à renforcer la résilience des communautés, tout en plaidant pour des réformes structurelles favorisant la protection des droits humains et l’inclusion sociale. Avec la SOCIPRODD, chaque individu peut devenir acteur de changement et contribuer à un avenir où les droits et libertés sont respectés pour tous.
+                        L’égalité de genre est au cœur de notre mission. Nous croyons fermement que l’équilibre entre les genres est essentiel pour une société prospère et équitable. Pour y parvenir, nous organisons des campagnes de sensibilisation, des ateliers éducatifs et des initiatives communautaires visant à déconstruire les stéréotypes sexistes et à promouvoir une culture basée sur le respect mutuel. Nous collaborons avec les institutions publiques et privées pour intégrer cette vision dans les politiques et pratiques locales.  
+                        <br><br>
+                        Enfin, la SOCIPRODD considère que chaque individu, quel que soit son genre ou son appartenance, a un rôle clé à jouer dans la construction d’un avenir équitable. Ensemble, nous pouvons bâtir une société où les droits de chacun sont respectés, où les différences sont célébrées, et où chaque personne a la possibilité de réaliser son plein potentiel.
                     </p>
+
 
                 </div>
                 
                 <!-- Pour Téléphone -->
-                <div class="d-block d-lg-none pt-5">
-                    <h1 class="text-sociprodd-jaune mb-3">Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables.</h1>
+                <div class="d-block d-lg-none pt-3">
+                    <h1 class="text-sociprodd-jaune mb-3">Promouvoir les droits des femmes, les droits des minorités et l’égalité de genre.</h1>
                     <p class="text-sociprodd-blanc p-clasique">
-                        La protection des droits humains et des libertés fondamentales est un défi crucial, surtout dans des contextes où les contraintes institutionnelles limitent les actions des organisations civiles. La SOCIPRODD mise sur l’éducation citoyenne pour sensibiliser aux droits, devoirs et lois, favorisant ainsi la prévention des violations et une citoyenneté éclairée.  
+                        Historiquement souvent considérée comme le « sexe faible », la femme continue de faire face à de nombreuses discriminations sociales, économiques et culturelles. La SOCIPRODD s’engage activement à changer cette perception en menant des actions concrètes pour promouvoir les droits des femmes, renforcer leur autonomie, et encourager leur pleine participation dans tous les aspects de la société.  
                         <br><br>
-                        Nous offrons un service spécialisé pour accompagner juridiquement et psychologiquement les victimes de violations, tout en concentrant nos efforts sur les droits des personnes vulnérables, telles que les femmes, les enfants et les populations marginalisées.  
+                        En parallèle, nous soutenons les minorités souvent marginalisées ou stigmatisées, en veillant à ce que leurs droits soient respectés et leurs voix entendues. La SOCIPRODD milite également pour l’égalité de genre, en sensibilisant la société à l’importance d’éliminer les stéréotypes et en promouvant une culture de respect et d’inclusion.  
                         <br><br>
-                        SOCIPRODD milite pour une société équitable en renforçant les communautés et en plaidant pour des réformes inclusives, afin que chacun devienne acteur du respect des droits et libertés pour tous.
+                        Grâce à nos programmes éducatifs, nos campagnes de plaidoyer et nos partenariats stratégiques, nous aspirons à bâtir une société où chaque individu, quel que soit son genre ou son appartenance, peut s’épanouir librement et dignement.
                     </p>
+
 
                 </div>
 
@@ -177,34 +181,44 @@
         <div class="col-lg-8">
 
 
-            <h3>Questions Générales <small>(3)</small></h3>
-            <p class="text-sociprodd-bleuefoncee">Retrouvez ici des réponses aux questions fréquemment posées sur notre mission des droits humains et les libertés et particulièrement ceux des personnes vulnérables.</p>
+            <h3>Questions Générales <small>(5)</small></h3>
+            <p class="text-sociprodd-bleuefoncee">Retrouvez ici des réponses aux questions fréquemment posées sur notre mission de promouvoir les droits des femmes, des minorités et l'égalité de genre.</p>
             <div class="accordion toggle fancy radius clean mb-5">
+                
                 <div class="ac-item">
                     <h5 class="ac-title">
-                        <i class="fa fa-question-circle"></i>Comment la SOCIPRODD aide-t-elle les citoyens à comprendre la loi ? 
+                        <i class="fa fa-question-circle"></i>Comment la SOCIPRODD soutient-elle les minorités ? 
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Nous organisons des ateliers, des séminaires, et mettons à disposition des guides pratiques ainsi que des supports numériques interactifs, pour rendre les lois fondamentales accessibles à tous, notamment dans les zones rurales." Cela évite la répétition de "nous proposons" et apporte un peu plus de variété.
+                        Nous menons des actions de plaidoyer pour des réformes inclusives, organisons des ateliers sur les droits fondamentaux, et offrons un accompagnement personnalisé pour aider les minorités à surmonter les défis liés aux discriminations et à l’exclusion sociale.
                     </div>
                 </div>
                 <div class="ac-item">
                     <h5 class="ac-title">
-                        <i class="fa fa-question-circle"></i>Quelles sont les lois fondamentales enseignées par la SOCIPRODD ? 
+                        <i class="fa fa-question-circle"></i>Quels sont les objectifs de la SOCIPRODD en matière d'égalité de genre ? 
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Nous mettons l'accent sur les droits fondamentaux, tels que les droits humains, les droits civils, ainsi que les lois relatives à la famille, au travail, et aux conflits de voisinage, qui sont cruciaux pour l’épanouissement personnel et collectif des citoyens.
+                        Notre objectif est de favoriser un environnement où les genres sont traités de manière égale, que ce soit dans l'accès à l'éducation, aux opportunités économiques ou dans la participation aux processus décisionnels. Nous déconstruisons les stéréotypes sexistes à travers des campagnes et des initiatives éducatives.
                     </div>
                 </div>
                 <div class="ac-item">
                     <h5 class="ac-title">
-                        <i class="fa fa-question-circle"></i>La SOCIPRODD intervient-elle dans les écoles ? 
+                        <i class="fa fa-question-circle"></i>Quels programmes sont proposés pour soutenir l'autonomie des femmes ? 
                         <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
                     </h5>
                     <div class="ac-content">
-                        Oui, nous collaborons avec des établissements scolaires et des universités afin d'intégrer l’éducation juridique dans les programmes scolaires et organisons des séances spéciales pour sensibiliser les jeunes à leurs droits et devoirs, afin de les préparer à devenir des citoyens responsables et éclairés.
+                        Nous offrons des formations professionnelles, des ateliers de leadership, et des outils éducatifs pour renforcer l’autonomie financière et sociale des femmes. Ces initiatives visent à les aider à devenir des actrices de changement dans leurs communautés.
+                    </div>
+                </div>
+                <div class="ac-item">
+                    <h5 class="ac-title">
+                        <i class="fa fa-question-circle"></i>Comment la SOCIPRODD collabore-t-elle avec d'autres acteurs pour atteindre ses objectifs ? 
+                        <span class="d-flex justify-content-end"><i class="fas fa-chevron-down"></i></span>
+                    </h5>
+                    <div class="ac-content">
+                        Nous travaillons en partenariat avec des organisations locales, des institutions publiques et des entreprises privées pour maximiser l'impact de nos actions. Ces collaborations permettent de combiner ressources et expertises pour promouvoir les droits et l'égalité de manière plus efficace.
                     </div>
                 </div>
             </div>
@@ -212,12 +226,12 @@
             
             <div class="row bg-sociprodd-bleueclaire br-sociprodd-1">
                 <div class="col-lg-6 p-3">
-                    <img src="/principale/public/assets/images/droits-libertes-vulnerables.jpg" class="img-fluid bdr-sociprodd-all-jaune w-100 img-border-radius" alt="Image">
+                    <img src="/principale/public/assets/images/femmes-minorite-genre.jpg" class="img-fluid bdr-sociprodd-all-jaune w-100 img-border-radius" alt="Image">
                     
                 </div>
                 <div class="col-lg-6 p-4">
-                    <h2 class="text-sociprodd-jaune mb-3">Promouvoir et défendre les droits humains et libertés et particulièrement ceux des personnes vulnérables</h2>
-                    <p class="text-sociprodd-blanc">La protection des droits humains et des libertés reste un défi pour les organisations de la société civile qui peinent à atteindre leurs objectifs au regard de certaines contraintes étatiques. La SOCIPRODD dans sa démarche éduque préalablement les citoyens sur leurs droits et devoirs et sur les lois les concernant. Cela participe à la protection directe de leurs droits car l’éducation participe à la prévention. Nous disposons d’un service interne spécialisé pour la défense des droits des personnes victimes des violations. Nous militons davantage pour les causes des personnes vulnérables.</p>
+                    <h2 class="text-sociprodd-jaune mb-3">Promouvoir les droits des femmes, les droits des minorités et l’égalité de genre</h2>
+                    <p class="text-sociprodd-blanc">La femme est considérée comme sexe faible et mérite d’être un peu plus soutenue dans la société raison pour laquelle la SOCIPRODD, mène des actions en faveur des femmes et de la promotion de leurs droits. La SOCIPRODD soutient également les couches minoritaires pour garantir le respect de leurs droits et milite pour l’égalité du genre.</p>
                 </div>
             </div>
         </div>
@@ -291,7 +305,7 @@
         </div>
 
     </div>
-    <!-- Droits, libertés et Vulnérable -->
+    <!-- Femmes, Minorités et Genre -->
 
 
 @endsection

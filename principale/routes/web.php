@@ -120,6 +120,7 @@ use App\Http\Controllers\ConfigurationController\UtilisateursController\ChangerS
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesCeQueNousFaisonsController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesDroitsLiberteVulnerableController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesEducationJuridiqueController;
+use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesFemmeMinoriteGenreController;
 
 // Route pour le site sociprodd.org
 // Accessible aux visiteurs
@@ -148,6 +149,8 @@ Route::domain('sociprodd.local')->group(function () {
         Route::get('/education-juridique', [PagesEducationJuridiqueController::class, 'index'])->name('education-juridique');
         //Droits, libertes et vulnerabilité
         Route::get('/droits-liberte-vulnerable', [PagesDroitsLiberteVulnerableController::class, 'index'])->name('droits-liberte-vulnerable');
+        //Droits, libertes et vulnerabilité
+        Route::get('/femmes-minorites-genre', [PagesFemmeMinoriteGenreController::class, 'index'])->name('femmes-minorites-genre');
 
     });
 

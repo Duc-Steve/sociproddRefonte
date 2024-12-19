@@ -350,6 +350,38 @@ p {
 
 
 
+
+.fond-fixe-femmeminoritegenre-image {
+    margin: 0;
+    height: 100vh; /* Assure que le fond couvre toute la hauteur de la fenêtre */
+    position: relative; /* Nécessaire pour que le ::before fonctionne correctement */
+    background-image: url('/principale/public/assets/images/femmes-minorite-genre.jpg'); /* Chemin de l'image */
+    background-size: cover; /* L'image couvre toute la page */
+    background-attachment: fixed; /* Image fixe au défilement */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    font-family: Arial, sans-serif;
+    color: white; /* Texte blanc pour contraster avec le fond */
+}
+
+/* Superposition sombre */
+.fond-fixe-femmeminoritegenre-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* S'assure que la superposition couvre toute la largeur */
+    height: 100%; /* S'assure que la superposition couvre toute la hauteur */
+    background-color: rgba(0, 0, 0, 0.6); /* Couche sombre (50% d'opacité) */
+    z-index: 1; /* Place la superposition au-dessus de l'image */
+}
+
+/* Style du contenu */
+.fond-fixe-femmeminoritegenre-image .content {
+    position: relative; /* Nécessaire pour que le contenu passe au-dessus de la superposition */
+    z-index: 2; /* Place le contenu au-dessus de la superposition */
+}
+
 /* ----------------------------------------------------------------
 	Accordion
 -----------------------------------------------------------------*/
