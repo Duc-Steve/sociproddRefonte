@@ -7,15 +7,13 @@ use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\View\View;
 
-class PagesCeQueNousFaisonsController extends Controller
+class PagesEnvironnementInfrastructureController extends Controller
 {
     //
     public function index(): RedirectResponse|View
     {
+        $environnementinfrastructure = true;
 
-        $ceQueNousFaisons = true;
-            
-        return view('officiel.principale.faisons.acceuil', compact('ceQueNousFaisons'));
-
+        return view('officiel.principale.faisons.environnementinfrastructure', compact('environnementinfrastructure'));
     }
 }

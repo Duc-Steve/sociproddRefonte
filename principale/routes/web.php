@@ -120,7 +120,9 @@ use App\Http\Controllers\ConfigurationController\UtilisateursController\ChangerS
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesCeQueNousFaisonsController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesDroitsLiberteVulnerableController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesEducationJuridiqueController;
+use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesEnvironnementInfrastructureController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesFemmeMinoriteGenreController;
+use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesGouvernanceDeveloppementController;
 use App\Http\Controllers\OfficielController\CeQueNousFaisonsController\PagesInclusionsAutomatisationController;
 
 
@@ -174,6 +176,10 @@ Route::domain('sociprodd.local')->group(function () {
         Route::get('/femmes-minorites-genre', [PagesFemmeMinoriteGenreController::class, 'index'])->name('femmes-minorites-genre');
         //Inclusions et automatisation
         Route::get('/inclusions-automatisation', [PagesInclusionsAutomatisationController::class, 'index'])->name('inclusions-automatisation');
+        //Gouvernance et dévéloppement
+        Route::get('/gouvernance-developpement', [PagesGouvernanceDeveloppementController::class, 'index'])->name('gouvernance-developpement');
+        //Environnement et infrastructure publique
+        Route::get('/environnement-infrastructure-publique', [PagesEnvironnementInfrastructureController::class, 'index'])->name('environnement-infrastructure-publique');
 
     });
 
