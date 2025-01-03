@@ -16,20 +16,23 @@
 
     <!-- PWA  -->
     <meta name="theme-color" content="#050A2E"/>
-    <link rel="apple-touch-icon" href="/paysSystemeConfig/public/systeme/img/sociproddLogo.png">
+    <link rel="apple-touch-icon" href="/principale/public/assets/images/Logo-SOCIPRODD.png">
     
-    <link rel="shortcut icon" href="/paysSystemeConfig/public/systeme/img/sociproddLogo.png"/>
+    <link rel="shortcut icon" href="/principale/public/assets/images/Logo-SOCIPRODD.png"/>
 
 	<title>SOCIPRODD</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     
     @yield('plugins_css')
 
     
-    <link href="/paysSystemeConfig/public/systeme/css/sociproddBootstrap.css" rel="stylesheet">
-    <link href="/paysSystemeConfig/public/systeme/css/sociproddPersonnalise.css" rel="stylesheet">
+    <link href="/principale/public/systeme/css/sociproddBootstrap.css" rel="stylesheet">
+    <link href="/principale/public/systeme/css/sociproddPersonnalise.css" rel="stylesheet">
     
 
     
@@ -77,12 +80,12 @@
 
 
     <!--Plugins-->
-    <script src="/paysSystemeConfig/public/assets/js/jquery.js"></script>
-    <script src="/paysSystemeConfig/public/assets/js/plugins.js"></script>
+    <script src="/principale/public/assets/js/jquery.js"></script>
+    <script src="/principale/public/assets/js/plugins.js"></script>
     <!--Template functions-->
-    <script src="/paysSystemeConfig/public/assets/js/functions.js"></script>
+    <script src="/principale/public/assets/js/functions.js"></script>
     
-    <script src="/paysSystemeConfig/public/systeme/js/sociprodd.js"></script>
+    <script src="/principale/public/systeme/js/sociprodd.js"></script>
 	
 
     @yield('jsScripts')

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\ConfigurationController\PaysController;
 
 use App\Http\Controllers\Controller;
 use App\Models\Elements;
+use App\Models\Missions;
 use App\Models\Pays;
 use App\Models\Utilisateurs;
 use Illuminate\Http\Request;
@@ -27,12 +28,15 @@ class PageNouveauElementsPaysController extends Controller
         // Récupérer les informations du membre envoyées par le middleware
         $InterfacePaysRecuperer = $request->attributes->get('InterfacePays');
 
+        // Récupérer les missions
+        $missionRecuperer = Missions::where('statut_mission', "activer")->get();
+
 
         //Page principale
         $ElementPaysExist = true;
 
 
-        return view('configuration.pays.nouveauElementPays', compact('UtilisateurConnecter', 'ElementPaysExist', 'PaysPris', 'InterfacePaysRecuperer'));
+        return view('configuration.pays.nouveauElementPays', compact('UtilisateurConnecter', 'ElementPaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'missionRecuperer'));
    
     }
 }

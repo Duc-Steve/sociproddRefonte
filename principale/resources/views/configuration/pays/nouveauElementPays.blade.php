@@ -32,7 +32,7 @@
                 <div class="mt-3">
                     
                 
-                    <h2 class="text-sociprodd-noir">Type d'élément</h2>
+                    <h2 class="text-sociprodd-noir">Type d'élément<strong class="px-1" style="color: #fdb913; font-size:1.3em;">*</strong></h2>
                     <div class="bg-sociprodd-blanc br-sociprodd-1 bdr-sociprodd-all-bleuefoncee p-4">
                         
                         <div class="row">
@@ -81,7 +81,32 @@
                         </div>
                     </div>
                 </div>
-            
+
+                
+
+                
+                            
+                <div class="mt-3">
+                    
+                
+                    <h2 class="text-sociprodd-noir">Type de mission<strong class="px-1" style="color: #fdb913; font-size:1.3em;">*</strong></h2>  
+                    <div class="d-flex flex-column p-4 bg-sociprodd-blanc br-sociprodd-1 bdr-sociprodd-all-bleuefoncee">                             
+                        <div class="mb-3">
+                            <select class="form-control form-control-lg br-sociprodd-1 bdr-sociprodd-all-bleuefoncee" name="nom_mission" id="nom_mission">
+
+                                <option value="" selected>Sélectionnez un type</option>
+
+                                @foreach($missionRecuperer as $missionRecuperer)
+                                    <option value="{{ $missionRecuperer->id_mission }}">{{ Crypt::decrypt($missionRecuperer->nom_mission) }}</option>
+                                @endforeach
+                                
+                            </select>
+                        </div>
+                    </div>
+                
+                </div>
+
+
                 <div class="mt-3">
                     <h2 class="text-sociprodd-noir">Information à saisir</h2>
                     <div class="d-flex flex-column p-4 bg-sociprodd-blanc br-sociprodd-1 bdr-sociprodd-all-bleuefoncee">

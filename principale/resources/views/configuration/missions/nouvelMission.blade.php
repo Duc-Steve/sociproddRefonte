@@ -53,7 +53,36 @@
                 <div class="bg-sociprodd-blanc br-sociprodd-1 bdr-sociprodd-all-bleuefoncee px-4 pb-4">
                     <div class="mt-3">
                         <label class="d-flex text-sociprodd-bleuefoncee">Mission<strong class="px-1" style="color: #fdb913; font-size:1.3em;">*</strong></label>
-                        <textarea class="form-control form-control-lg br-sociprodd-1 bdr-sociprodd-all-bleuefoncee" name="nom_mission" id="nom_mission" placeholder="écrivez ici....." style="resize: none; height: 200px;" minlength="20" maxlength="455" required>{{ old('nom_mission') }}</textarea>
+                        
+
+                        <select class="form-control form-control-lg br-sociprodd-1 bdr-sociprodd-all-bleuefoncee" name="nom_mission" id="nom_mission" required>
+                            <option value="" selected>Sélectionnez une mission</option>
+                            @php
+                                // Créer un tableau des missions déjà existantes
+                                $existingmissions = [];
+                                foreach ($missionsListe as $missionsListeIndividu) {
+                                    // Ajouter chaque mission existante dans le tableau
+                                    $existingmissions[] = Crypt::decrypt($missionsListeIndividu->nom_mission);
+                                }
+                            @endphp
+
+                            {{-- Boucle pour les missions --}}
+                            @foreach ([
+                                "Promouvoir l'éducation juridique",
+                                "Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables",
+                                "Promouvoir les droits des femmes, les droits des minorités et l'égalité de genre",
+                                "Favoriser l'inclusion et l'autonomisation des couches sociales défavorisées",
+                                "Promouvoir la bonne gouvernance et le développement social",
+                                "Protection de l’environnement et infrastructure publique",
+                            ] as $mission)
+                                {{-- Vérifier si la mission n'existe pas déjà avant de l'ajouter dans les options --}}
+                                @if (!in_array($mission, $existingmissions))
+                                    <option value="{{ $mission }}">{{ $mission }}</option>
+                                @endif
+                            @endforeach
+                        </select>
+
+                            
                         @error('nom_mission')
                             <div class="text-sociprodd-bleuefoncee">{{ $message }}</div>
                         @enderror

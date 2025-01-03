@@ -53,6 +53,18 @@ class Elements extends Model
         'image' => 'required|file|max:10240|mimetypes:image/jpeg,image/png,image/webp', // Limite à 10 Mo (1024 Ko * 10),
     ];
 
+    public static $rulesMission = [
+
+        'nom_mission' => 'required|string|max:155',
+        
+    ];
+    public static $customMission = [
+
+        'nom_mission.required' => 'La mission est requis.',
+        'nom_mission.string' => 'La mission doit être une chaîne de caractères.',
+        'nom_mission.max' => 'La mission ne doit pas dépasser 155 caractères.',
+
+    ];
     
     // règle pour le type d'element
     public static $rulesTypeElement = [

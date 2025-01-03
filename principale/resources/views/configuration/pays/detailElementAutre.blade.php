@@ -7,8 +7,8 @@
 @section('plugins_css')
 
     <!-- Stylesheets & Fonts -->
-    <link href="/paysSystemeConfig/public/assets/css/plugins.css" rel="stylesheet">
-    <link href="/paysSystemeConfig/public/assets/css/style.css" rel="stylesheet">
+    <link href="/principale/public/assets/css/mod2/plugins.css" rel="stylesheet">
+    <link href="/principale/public/assets/css/mod2/style.css" rel="stylesheet">
     
 @endsection
 
@@ -355,6 +355,7 @@
                                                 @endif
                                             </span>
                                             <h2>{{Crypt::decrypt($ElementPaysRecuperer->titre)}}</h2>
+                                            <h3>{{Crypt::decrypt($ElementPaysRecuperer->nom_mission)}}</h3>
                                             <p>{{Crypt::decrypt($ElementPaysRecuperer->petite_description)}}</p>
                                         </div>
                                     </div>

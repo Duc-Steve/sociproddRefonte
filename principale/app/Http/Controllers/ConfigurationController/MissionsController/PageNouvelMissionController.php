@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\ConfigurationController\MissionsController;
 
 use App\Http\Controllers\Controller;
+use App\Models\Missions;
 use App\Models\Utilisateurs;
 use Illuminate\Http\Request;
 use Illuminate\Http\RedirectResponse;
@@ -20,10 +21,14 @@ class PageNouvelMissionController extends Controller
         // Récupérer les informations de l'utilisateur connecter envoyées par le middleware
         $UtilisateurConnecter = $request->attributes->get('authenticated_utilisateur');
         
+        // Récupérer les missions
+        $missionsListe = Missions::where('statut_mission', "activer")->get();
+
+        
         //page tableau de bord
         $MissionExist =  true;
 
-        return view('configuration.missions.nouvelMission', compact('MissionExist', 'UtilisateurConnecter'));
+        return view('configuration.missions.nouvelMission', compact('MissionExist', 'UtilisateurConnecter', 'missionsListe'));
    
     }
 }

@@ -29,8 +29,9 @@
     <main class="content">
         <div class="container-fluid p-0">
             
+
             
-            @if($UtilisateurConnecter->type_utilisateur == "administrateur")
+            @if($NombreMission < 6 && $UtilisateurConnecter->type_utilisateur == "administrateur")
 
                 <div class="d-flex justify-content-end mb-4 gap-4">
                     <a href="{{route('missions.nouvelle-mission')}}" class="text-sociprodd-blanc br-sociprodd-1 bg-sociprodd-bleueclaire p-2 px-3">

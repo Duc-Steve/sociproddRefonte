@@ -24,7 +24,9 @@ class ExistanceIdElementMidd
 
         
         //verifier l'existence du Element
-        $existenceElement = Elements::where('id_element', $IdElement)
+        $existenceElement = Elements::join('missions', 'missions.id_mission', '=', 'elements.mission_id')
+                                    ->select('elements.*', 'missions.nom_mission')
+                                    ->where('id_element', $IdElement)
                                     ->first();
 
         if(!isset($existenceElement)) {

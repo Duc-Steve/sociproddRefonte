@@ -222,73 +222,55 @@
 
     </div>
 
-    <div class="container-fluid bg-sociprodd-bleuefoncee d-flex justify-content-center align-items-center py-5">
-        <div class="col-lg-8">
-                
-            <h1 class="text-sociprodd-blanc mb-5">Page annexe</h1>
+    @if($nombreActualiterDroitLibertesVulnerable > 0)
+        <div class="container-fluid bg-sociprodd-bleuefoncee d-flex justify-content-center align-items-center py-5">
+            <div class="col-lg-8">
+                    
+                <h1 class="text-sociprodd-blanc mb-5">Page annexe</h1>
 
-            <div class="row g-5 justify-content-center">
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="element-actualite-item rounded">
-                        <div class="element-actualite-img">
-                            <div class="overflow-hidden img-border-radius">
-                                <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
+                <div class="row g-5 justify-content-center">
+                        
+                    @foreach($actualiterDroitLibertesVulnerable->take(4) as $actualiter)
+                        @if(Crypt::decrypt($actualiter->nom_mission) == "Promouvoir et défendre les droits humains et les libertés et particulièrement ceux des personnes vulnérables")
+                            <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="element-actualite-item rounded">
+                                    <div class="element-actualite-img">
+                                        <div class="overflow-hidden img-border-radius" style="height: 200px;">
+                                            <img src="{{ config('images-basiques-paths.basique') }}/{{Crypt::decrypt($actualiter->lien_photos)}}" class="w-100 h-100" alt="Image" style="object-fit: cover;">
+                                        </div>
+
+                                    </div>
+                                    <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
+                                        <div class="element-actualite-text-inner pt-3">
+                                            <h4 class="text-sociprodd-blanc">
+                                                {{ Str::limit(Crypt::decrypt($actualiter->titre), 50, '...') }}
+                                            </h4>
+                                            <p class="mt-3 mb-0 text-sociprodd-blanc">
+                                                {{ Str::limit(Crypt::decrypt($actualiter->petite_description), 50, '...') }}
+                                            </p>
+
+                                        </div>
+                                        <div class="text-end p-3 mt-4">
+                                            <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                                    <path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path>
+                                                </svg>
+                                                Lire plus
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
-                            <div class="element-actualite-text-inner pt-3">
-                                <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
-                                <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
-                            </div>
-                            
-                            <div class="text-end p-3 mt-4">
-                                <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>Lire plus</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="element-actualite-item rounded">
-                        <div class="element-actualite-img">
-                            <div class="overflow-hidden img-border-radius">
-                                <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
-                            </div>
-                        </div>
-                        <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
-                            <div class="element-actualite-text-inner pt-3">
-                                <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
-                                <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
-                            </div>
-                            
-                            <div class="text-end p-3 mt-4">
-                                <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>Lire plus</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="element-actualite-item rounded">
-                        <div class="element-actualite-img">
-                            <div class="overflow-hidden img-border-radius">
-                                <img src="/principale/public/assets/images/localisation.jpg" class="img-fluid w-100" alt="Image">
-                            </div>
-                        </div>
-                        <div class="element-actualite-text bg-sociprodd-bleueclaire br-sociprodd-1 mt-3 px-4 pb-3">
-                            <div class="element-actualite-text-inner pt-3">
-                                <a href="#" class="h4 text-sociprodd-blanc">English For Today</a>
-                                <p class="mt-3 mb-0 text-sociprodd-blanc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
-                            </div>
-                            
-                            <div class="text-end p-3 mt-4">
-                                <a href="#" class="bg-sociprodd-jaune text-sociprodd-bleuefoncee p-2 px-3 br-sociprodd-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"></path></svg>Lire plus</a>
-                            </div>
-                        </div>
-                    </div>
+                        @endif
+                    @endforeach
+
+
+
                 </div>
             </div>
-        </div>
 
-    </div>
+        </div>
+    @endif
     <!-- Droits, libertés et Vulnérable -->
 
 

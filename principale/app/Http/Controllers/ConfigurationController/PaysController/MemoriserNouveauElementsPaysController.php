@@ -27,6 +27,7 @@ class MemoriserNouveauElementsPaysController extends Controller
 
         // Validez les données du formulaire en utilisant les règles de validation du modèle "Elements"
         $dataTitre = $request->validate(Elements::$rulesTitre, Elements::$customTitre);
+        $dataMission = $request->validate(Elements::$rulesMission, Elements::$customMission);
         $dataDescription = $request->validate(Elements::$rulesDescription, Elements::$customDescription);
         $dataTypeElement = $request->validate(Elements::$rulesTypeElement, Elements::$customTypeElement);
         
@@ -102,6 +103,7 @@ class MemoriserNouveauElementsPaysController extends Controller
                 'lien_photos' => Crypt::encrypt($file_path),
                 'lien_video' => Crypt::encrypt($dataVideo),
                 'type_element' => $dataTypeElement['choix_type_element'],
+                'mission_id' => $dataMission['nom_mission'],
                 'pays_id' => $InterfacePaysRecuperer->pays_id,
                 'utilisateur_id' => $UtilisateurConnecter->id_utilisateur,
                 'validateur_id' => null
