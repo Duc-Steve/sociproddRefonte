@@ -66,7 +66,7 @@ class PageDetailElementsAutrePaysController extends Controller
         $ElementPaysExist = true;
 
 
-        return view('principale.pays.detailElementAutre', compact('UtilisateurConnecter', 'ElementPaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'ElementPaysRecuperer', 'NombreCommentaire', 'ContenuElement'));
+        return view('configuration.pays.detailElementAutre', compact('UtilisateurConnecter', 'ElementPaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'ElementPaysRecuperer', 'NombreCommentaire', 'ContenuElement'));
    
     }
 }

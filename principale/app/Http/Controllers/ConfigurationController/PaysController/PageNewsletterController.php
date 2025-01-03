@@ -45,7 +45,7 @@ class PageNewsletterController extends Controller
         $NewsletterOptionExist = true;
 
 
-        return view('principale.pays.newsletterPays', compact('UtilisateurConnecter', 'NewsletterOptionExist', 'PaysPris', 'InterfacePaysRecuperer', 'NombreNewsletter', 'RecupererListeNewsletter'));
+        return view('configuration.pays.newsletterPays', compact('UtilisateurConnecter', 'NewsletterOptionExist', 'PaysPris', 'InterfacePaysRecuperer', 'NombreNewsletter', 'RecupererListeNewsletter'));
    
     }
 }

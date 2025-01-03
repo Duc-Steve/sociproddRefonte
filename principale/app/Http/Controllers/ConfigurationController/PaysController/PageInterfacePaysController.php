@@ -35,7 +35,7 @@ class PageInterfacePaysController extends Controller
         $InterfacePaysExist = true;
 
 
-        return view('principale.pays.interfacePays', compact('UtilisateurConnecter', 'InterfacePaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'DonneeEntete'));
+        return view('configuration.pays.interfacePays', compact('UtilisateurConnecter', 'InterfacePaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'DonneeEntete'));
    
     }
 }

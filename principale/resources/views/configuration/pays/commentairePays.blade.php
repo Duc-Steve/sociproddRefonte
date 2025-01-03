@@ -1,9 +1,9 @@
-@extends('layouts.action')
+@extends('layouts.layoutsConfiguration.action')
 
 
 
 @section('css_tableau')
-    @include('inclusions.tableau_css')
+    @include('includes.paysConfiguration.tableau_css')
 @endsection
 
 
@@ -13,9 +13,9 @@
     <main class="content">
         <div class="container-fluid p-0">
             
-
+        
             <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-            @include('inclusions.messageErrorSucces')
+            @include('includes.paysConfiguration.messageErrorSucces')
 
 
             @if($nombreCommentairesListe > 0)
@@ -100,7 +100,7 @@
 
 
 @section('js_tableau')
-    @include('inclusions.tableau_js')
+    @include('includes.paysConfiguration.tableau_js')
     
     <script>
       $(function () {

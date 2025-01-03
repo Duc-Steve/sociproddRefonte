@@ -38,7 +38,7 @@ class PageNouveauCoordonneeController extends Controller
             $CoordonneePaysExist = true;
     
     
-            return view('principale.pays.nouveauCoordonneePays', compact('UtilisateurConnecter', 'CoordonneePaysExist', 'PaysPris', 'InterfacePaysRecuperer'));
+            return view('configuration.pays.nouveauCoordonneePays', compact('UtilisateurConnecter', 'CoordonneePaysExist', 'PaysPris', 'InterfacePaysRecuperer'));
        
 
         }else {

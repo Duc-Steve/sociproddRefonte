@@ -56,7 +56,7 @@ class PageContactsController extends Controller
         $ContactExist = true;
 
 
-        return view('principale.pays.contactPays', compact('UtilisateurConnecter', 'ContactExist', 'PaysPris', 'InterfacePaysRecuperer', 'RecupererListecontactsNonVue', 'NombreContacts', 'ListecontactsVue', 'nombreListecontactsVue'));
+        return view('configuration.pays.contactPays', compact('UtilisateurConnecter', 'ContactExist', 'PaysPris', 'InterfacePaysRecuperer', 'RecupererListecontactsNonVue', 'NombreContacts', 'ListecontactsVue', 'nombreListecontactsVue'));
    
     }
 }

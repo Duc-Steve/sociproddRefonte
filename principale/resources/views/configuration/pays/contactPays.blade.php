@@ -1,4 +1,5 @@
-@extends('layouts.action')
+@extends('layouts.layoutsConfiguration.action')
+
 
 
 
@@ -22,8 +23,9 @@
     <main class="content">
         <div class="container-fluid p-0">
 
+        
             <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-            @include('inclusions.messageErrorSucces')
+            @include('includes.paysConfiguration.messageErrorSucces')
 
             @if($NombreContacts > 0)
 

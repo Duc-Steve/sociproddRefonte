@@ -1,4 +1,4 @@
-@extends('layouts.action')
+@extends('layouts.layoutsConfiguration.action')
 
 
 
@@ -24,7 +24,7 @@
             
         
             <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-            @include('inclusions.messageErrorSucces')
+            @include('includes.paysConfiguration.messageErrorSucces')
 
             <form action="{{ route('detail-interface.mise-a-jour', ['IdPays' => $InterfacePaysRecuperer->pays_id])}}" method="POST">
                 @csrf  

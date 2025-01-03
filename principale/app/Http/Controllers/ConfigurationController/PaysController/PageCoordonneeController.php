@@ -37,7 +37,7 @@ class PageCoordonneeController extends Controller
             $CoordonneePaysExist = true;
             
 
-            return view('principale.pays.coordonneePays', compact('UtilisateurConnecter', 'CoordonneePaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'PaysCoordonneeInfo'));
+            return view('configuration.pays.coordonneePays', compact('UtilisateurConnecter', 'CoordonneePaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'PaysCoordonneeInfo'));
         
         } else {
 

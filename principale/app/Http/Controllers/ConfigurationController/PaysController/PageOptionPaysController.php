@@ -43,7 +43,7 @@ class PageOptionPaysController extends Controller
         $BordPaysExist = true;
 
 
-        return view('principale.pays.bilanPays', compact('UtilisateurConnecter', 'BordPaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'newsletterNombre', 'ContactNombreDemande', 'NombreUtilisateur'));
+        return view('configuration.pays.bilanPays', compact('UtilisateurConnecter', 'BordPaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'newsletterNombre', 'ContactNombreDemande', 'NombreUtilisateur'));
    
     }
 }

@@ -1,4 +1,7 @@
-@extends('layouts.sansAside')
+@extends('layouts.layoutsConfiguration.sansAside')
+
+
+
 
 
 @section('plugins_css')
@@ -26,7 +29,7 @@
             
             
             <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-            @include('inclusions.messageErrorSucces')
+            @include('includes.paysConfiguration.messageErrorSucces')
 
             <!-- Page Content -->
             <div class="row mt-4">

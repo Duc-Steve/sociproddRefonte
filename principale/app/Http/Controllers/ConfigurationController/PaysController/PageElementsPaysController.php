@@ -41,7 +41,7 @@ class PageElementsPaysController extends Controller
         $ElementPaysExist = true;
 
 
-        return view('principale.pays.elementsPays', compact('UtilisateurConnecter', 'ElementPaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'ListeElementsRecuperer', 'NombreElementPays'));
+        return view('configuration.pays.elementsPays', compact('UtilisateurConnecter', 'ElementPaysExist', 'PaysPris', 'InterfacePaysRecuperer', 'ListeElementsRecuperer', 'NombreElementPays'));
    
     }
 }

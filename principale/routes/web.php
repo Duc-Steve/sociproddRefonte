@@ -76,6 +76,9 @@ use App\Http\Controllers\ConfigurationController\PageSuivieConnexionController;
 use App\Http\Controllers\ConfigurationController\PageTableauBordController;
 use App\Http\Controllers\ConfigurationController\GestionController\PageGestionProfileSBEController;
 use App\Http\Controllers\ConfigurationController\GestionController\MiseJourProfileSBEController;
+use App\Http\Controllers\ConfigurationController\MissionsController\EnregistrerNouvelMissionController;
+use App\Http\Controllers\ConfigurationController\MissionsController\PageListeMissionsController;
+use App\Http\Controllers\ConfigurationController\MissionsController\PageNouvelMissionController;
 use App\Http\Controllers\ConfigurationController\PaysController\ChangerStatutPaysController;
 use App\Http\Controllers\ConfigurationController\PaysController\ChangeStatutElementPaysController;
 use App\Http\Controllers\ConfigurationController\PaysController\EditActualitePaysController;
@@ -341,7 +344,14 @@ Route::domain('configuration-pays.sociprodd.local')->group(function () {
             Route::prefix('/missions')->name('missions.')->group(function () {
                 
                 // Route pour afficher la liste des missions
-                Route::get('/', [PagePaysController::class, 'index'])->name('nos-missions');
+                Route::get('/', [PageListeMissionsController::class, 'index'])->name('nos-missions');
+
+                // Route pour afficher le formulaire de création d'un nouvel mission
+                Route::get('/nouvelle-mission', [PageNouvelMissionController::class, 'index'])->name('nouvelle-mission');
+                
+                // Route pour enregistrer un nouvel mission
+                Route::post('/nouvelle-mission', [EnregistrerNouvelMissionController::class, 'create'])->name('nouvelle-mission.enregistrer'); 
+                
             
             });   
 
@@ -385,9 +395,6 @@ Route::domain('configuration-pays.sociprodd.local')->group(function () {
                 Route::get('/', [PageSuivieActivtesController::class, 'index'])->name('liste-activite');
 
             });
-
-            // Route vers le suivie des connexions
-            Route::get('/suivie-connexion', [PageSuivieConnexionController::class, 'index'])->name('suivie-connexion');
         });
 
        

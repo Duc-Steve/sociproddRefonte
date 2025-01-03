@@ -1,4 +1,4 @@
-@extends('layouts.action')
+@extends('layouts.layoutsConfiguration.action')
 
 
 
@@ -15,9 +15,10 @@
                 </a>
             </div>
             
-        
+
             <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-            @include('inclusions.messageErrorSucces')
+            @include('includes.paysConfiguration.messageErrorSucces')
+
 
             <form action="{{route('nouveau-element.enregistrer', ['IdPays' => $PaysPris->id_pays])}}" method="POST" enctype="multipart/form-data">
                @csrf

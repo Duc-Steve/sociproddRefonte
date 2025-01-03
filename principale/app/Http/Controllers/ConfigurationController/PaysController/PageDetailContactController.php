@@ -40,7 +40,7 @@ class PageDetailContactController extends Controller
         $ContactExist = true;
 
 
-        return view('principale.pays.detailContact', compact('UtilisateurConnecter', 'ContactExist', 'PaysPris', 'InterfacePaysRecuperer', 'DemandeContactRecuperer'));
+        return view('configuration.pays.detailContact', compact('UtilisateurConnecter', 'ContactExist', 'PaysPris', 'InterfacePaysRecuperer', 'DemandeContactRecuperer'));
 
 
     }

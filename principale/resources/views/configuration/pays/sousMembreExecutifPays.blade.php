@@ -1,4 +1,4 @@
-@extends('layouts.action')
+@extends('layouts.layoutsConfiguration.action')
 
 
 @section('plugins_css')
@@ -41,9 +41,10 @@
 
             @if($nombreSousMembreExecutifPays > 0)
                 
+                
                 <!--Inclusion du ficher pour l'afffichage des messages d'erreur ou succes au cas ou-->
-                @include('inclusions.messageErrorSucces')
-            
+                @include('includes.paysConfiguration.messageErrorSucces')
+                
                 <h1 class="mb-3">Nos membres</h1>
                 <div class="row">
                     

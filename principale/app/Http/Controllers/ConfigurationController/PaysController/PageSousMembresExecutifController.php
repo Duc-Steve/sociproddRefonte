@@ -39,7 +39,7 @@ class PageSousMembresExecutifController extends Controller
         $SousExecutifExist = true;
 
 
-        return view('principale.pays.sousMembreExecutifPays', compact('UtilisateurConnecter', 'SousExecutifExist', 'PaysPris', 'InterfacePaysRecuperer', 'sousMembreExecutifPays', 'nombreSousMembreExecutifPays'));
+        return view('configuration.pays.sousMembreExecutifPays', compact('UtilisateurConnecter', 'SousExecutifExist', 'PaysPris', 'InterfacePaysRecuperer', 'sousMembreExecutifPays', 'nombreSousMembreExecutifPays'));
    
     }
 }
